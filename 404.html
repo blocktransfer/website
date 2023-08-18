@@ -2,8 +2,8 @@
 <head>
     <script>
         setTimeout(function() {
-            const currentUrl = new URL(window.location.href);
-            const redirectTo = "https://www.blocktransfer.com" + currentUrl.pathname + currentUrl.search;
+            const currentUrl = window.location.href;
+            const redirectTo = "https://www.blocktransfer.com" + currentUrl.substring(currentUrl.indexOf("/", 8));
             window.location.href = redirectTo;
         }, 0);
     </script>
