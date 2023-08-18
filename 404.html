@@ -1,5 +1,11 @@
 <html>
-    <head>
-        <meta http-equiv="refresh" content="0; url=https://www.blocktransfer.com">
-    </head>
+  <head>
+    <script>
+        setTimeout(function() {
+            const currentUrl = new URL(window.location.href);
+            const redirectTo = "https://www.blocktransfer.com" + currentUrl.pathname + currentUrl.search;
+            window.location.href = redirectTo;
+        }, 0);
+    </script>
+  </head>
 </html>
