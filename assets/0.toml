@@ -28,7 +28,6 @@ name_previous = ["Alias 1 (DE)", "Alias 2 (DE)", "Alias 3 Inc (WY)"]
 over_10M_assets = false
 principal_executive_office = "123 Main Street, Atlanta, GA 30000"
 principal_place_of_business = "123 Main Street, Atlanta, GA 30000"
-redemption_instructions = "Send your shares to cede*blocktransfer.io and initiate a request from your legacy broker."
 registration_effective = false
 reporting_company = false
 req_bt_506b_ppm = false
