@@ -1,7 +1,7 @@
 # Demonstration and testing purposes only #
 
 [ISSUER]
-attestation_of_reserve = "https://blocktransfer.com/board-resolutions/demo.pdf"
+attestation_of_reserve = ""
 # affiliate_selling = false
 bt_company_code = "DEMO"
 blue_sky = { reg_states = ["NC", "GA", "NY", "DE", "FL"], exchange = "None" }
@@ -9,7 +9,6 @@ cik = 0
 conditions = "Fully paid and non-assessable shares."
 corporate_affiliations = []
 cusip = ""
-display_decimals = 7
 desc.main = "Example Company is used interally for product demos and development."
 desc.business = "Manufacturing and distribution of widgets."
 desc.facilities = "Remote-first business with shared offices in Atlanta, GA."
