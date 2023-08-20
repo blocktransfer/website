@@ -48,7 +48,7 @@ redemption_instructions = "Use our app to link your bank or USDC wallet."
 status = "test"
 
 [[CURRENCIES]]
-attestation_of_reserve = "https://blocktransfer.com/assets/1846058.toml"
+attestation_of_reserve = "https://blocktransfer.com/assets/0.toml"
 anchor_asset_type = "stock"
 code = "DEMO"
 code_template = "DEMO????????"
