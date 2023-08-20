@@ -9,7 +9,6 @@ cik = 0
 conditions = "Fully paid and non-assessable shares."
 corporate_affiliations = []
 cusip = ""
-display_decimals = 7
 desc.main = "Example Company is used interally for product demos and development."
 desc.business = "Manufacturing and distribution of widgets."
 desc.facilities = "Remote-first business with shared offices in Atlanta, GA."
