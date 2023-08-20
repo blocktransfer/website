@@ -8,7 +8,6 @@ blue_sky = { reg_states = ["NC", "GA", "NY", "DE", "FL"], exchange = "None" }
 cik = 0
 conditions = "Fully paid and non-assessable shares."
 corporate_affiliations = []
-cusip = ""
 desc.main = "Example Company is used interally for product demos and development."
 desc.business = "Manufacturing and distribution of widgets."
 desc.facilities = "Remote-first business with shared offices in Atlanta, GA."
@@ -29,7 +28,6 @@ name_previous = ["Alias 1 (DE)", "Alias 2 (DE)", "Alias 3 Inc (WY)"]
 over_10M_assets = false
 principal_executive_office = "123 Main Street, Atlanta, GA 30000"
 principal_place_of_business = "123 Main Street, Atlanta, GA 30000"
-redemption_instructions = "Send your shares to cede*blocktransfer.io and initiate a request from your legacy broker."
 registration_effective = false
 reporting_company = false
 req_bt_506b_ppm = false
@@ -51,6 +49,7 @@ code = "DEMO"
 class = "A"
 class_type = "common"
 convertible = ""
+cusip = ""
 dividend = "None planned."
 image = "https://blocktransfer.com/imgs/demo.png"
 outstanding_EOY = { 2023-12-31 = 3248903 }
@@ -66,6 +65,7 @@ code = "DEMOP"
 class = "B"
 class_type = "preffered"
 convertible = "1->42 convertable to Class A."
+cusip = ""
 dividend = "Expected but not obligatory 3% dividend (non-cumulative)."
 image = "https://blocktransfer.com/imgs/demo.png"
 outstanding_EOY = { 2023-12-31 = 3248903 }
@@ -82,6 +82,7 @@ code = "DEMOA1"
 class = "C"
 class_type = "common"
 convertible = "1->1 convertable to class A upon exchange listing."
+cusip = ""
 dividend = "Expected but not obligatory 3% dividend (non-cumulative)."
 image = "https://blocktransfer.com/imgs/demo.png"
 outstanding_EOY = { 2023-12-31 = 3248903 }
@@ -97,6 +98,7 @@ votes_per_share = 1
 code = "DEMOX1"
 convertible = false
 coupon = "2.95"
+cusip = ""
 image = "https://blocktransfer.com/imgs/demo.png"
 maturity = "2023-10-4"
 outstanding_EOY = { 2023-12-31 = 3248903 }

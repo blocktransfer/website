@@ -37,33 +37,27 @@ transfer_agent = "BlockTrans Syndicate (99 Wall St #4640, New York, NY 10005)"
 
 [[INSIDERS]]
 name = "Tammy Harris"
-title = "President and Chairwomen"
-director = true
+title = "Director, President and Chairwoman"
 
 [[INSIDERS]]
 name = "David Lengua"
-title = "Chief Sound Officer"
-director = true
+title = "Director, Chief Sound Officer"
 
 [[INSIDERS]]
 name = "Tivona Champayne"
-title = "Chief Design Officer"
-director = true
+title = "Director, Chief Design Officer"
 
 [[INSIDERS]]
 name = "Alana Abner"
-title = "Chief Fashion Officer"
-director = true
+title = "Director, Chief Fashion Officer"
 
 [[INSIDERS]]
 name = "Stacy Lee"
 title = "Chief Risk Officer"
-director = false
 
 [[INSIDERS]]
 name = "Sheyontay Henson"
 title = "Director"
-director = true
 
 [[STOCKS]]
 authorized = 100000000
