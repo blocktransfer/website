@@ -2,10 +2,10 @@ VERSION = "2.5.0"
 NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
 FEDERATION_SERVER = "https://api.blocktransfer.com/federation"
 ACCOUNTS = [
-"GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7", # BT Issuer 0
-"GAQKSRI4E5643UUUMJT4RWCZVLY25TBNZXDME4WLRIF5IPOLTLV7N4N6", # BT Distributor
-"GD2OUJ4QKAPESM2NVGREBZTLFJYMLPCGSUHZVRMTQMF5T34UODVHPRCY", # BT Treasury
-"GDTCN6C4BUWRQMB7IAPXZKSBQKA22LY4I6YVBHHYCOKZCIBRRTUWCEDE" # Cede & Co.
+  "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7", # BT Issuer 0
+  "GAQKSRI4E5643UUUMJT4RWCZVLY25TBNZXDME4WLRIF5IPOLTLV7N4N6", # BT Distributor
+  "GD2OUJ4QKAPESM2NVGREBZTLFJYMLPCGSUHZVRMTQMF5T34UODVHPRCY", # BT Treasury
+  "GDTCN6C4BUWRQMB7IAPXZKSBQKA22LY4I6YVBHHYCOKZCIBRRTUWCEDE" # Cede & Co.
 ]
 
 [DOCUMENTATION]
@@ -50,10 +50,11 @@ status = "test"
 [[CURRENCIES]]
 attestation_of_reserve = "https://blocktransfer.com/assets/DEMO.toml"
 anchor_asset_type = "stock"
+code = "DEMO"
 code_template = "DEMO????????"
 conditions = "Fully paid and non-assessable shares."
 display_decimals = 7
-desc = "Example Company is used interally for product demos and development." # General solicitation disclaimer for 506B here
+desc = "Example Company is used internally for product demos and development." # General solicitation disclaimer for 506B here
 image = "https://blocktransfer.com/imgs/demo.png"
 issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
 is_unlimited = true
@@ -65,6 +66,7 @@ status = "test"
 [[CURRENCIES]]
 attestation_of_reserve = "https://blocktransfer.com/assets/1984803.toml"
 anchor_asset_type = "stock"
+code = "LAYLOR"
 code_template = "LAYLOR??????"
 conditions = "Fully paid and non-assessable shares."
 display_decimals = 7
