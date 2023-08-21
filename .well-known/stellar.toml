@@ -21,7 +21,7 @@ ORG_PHONE_NUMBER_ATTESTATION = "https://blocktransfer.com/compliance/proof-of-ph
 ORG_GITHUB = "blocktransfer"
 ORG_OFFICIAL_EMAIL = "hello@blocktransfer.dev"
 ORG_SUPPORT_EMAIL = "support@blocktransfer.com"
-ORG_LICENSING_AUTHORITY = "U.S. Securities and Exchange Commission"
+ORG_LICENSING_AUTHORITY = "US Securities and Exchange Commission"
 ORG_LICENSE_TYPE = "CIK"
 ORG_LICENSE_NUMBER = "1846058"
 
