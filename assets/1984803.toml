@@ -3,7 +3,6 @@
 [ISSUER]
 attestation_of_reserve = "https://blocktransfer.com/board-resolutions/1984803.pdf"
 # affiliate_selling = false
-bt_company_code = "LAYLOR"
 blue_sky = { reg_states = [], exchange = "None" }
 cik = 1984803
 conditions = "Fully paid and non-assessable shares."

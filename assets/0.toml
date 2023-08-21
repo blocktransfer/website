@@ -3,7 +3,6 @@
 [ISSUER]
 attestation_of_reserve = ""
 # affiliate_selling = false
-bt_company_code = "DEMO"
 blue_sky = { reg_states = ["NC", "GA", "NY", "DE", "FL"], exchange = "None" }
 cik = 0
 conditions = "Fully paid and non-assessable shares."
