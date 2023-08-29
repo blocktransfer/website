@@ -1,27 +1,24 @@
-# Demonstration and testing purposes only #
+# Documentation and testing purposes only #
 
 [ISSUER]
 attestation_of_reserve = ""
 # affiliate_selling = false
-blue_sky = { reg_states = ["NC", "GA", "NY", "DE", "FL"], exchange = "None" }
-cik = 0
+blue_sky.states = ["NC", "GA", "NY", "DE", "FL"]
+blue_sky.exchange = "None"
 conditions = "Fully paid and non-assessable shares."
 corporate_affiliations = []
-desc.main = "Example Company is used interally for product demos and development."
-desc.business = "Manufacturing and distribution of widgets."
-desc.facilities = "Remote-first business with shared offices in Atlanta, GA."
-desc.products = "Sells widgets."
 ein = 123456789
 highest_curr_solicitation = "Reg D"
 intra_state = false
 ir.email = ""
 ir.phone = 0
-jurisdiction = "Delaware, US"
-latest_financial_balance_sheet = "https://blocktransfer.info/DEMO/financial-reports/current/annual.pdf"
-latest_PNL_and_retained_earnings = "https://blocktransfer.info/DEMO/financial-reports/current/quarterly.pdf"
-lockout_period = ["12-31->4-15"]
-min_reg_d_506c_state_init_usd = "5000"
-meetings = { 2023 = "2023-4-29" , 2024 = "endCountProxyVotesDate", 2024a = "2024-7-8" }
+jurisdiction.country = "US"
+jurisdiction.subdivision = "DE"
+latest_financial_balance_sheet = "https://issuers.info/0/...pdf"
+latest_PNL_and_retained_earnings = "https://issuers.info/0/...pdf"
+lockout_periods = [{start = "12-31", end = "4-15"}]
+min_506c_state_init_usd = 5000
+meetings = {2023 = "2023-4-29", 2024 = "endCountProxyVotesDate", 2024a = "2024-7-8"}
 name = "Example Security Inc."
 name_previous = ["Alias 1 (DE)", "Alias 2 (DE)", "Alias 3 Inc (WY)"]
 over_10M_assets = false
@@ -29,10 +26,23 @@ principal_executive_office = "123 Main Street, Atlanta, GA 30000"
 principal_place_of_business = "123 Main Street, Atlanta, GA 30000"
 registration_effective = false
 reporting_company = false
-req_bt_506b_ppm = false
+req_506b_ppm = false
 shell_company = false
 sic = 7374
 transfer_agent = "BlockTrans Syndicate (99 Wall St #4640, New York, NY 10005)"
+
+[ISSUER.desc]
+main = "Example Company is used interally for product demos and development."
+business = "Manufacturing and distribution of widgets."
+facilities = "Remote-first business with shared offices in Atlanta, GA."
+products = "Sells widgets."
+
+[[ISSUER.meetings]]
+meetingData = 2
+
+[ACCOUNTS]
+treasury = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
+testing = "GA777CHILD777TEST777ACCOUNT777DEMO777ISSUER777KY4LAZQZVA"
 
 [[INSIDERS]]
 name = "John Doe"
@@ -44,64 +54,65 @@ title = "CFO"
 
 [[STOCKS]]
 authorized = 100000000
+bankruptcy_preference = 3
 code = "DEMO"
 class = "A"
 class_type = "common"
 convertible = ""
 cusip = ""
 dividend = "None planned."
-image = "https://blocktransfer.com/imgs/demo.png"
-outstanding_EOY = { 2023-12-31 = 3248903 }
+outstanding_EOFY = {2023-12-31 = 3248903}
 par = "$0.001"
-preference = "Lowest"
 splits_effective = "1 to 5 effective 2021-4-20|3 to 2 effective 2021-10-9|2->1 effective 2022-1-1"
 status = "test"
 votes_per_share = 1
 
 [[STOCKS]]
 authorized = 70000
+bankruptcy_preference = 2
 code = "DEMOP"
 class = "B"
 class_type = "preffered"
 convertible = "1->42 convertable to Class A."
 cusip = ""
 dividend = "Expected but not obligatory 3% dividend (non-cumulative)."
-image = "https://blocktransfer.com/imgs/demo.png"
-outstanding_EOY = { 2023-12-31 = 3248903 }
+outstanding_EOFY = {2023-12-31 = 3248903}
 par = "$0.001"
-preference = "Above A, below debt."
 rights = "Same rights as 42 shares of Class A common stock, except for the voting rights of 10 Class A shares."
-splits_effective = { eff_2021-4-20 = "1->5", 2021-10-9 = "3->2", 2022-1-1 = "2->1" }
 status = "test"
 votes_per_share = 10
 
+[[STOCKS.splits]]
+effective = "2021-4-20"
+num = 2
+denom = 3
+
+2021-10-9 = "3->2", 2022-1-1 = "2->1"}
+
 [[STOCKS]]
 authorized = 70000
+bankruptcy_preference = 3
 code = "DEMOA1"
 class = "C"
 class_type = "common"
 convertible = "1->1 convertable to class A upon exchange listing."
 cusip = ""
 dividend = "Expected but not obligatory 3% dividend (non-cumulative)."
-image = "https://blocktransfer.com/imgs/demo.png"
-outstanding_EOY = { 2023-12-31 = 3248903 }
+outstanding_EOFY = {2023-12-31 = 3248903}
 par = "$0.001"
-preference = "Above A, below debt."
 rights = "A share of Class B preffered stock has the rights of 1500 shares of Class A common stock, except that a Class B share has the voting rights of 10 Class A shares."
 # reg_A_tier_2_yr_1_affiliated_sales_max_usd = "" -- todo: simplify reg a resales
-splits_effective = { 2021-4-20 = "1->5", 2021-10-9 = "3->2", 2022-1-1 = "2->1" }
 status = "test"
 votes_per_share = 1
 
 [[BONDS]]
+bankruptcy_preference = 1
 code = "DEMOX1"
 convertible = false
-coupon = "2.95"
+coupon_bps = 295
 cusip = ""
-image = "https://blocktransfer.com/imgs/demo.png"
 maturity = "2023-10-4"
-outstanding_EOY = { 2023-12-31 = 3248903 }
+outstanding_EOFY = {2023-12-31 = 3248903}
 par = ""
-preference = ""
 puttable = ""
 status = "test"
