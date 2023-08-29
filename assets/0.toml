@@ -43,6 +43,16 @@ meetingData = 2
 [ACCOUNTS]
 treasury = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
 testing = "GA777CHILD777TEST777ACCOUNT777DEMO777ISSUER777KY4LAZQZVA"
+# reg.a.1.offering = ""
+# reg.a.2.offering = ""
+# reg.cf.offering = ""
+# reg.d.506b.offering = ""
+# reg.d.506c.offering = ""
+# initial.offering = ""
+# shelf.offering = ""
+# dspp = ""
+# reserved.701.benefit.plan = ""
+# reserved.s3.benefit.plan = ""
 
 [[INSIDERS]]
 name = "John Doe"
