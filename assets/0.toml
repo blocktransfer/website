@@ -42,7 +42,7 @@ meetingData = 2
 
 [ACCOUNTS]
 treasury = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
-testing = "GA777CHILD777TEST777ACCOUNT777DEMO777ISSUER777KY4LAZQZVA"
+dspp = "GA777CHILD777TEST777ACCOUNT777DEMO777ISSUER777KY4LAZQZVA"
 # reg.a.1.offering = ""
 # reg.a.2.offering = ""
 # reg.cf.offering = ""
@@ -50,7 +50,6 @@ testing = "GA777CHILD777TEST777ACCOUNT777DEMO777ISSUER777KY4LAZQZVA"
 # reg.d.506c.offering = ""
 # initial.offering = ""
 # shelf.offering = ""
-# dspp = ""
 # reserved.701.benefit.plan = ""
 # reserved.s3.benefit.plan = ""
 
@@ -94,10 +93,18 @@ votes_per_share = 10
 
 [[STOCKS.splits]]
 effective = "2021-4-20"
-num = 2
-denom = 3
+before = 2
+after = 3
 
-2021-10-9 = "3->2", 2022-1-1 = "2->1"}
+[[STOCKS.splits]]
+effective = "2021-10-9"
+before = 3
+after = 2
+
+[[STOCKS.splits]]
+effective = "2022-1-1"
+before = 2
+after = 1
 
 [[STOCKS]]
 authorized = 70000

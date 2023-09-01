@@ -5,7 +5,7 @@ ACCOUNTS = [
   "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7", # Issuer
   "GAQKSRI4E5643UUUMJT4RWCZVLY25TBNZXDME4WLRIF5IPOLTLV7N4N6", # Distributor
   "GD2OUJ4QKAPESM2NVGREBZTLFJYMLPCGSUHZVRMTQMF5T34UODVHPRCY", # Treasury
-  "GDTCN6C4BUWRQMB7IAPXZKSBQKA22LY4I6YVBHHYCOKZCIBRRTUWCEDE"  # FAST/DWAC
+  "GDTCN6C4BUWRQMB7IAPXZKSBQKA22LY4I6YVBHHYCOKZCIBRRTUWCEDE"
 ]
 
 [DOCUMENTATION]
@@ -38,7 +38,7 @@ anchor_asset_type = "fiat"
 code = "BTD"
 conditions = "Block Transfer is not a bank and does not itself take deposits. You will not receive any interest, credit, or other earnings on the funds in your Block Transfer account. Other conditions of use apply. See https://blocktransfer.com/compliance/user"
 display_decimals = 7
-desc = "You can deposit US dollars as unsecured claims against Block Transfer, a Delaware corporation regulated by the SEC. We hold deposits in fungible bulk, matched 1:1 on and off Stellar. Your funds are not insured by the FDIC or SIPC. See https://blocktransfer.com/compliance/flow-of-funds"
+desc = "You can deposit US dollars as unsecured claims against BlockTrans Syndicate, a Delaware corporation regulated by the SEC. We hold deposits in fungible bulk, matched 1:1 on and off Stellar. Your funds are not insured by the FDIC or SIPC. See https://blocktransfer.com/compliance/flow-of-funds"
 image = "https://blocktransfer.com/imgs/usd.png"
 issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
 is_unlimited = true
@@ -70,7 +70,7 @@ code = "LAYLOR"
 code_template = "LAYLOR??????"
 conditions = "Fully paid and non-assessable shares."
 display_decimals = 7
-desc = "The content presented here is solely for informational use and should not be interpreted as an invitation to purchase securities or investment products. The utilization of tokenized shares on the Stellar blockchain is primarily to streamline recordkeeping and improve liquidity. However, this decentralized ownership data should not be construed as an endorsement or advertisement for securities offerings."
+desc = "The content presented here is solely for informational use and should not be interpreted as an invitation to purchase securities. Shares are recorded on the Stellar blockchain primarily to streamline recordkeeping. However, this decentralized ownership data should not be construed as an endorsement or advertisement for a securities offering."
 image = "https://blocktransfer.com/imgs/1984803.png"
 issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
 is_unlimited = true

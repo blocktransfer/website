@@ -8,6 +8,7 @@ ir.email = "support@laylorcorporation.com"
 ir.phone = "+16504657193"
 jurisdiction.country = "US"
 jurisdiction.subdivision = "SC"
+logo = ""
 min_506c_state_init_usd = 5000
 name = "Laylor Corporation"
 registration_effective = false
@@ -35,8 +36,8 @@ shell_company = false
 transfer_agent = "BlockTrans Syndicate (99 Wall St #4640, New York, NY 10005)"
 
 [ACCOUNTS]
-treasury = "Pending initial company documents."
-reg.d.offering = "Pending initial company documents."
+treasury = "Pending initial company documents." # GDWKOK2CYQ5OQFMATXMXR4AEW6W5M4WZCFWS5DJP66YGXHBYQZLAYLOR
+reg.d.506b.offering = "Pending initial company documents."
 
 [[INSIDERS]]
 name = "Tammy Harris"
