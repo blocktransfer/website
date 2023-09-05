@@ -37,9 +37,6 @@ business = "Manufacturing and distribution of widgets."
 facilities = "Remote-first business with shared offices in Atlanta, GA."
 products = "Sells widgets."
 
-[[ISSUER.meetings]]
-meetingData = 2
-
 [ACCOUNTS]
 treasury = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
 dspp = "GA777CHILD777TEST777ACCOUNT777DEMO777ISSUER777KY4LAZQZVA"
@@ -61,6 +58,31 @@ title = "CEO"
 name = "Matt Smith"
 title = "CFO"
 
+[[ISSUER.meetings]]
+date = "2024-3-16"
+end_count = ""
+type = "AGM"
+address = "0.2023*proxyvote.io"
+cede_shares = "1250.00001"
+
+# Do you have this or is BR MT?
+# [ISSUER.meetings.legacy_votes]
+# 1 = {Y = 500, N = 455, A = 45}
+# 2 = {Y = 400, N = 555, A = 45}
+# 3 = {Y = 300, N = 655, A = 45}
+
+[[ISSUER.meetings]]
+date = "2023-8-21"
+end_count = "2023-8-21T09:45:12Z"
+type = "special"
+record_date = "2023-6-1"
+
+[[ISSUER.meetings]]
+date = "2022-3-16"
+end_count = "2022-3-16T09:47:57Z"
+type = "AGM"
+FY = 2022
+
 [[STOCKS]]
 authorized = 100000000
 bankruptcy_preference = 3
@@ -71,7 +93,7 @@ convertible = ""
 cusip = ""
 dividend = "None planned."
 outstanding_EOFY = {2023-12-31 = 3248903}
-par = "$0.001"
+par = "0.001"
 splits_effective = "1 to 5 effective 2021-4-20|3 to 2 effective 2021-10-9|2->1 effective 2022-1-1"
 status = "test"
 votes_per_share = 1
@@ -86,7 +108,7 @@ convertible = "1->42 convertable to Class A."
 cusip = ""
 dividend = "Expected but not obligatory 3% dividend (non-cumulative)."
 outstanding_EOFY = {2023-12-31 = 3248903}
-par = "$0.001"
+par = "0.001"
 rights = "Same rights as 42 shares of Class A common stock, except for the voting rights of 10 Class A shares."
 status = "test"
 votes_per_share = 10
@@ -116,7 +138,7 @@ convertible = "1->1 convertable to class A upon exchange listing."
 cusip = ""
 dividend = "Expected but not obligatory 3% dividend (non-cumulative)."
 outstanding_EOFY = {2023-12-31 = 3248903}
-par = "$0.001"
+par = "0.001"
 rights = "A share of Class B preffered stock has the rights of 1500 shares of Class A common stock, except that a Class B share has the voting rights of 10 Class A shares."
 # reg_A_tier_2_yr_1_affiliated_sales_max_usd = "" -- todo: simplify reg a resales
 status = "test"
