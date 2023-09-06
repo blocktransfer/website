@@ -14,6 +14,7 @@ name = "Laylor Corporation"
 registration_effective = false
 reporting_company = false
 req_506b_ppm = true
+webpage = "https://laylorcorporation.com/"
 
 [ISSUER.description]
 main = "Laylor Corporation is a billion-dollar tech startup company that operates as a business development accelerator and multi-industry conglomerate. Laylor Corporation specializes in providing support to small and minority-owned businesses, with a specific focus on empowering individuals from diverse backgrounds, including people of color, impoverished communities, women, veterans, and individuals with disabilities. Their primary objective is to assist entrepreneurs in accessing the resources they need to bring their innovative ideas to fruition. With a strong emphasis on advertising and marketing, Laylor Corporation enables companies to expand their global reach. Their areas of expertise encompass investment management, cutting-edge programs, seamless payment solutions, secure financial transactions, cryptocurrency and blockchain investments, artificial intelligence, software technology, app development, and clean energy initiatives. Laylor Corporation is committed to fostering inclusive growth, driving technological advancements, and promoting a sustainable future in the business world."
