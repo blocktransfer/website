@@ -69,12 +69,6 @@ name = "Laylor Corporation"
 redemption_instructions = "This company is private; shares only exist here on its books."
 status = "live"
 
-
-
-
-
-
-
 [[CURRENCIES]]
 attestation_of_reserve = "https://blocktransfer.com/assets/0.toml"
 anchor_asset_type = "stock"
