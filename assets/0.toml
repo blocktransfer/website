@@ -30,6 +30,7 @@ req_506b_ppm = false
 shell_company = false
 sic = 7374
 transfer_agent = "BlockTrans Syndicate (99 Wall St #4640, New York, NY 10005)"
+wksi = false
 
 [ISSUER.desc]
 main = "Example Company is used interally for product demos and development."
