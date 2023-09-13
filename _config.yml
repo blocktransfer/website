@@ -3,16 +3,16 @@ enforce_ssl: true
 email: hello@blocktransfer.dev
 description: "Block Transfer"
 baseurl: ""
-url: "blocktransfer.com"
+url: "https://blocktransfer.com"
 github_username:  blocktransfer
 theme: minima
 plugins:
   - jekyll-feed
 include:
+  - _headers
   - .well-known
   - assets
   - board-resolutions
   - clients
   - compliance
   - imgs
-  - _headers
