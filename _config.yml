@@ -1,4 +1,5 @@
 title: Block Transfer
+enforce_ssl: true
 email: hello@blocktransfer.dev
 description: "Block Transfer"
 baseurl: ""
@@ -11,6 +12,7 @@ include:
   - .well-known
   - assets
   - board-resolutions
+  - clients
   - compliance
   - imgs
   - _headers
