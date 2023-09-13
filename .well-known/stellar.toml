@@ -38,11 +38,3 @@ toml = "https://blocktransfer.com/assets/BTD.toml"
 
 [[CURRENCIES]]
 toml = "https://blocktransfer.com/assets/1984803ORD.toml"
-
-image = "https://blocktransfer.com/imgs/demo.png"
-issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
-is_unlimited = true
-is_asset_anchored = true
-name = "Example Company"
-redemption_instructions = "Use our app to move stock to/from a legacy broker."
-status = "test"
