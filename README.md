@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://www.blocktransfer.com"><img alt="Block Transfer" src="https://www.blocktransfer.com/hosted/images/39/3e0a939c35424d9a5b392a10a08e28/BT_GH.png" width="558" /></a>
+<a href="https://www.blocktransfer.com"><img alt="Block Transfer" src="/logo.png" width="558" /></a>
 <br/></div>
 
 # Eliminating Wall Street's Hidden Costs
