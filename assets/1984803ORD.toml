@@ -1,0 +1,33 @@
+[[CURRENCIES]]
+approval_criteria = "Create an account at https://www.blocktransfer.com/beta/join"
+approval_server = "https://api.blocktransfer.com/approvals"
+attestation_of_reserve = "https://blocktransfer.com/board-resolutions/1984803.pdf"
+anchor_asset_type = "stock"
+authorized = 100000000
+bankruptcy_preference = 1
+code = "1984803ORD"
+conditions = "Fully paid and non-assessable shares."
+class = "None"
+class_type = "common"
+display_decimals = 7
+dividend = "None planned."
+desc = """
+Laylor Corporation is a trailblazing tech company headquartered in South Carolina, serving as a catalyst for innovation and business growth across a variety of industries. With a comprehensive portfolio that spans investment management, blockchain technology, artificial intelligence, and sustainable energy initiatives, the company is uniquely positioned to empower businesses, particularly those that are small and minority-owned. Operating under a virtual business office model, the Issuer's remote team taps into the latest technologies to collaborate seamlessly, reflecting the firm's commitment to operational flexibility and environmental sustainability. Anchored by a robust focus on research and development, as well as a dedication to inclusivity and social responsibility, the Issuer is not just riding the wave of technological advancement—it's helping to shape it.
+
+The content presented here is solely for informational use and should not be interpreted as an invitation to purchase securities. Shares are recorded on the Stellar blockchain primarily to streamline recordkeeping. However, this decentralized ownership data should not be construed as an endorsement or advertisement for a securities offering.
+
+View full details for Laylor Corporation: https://issuers.info/1984803"""
+dwac = "GDTCN6C4BUWRQMB7IAPXZKSBQKA22LY4I6YVBHHYCOKZCIBRRTUWCEDE"
+image = "https://blocktransfer.com/imgs/1984803ORD.png"
+is_unlimited = true
+is_asset_anchored = true
+isin = "None"
+issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
+outstanding_EOFY = {2022-12-31 = 100000000}
+name = "Laylor Common Shares"
+par = "None"
+redemption_instructions = "This company is private; shares only exist here on its books."
+regulated = true
+status = "live"
+ticker = "LAYLOR"
+votes_per_share = 1
