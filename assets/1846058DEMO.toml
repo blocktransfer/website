@@ -1,7 +1,7 @@
 [[CURRENCIES]]
+anchor_asset_type = "stock"
 approval_criteria = "Create an account at https://www.blocktransfer.com/beta/join"
 approval_server = "https://api.blocktransfer.com/approvals"
-anchor_asset_type = "stock"
 authorized = 9999999999999
 bankruptcy_preference = 99
 code = "DEMO"

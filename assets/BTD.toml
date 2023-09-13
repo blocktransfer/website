@@ -1,9 +1,9 @@
 [[CURRENCIES]]
+anchor_asset = "USD"
+anchor_asset_type = "fiat"
 approval_criteria = "Create an account at https://www.blocktransfer.com/beta/join"
 approval_server = "https://api.blocktransfer.com/approvals"
 attestation_of_reserve = "https://blocktransfer.com/assets/USD"
-anchor_asset = "USD"
-anchor_asset_type = "fiat"
 code = "BTD"
 conditions = "Block Transfer is not a bank and does not itself take deposits. You will not receive any interest, credit, or other earnings on the funds in your Block Transfer account. Other conditions apply. See https://blocktransfer.com/compliance/user"
 display_decimals = 7
