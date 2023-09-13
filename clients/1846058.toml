@@ -34,7 +34,7 @@ ORG_OVER_10M_ASSETS = false
 ORG_PREDECESSOR_NAMES = [] # ["Alias 1 (DE)", "Alias 2 (DE)", "Alias 3 Inc (WY)"]
 ORG_PNL_URL = "https://issuers.info/18465058/PNL" # Latest Statement of Profit, Loss, & Retained Earnings
 ORG_SIC = 6289
-ORG_TRANSFER_AGENT = "BlockTrans Syndicate (99 Wall St #4640, New York, NY 10005)"
+ORG_TRANSFER_AGENT = "self"
 
 [DOCUMENTATION.INTERNAL]
 highest_curr_solicitation = "None"
