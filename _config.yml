@@ -1,11 +1,8 @@
-title: Block Transfer
+title: "Block Transfer"
 enforce_ssl: true
-email: hello@blocktransfer.dev
-description: "Block Transfer"
+description: "Blockchain Transfer Agemt"
 baseurl: ""
 url: "https://blocktransfer.com"
-github_username:  blocktransfer
-theme: minima
 plugins:
   - jekyll-feed
 include:
