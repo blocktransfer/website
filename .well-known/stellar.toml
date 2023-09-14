@@ -62,3 +62,7 @@ name = "Laylor Common Shares"
 redemption_instructions = "This company is private; shares only exist here on its books."
 regulated = true
 status = "live"
+
+# code = "1984803ORD"
+# image = "https://blocktransfer.com/imgs/1984803ORD.png"
+# ticker = "LAYLOR"
