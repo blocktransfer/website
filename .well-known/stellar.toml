@@ -32,7 +32,7 @@ verification_photo_hash = "a3b5109c1afb0d7ce22780fc5a656bda0f24b63d4bbddcff35f44
 [[CURRENCIES]]
 anchor_asset = "Internal demo company"
 anchor_asset_type = "stock"
-approval_criteria = "Create an account at https://www.blocktransfer.com/beta/join"
+approval_criteria = "Create an account at www.blocktransfer.com/beta/join"
 approval_server = "https://api.blocktransfer.com/approvals"
 authorized = 9999999999999
 bankruptcy_preference = 99
@@ -60,14 +60,14 @@ votes_per_share = 0
 [[CURRENCIES]]
 anchor_asset = "USD"
 anchor_asset_type = "fiat"
-approval_criteria = "Create an account at https://www.blocktransfer.com/beta/join"
+approval_criteria = "Create an account at www.blocktransfer.com/beta/join"
 approval_server = "https://api.blocktransfer.com/approvals"
 attestation_of_reserve = "https://blocktransfer.com/assets/USD"
 code = "BTD"
-conditions = "Block Transfer is not a bank and does not itself take deposits. You will not receive any interest, credit, or other earnings on the funds in your Block Transfer account. Other conditions apply. See https://blocktransfer.com/compliance/user"
+conditions = "Block Transfer is not a bank and does not itself take deposits. You will not receive any interest, credit, or other earnings on the funds in your Block Transfer account. Other conditions apply. See blocktransfer.com/terms"
 display_decimals = 7
 desc = """
-You can deposit US dollars as unsecured claims against BlockTrans Syndicate, a Delaware corporation regulated by the SEC. We hold deposits in fungible bulk, matched 1:1 on and off Stellar. Your funds are not insured by the FDIC or SIPC. See https://blocktransfer.com/compliance/flow-of-funds"""
+You can deposit US dollars as unsecured claims against BlockTrans Syndicate, a Delaware corporation regulated by the SEC. We hold deposits in fungible bulk, matched 1:1 on and off Stellar. Your funds are not insured by the FDIC or SIPC. See blocktransfer.com/compliance/flow-of-funds"""
 image = "https://blocktransfer.com/imgs/BTD.png"
 is_unlimited = true
 is_asset_anchored = true
@@ -82,7 +82,7 @@ ticker = "USD"
 [[CURRENCIES]]
 anchor_asset = "These are book-entry shares of common stock in Laylor Corporation."
 anchor_asset_type = "stock"
-approval_criteria = "Create an account at https://www.blocktransfer.com/beta/join"
+approval_criteria = "Create an account at www.blocktransfer.com/beta/join"
 approval_server = "https://api.blocktransfer.com/approvals"
 attestation_of_reserve = "https://blocktransfer.com/board-resolutions/1984803.pdf"
 authorized = 100000000
@@ -98,7 +98,7 @@ Laylor Corporation is a trailblazing tech company headquartered in South Carolin
 
 The content presented here is solely for informational use and should not be interpreted as an invitation to purchase securities. Shares are recorded on the Stellar blockchain primarily to streamline recordkeeping. However, this decentralized ownership data should not be construed as an endorsement or advertisement for a securities offering.
 
-View full details for Laylor Corporation: https://issuers.info/1984803"""
+View full details for Laylor Corporation: issuers.info/1984803"""
 dwac = "GDTCN6C4BUWRQMB7IAPXZKSBQKA22LY4I6YVBHHYCOKZCIBRRTUWCEDE"
 image = "https://blocktransfer.com/imgs/1984803ORD.png"
 is_unlimited = true
