@@ -30,39 +30,84 @@ id_photo_hash = "0dce43292a7dd2c6ef021cca9f84330ceeec34e8587172453bc2b05f1bd13ed
 verification_photo_hash = "a3b5109c1afb0d7ce22780fc5a656bda0f24b63d4bbddcff35f44f0b8e62ff48"
 
 [[CURRENCIES]]
-toml = "https://blocktransfer.com/assets/1846058DEMO.toml"
+anchor_asset_type = "stock"
+approval_criteria = "Create an account at https://www.blocktransfer.com/beta/join"
+approval_server = "https://api.blocktransfer.com/approvals"
+authorized = 9999999999999
+bankruptcy_preference = 99
+code = "DEMO"
+conditions = "Fully paid and non-assessable shares."
+class = "D"
+class_type = "common"
+display_decimals = 7
+dividend = "None planned."
+desc = """
+Example Company is used internally for product demos and development."""
+dwac = "GDTCN6C4BUWRQMB7IAPXZKSBQKA22LY4I6YVBHHYCOKZCIBRRTUWCEDE"
+image = "https://blocktransfer.com/imgs/1846058DEMO.png"
+is_unlimited = true
+is_asset_anchored = false
+issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
+outstanding_EOFY = {2022-12-31 = 103945.94}
+name = "Demo Stock"
+par = "0.0001"
+regulated = true
+status = "test"
+ticker = "DEMO"
+votes_per_share = 0
 
 [[CURRENCIES]]
-toml = "https://blocktransfer.com/assets/BTD.toml"
+anchor_asset = "USD"
+anchor_asset_type = "fiat"
+approval_criteria = "Create an account at https://www.blocktransfer.com/beta/join"
+approval_server = "https://api.blocktransfer.com/approvals"
+attestation_of_reserve = "https://blocktransfer.com/assets/USD"
+code = "BTD"
+conditions = "Block Transfer is not a bank and does not itself take deposits. You will not receive any interest, credit, or other earnings on the funds in your Block Transfer account. Other conditions apply. See https://blocktransfer.com/compliance/user"
+display_decimals = 7
+desc = """
+You can deposit US dollars as unsecured claims against BlockTrans Syndicate, a Delaware corporation regulated by the SEC. We hold deposits in fungible bulk, matched 1:1 on and off Stellar. Your funds are not insured by the FDIC or SIPC. See https://blocktransfer.com/compliance/flow-of-funds"""
+image = "https://blocktransfer.com/imgs/usd.png"
+is_unlimited = true
+is_asset_anchored = true
+issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
+outstanding_EOFY = {2022-12-31 = 0}
+name = "BT Dollars"
+redemption_instructions = "Contact support@blocktransfer.com" # "Use our app to link your bank or USDC wallet."
+regulated = true
+status = "live"
+ticker = "USD"
 
 [[CURRENCIES]]
-toml = "https://blocktransfer.com/assets/1984803ORD.toml"
-
-# INCOMPLETE DUPLICATE FOR COMPATABILITY DURING BETA #
-[[CURRENCIES]]
-anchor_asset = "Self"
 anchor_asset_type = "stock"
 approval_criteria = "Create an account at https://www.blocktransfer.com/beta/join"
 approval_server = "https://api.blocktransfer.com/approvals"
 attestation_of_reserve = "https://blocktransfer.com/board-resolutions/1984803.pdf"
+authorized = 100000000
+bankruptcy_preference = 1
 code = "1984803ORD"
 conditions = "Fully paid and non-assessable shares."
+class = "None"
+class_type = "common"
 display_decimals = 7
+dividend = "None planned."
 desc = """
 Laylor Corporation is a trailblazing tech company headquartered in South Carolina, serving as a catalyst for innovation and business growth across a variety of industries. With a comprehensive portfolio that spans investment management, blockchain technology, artificial intelligence, and sustainable energy initiatives, the company is uniquely positioned to empower businesses, particularly those that are small and minority-owned. Operating under a virtual business office model, the Issuer's remote team taps into the latest technologies to collaborate seamlessly, reflecting the firm's commitment to operational flexibility and environmental sustainability. Anchored by a robust focus on research and development, as well as a dedication to inclusivity and social responsibility, the Issuer is not just riding the wave of technological advancement—it's helping to shape it.
 
 The content presented here is solely for informational use and should not be interpreted as an invitation to purchase securities. Shares are recorded on the Stellar blockchain primarily to streamline recordkeeping. However, this decentralized ownership data should not be construed as an endorsement or advertisement for a securities offering.
 
 View full details for Laylor Corporation: https://issuers.info/1984803"""
+dwac = "GDTCN6C4BUWRQMB7IAPXZKSBQKA22LY4I6YVBHHYCOKZCIBRRTUWCEDE"
 image = "https://blocktransfer.com/imgs/1984803ORD.png"
 is_unlimited = true
 is_asset_anchored = true
+isin = "None"
 issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
+outstanding_EOFY = {2022-12-31 = 100000000}
 name = "Laylor Common Shares"
+par = "None"
 redemption_instructions = "This company is private; shares only exist here on its books."
 regulated = true
 status = "live"
-
-# code = "1984803ORD"
-# image = "https://blocktransfer.com/imgs/1984803ORD.png"
-# ticker = "LAYLOR"
+ticker = "LAYLOR"
+votes_per_share = 1
