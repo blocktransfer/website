@@ -52,7 +52,7 @@ outstanding_EOFY = {2022-12-31 = 103945.94}
 name = "Demo Stock"
 par = "0.0001"
 regulated = true
-status = "test"
+status = "private"
 ticker = "DEMO"
 votes_per_share = 0
 
@@ -67,7 +67,7 @@ conditions = "Block Transfer is not a bank and does not itself take deposits. Yo
 display_decimals = 7
 desc = """
 You can deposit US dollars as unsecured claims against BlockTrans Syndicate, a Delaware corporation regulated by the SEC. We hold deposits in fungible bulk, matched 1:1 on and off Stellar. Your funds are not insured by the FDIC or SIPC. See https://blocktransfer.com/compliance/flow-of-funds"""
-image = "https://blocktransfer.com/imgs/usd.png"
+image = "https://blocktransfer.com/imgs/BTD.png"
 is_unlimited = true
 is_asset_anchored = true
 issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
