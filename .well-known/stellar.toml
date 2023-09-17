@@ -12,7 +12,7 @@ ORG_NAME = "BlockTrans Syndicate"
 ORG_DBA = "Block Transfer"
 ORG_URL = "https://www.blocktransfer.com"
 ORG_LOGO = "https://blocktransfer.com/logo.png"
-ORG_DESCRIPTION = "Blockchain Transfer Agent"
+ORG_DESCRIPTION = "Block Transfer is spearheading innovation in the world of book-entry stock ownership. We're the bridge connecting traditional capital markets with the revolutionary potential of blockchain technology. In an era where trust and security are paramount, we're committed to providing cutting-edge solutions that empower global investors to navigate the digital economy with confidence."
 # ORG_PHONE_NUMBER = "+10000000000"
 # ORG_PHONE_NUMBER_ATTESTATION = "https://blocktransfer.com/compliance/proof-of-phone.pdf"
 ORG_PHYSICAL_ADDRESS = "99 Wall Street #4640, New York, NY 10005"
@@ -41,21 +41,32 @@ conditions = "Fully paid and non-assessable shares."
 class = "D"
 class_type = "common"
 display_decimals = 7
-dividend = "None planned."
-desc = """
-Example Company is used internally for product demos and development."""
+desc = "Example Company is used internally for product demos and development."
 dwac = "GDTCN6C4BUWRQMB7IAPXZKSBQKA22LY4I6YVBHHYCOKZCIBRRTUWCEDE"
 image = "https://blocktransfer.com/imgs/1846058DEMO.png"
 is_unlimited = true
 is_asset_anchored = false
 issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
-outstanding_EOFY = {2022-12-31 = 103945.94}
+lockout_periods = ["Dec-31|Apr-15", "Oct-1|Nov-30"]
 name = "Demo Stock"
 par = "0.0001"
 regulated = true
 status = "private"
 ticker = "DEMO"
 votes_per_share = 0
+
+[[CURRENCIES.liveMeetings]]
+date = "2024-3-16"
+items = [
+  "Election of Directors",
+  "schemaTBD, need to incl. Board reccomendations"
+]
+items_directors = ["John Smith", "Michael Roberts", "Julia Alexander", "Rebecca Hans"]
+# items_reccomendations = [1, 1, 1, 1, 1, 0]
+record_date = "2023-12-31"
+type = "AGM"
+vote_deadline = "2023-8-21T09:45:12Z"
+vote_federation = "1846058.2023*proxyvote.io"
 
 [[CURRENCIES]]
 anchor_asset = "USD"
@@ -65,16 +76,16 @@ approval_server = "https://api.blocktransfer.com/approvals"
 attestation_of_reserve = "https://blocktransfer.com/assets/USD"
 code = "BTD"
 conditions = "Block Transfer is not a bank and does not itself take deposits. You will not receive any interest, credit, or other earnings on the funds in your Block Transfer account. Other conditions apply. See blocktransfer.com/terms"
+class = false
 display_decimals = 7
-desc = """
-You can deposit US dollars as unsecured claims against BlockTrans Syndicate, a Delaware corporation regulated by the SEC. We hold deposits in fungible bulk, matched 1:1 on and off Stellar. Your funds are not insured by the FDIC or SIPC. See blocktransfer.com/compliance/flow-of-funds"""
+desc = "You can deposit US dollars as unsecured claims against BlockTrans Syndicate, a Delaware corporation regulated by the SEC. We hold deposits in fungible bulk, matched 1:1 on and off Stellar. Your funds are not insured by the FDIC or SIPC. See blocktransfer.com/compliance/flow-of-funds"
 image = "https://blocktransfer.com/imgs/BTD.png"
 is_unlimited = true
 is_asset_anchored = true
 issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
-outstanding_EOFY = {2022-12-31 = 0}
+lockout_periods = false
 name = "BT Dollars"
-redemption_instructions = "Contact support@blocktransfer.com" # "Use our app to link your bank or USDC wallet."
+redemption_instructions = "Contact support@blocktransfer.com" # "Use our app to link your bank or USDC wallet." - pending public release of ACH direct debits
 regulated = true
 status = "live"
 ticker = "USD"
@@ -88,24 +99,18 @@ attestation_of_reserve = "https://blocktransfer.com/board-resolutions/1984803.pd
 authorized = 100000000
 bankruptcy_preference = 1
 code = "1984803ORD"
-conditions = "Fully paid and non-assessable shares."
-class = "None"
+conditions = "Fully paid and non-assessable shares. The content presented here is solely for informational use and should not be interpreted as an invitation to purchase securities. Shares are recorded on the Stellar blockchain primarily to streamline recordkeeping. However, this decentralized ownership data should not be construed as an endorsement or advertisement for a securities offering."
+class = "ORD"
 class_type = "common"
 display_decimals = 7
-dividend = "None planned."
-desc = """
-Laylor Corporation is a trailblazing tech company headquartered in South Carolina, serving as a catalyst for innovation and business growth across a variety of industries. With a comprehensive portfolio that spans investment management, blockchain technology, artificial intelligence, and sustainable energy initiatives, the company is uniquely positioned to empower businesses, particularly those that are small and minority-owned. Operating under a virtual business office model, the Issuer's remote team taps into the latest technologies to collaborate seamlessly, reflecting the firm's commitment to operational flexibility and environmental sustainability. Anchored by a robust focus on research and development, as well as a dedication to inclusivity and social responsibility, the Issuer is not just riding the wave of technological advancement—it's helping to shape it.
-
-The content presented here is solely for informational use and should not be interpreted as an invitation to purchase securities. Shares are recorded on the Stellar blockchain primarily to streamline recordkeeping. However, this decentralized ownership data should not be construed as an endorsement or advertisement for a securities offering.
-
-View full details for Laylor Corporation: issuers.info/1984803"""
+desc = "Laylor Corporation is a trailblazing tech company headquartered in South Carolina, serving as a catalyst for innovation and business growth across a diverse set of industries. With a comprehensive portfolio that spans investment management, blockchain technology, artificial intelligence, and sustainable energy initiatives, the company is uniquely positioned to empower businesses, particularly those that are small and minority-owned. Operating under a virtual business office model, the Issuer's remote team taps into the latest technologies to collaborate seamlessly, reflecting the firm's commitment to operational flexibility and environmental sustainability. Anchored by a robust focus on research and development, as well as a dedication to inclusivity and social responsibility, the Issuer is not just riding the wave of technological advancement—it's helping to shape it. Learn more about Laylor Corporation at issuers.info/1984803"""
 dwac = "GDTCN6C4BUWRQMB7IAPXZKSBQKA22LY4I6YVBHHYCOKZCIBRRTUWCEDE"
 image = "https://blocktransfer.com/imgs/1984803ORD.png"
 is_unlimited = true
 is_asset_anchored = true
-isin = "None"
+isin = false
 issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
-outstanding_EOFY = {2022-12-31 = 100000000}
+lockout_periods = false
 name = "Laylor Common Shares"
 par = "None"
 redemption_instructions = "This company is private; shares only exist here on its books."

@@ -1,0 +1,12 @@
+[[MEETINGS]]
+cede_shares = "1250.00001"
+date = "2024-3-16"
+record_date = "2023-12-31"
+type = "AGM"
+vote_deadline = "2023-8-21T09:45:12Z"
+vote_federation = "1846058.2023*proxyvote.io"
+
+[MEETINGS.legacy_votes]
+1 = {Y = 500, N = 455, A = 45}
+2 = {Y = 400, N = 555, A = 45}
+3 = {Y = 300, N = 655, A = 45}
