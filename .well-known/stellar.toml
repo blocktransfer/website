@@ -55,19 +55,6 @@ status = "private"
 ticker = "DEMO"
 votes_per_share = 0
 
-[[CURRENCIES.liveMeetings]]
-date = "2024-3-16"
-items = [
-  "Election of Directors",
-  "schemaTBD, need to incl. Board reccomendations"
-]
-items_directors = ["John Smith", "Michael Roberts", "Julia Alexander", "Rebecca Hans"]
-# items_reccomendations = [1, 1, 1, 1, 1, 0]
-record_date = "2023-12-31"
-type = "AGM"
-vote_deadline = "2023-8-21T09:45:12Z"
-vote_federation = "1846058.2023*proxyvote.io"
-
 [[CURRENCIES]]
 anchor_asset = "USD"
 anchor_asset_type = "fiat"

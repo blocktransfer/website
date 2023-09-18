@@ -1,0 +1,20 @@
+[[MEETINGS]]
+date = "2024-3-16"
+items = [
+  "Election of Directors",
+  "schemaTBD, need to incl. Board reccomendations"
+]
+items_directors = ["John Smith", "Michael Roberts", "Julia Alexander", "Rebecca Hans"]
+# items_reccomendations = [1, 1, 1, 1, 1, 0]
+record_date = "2023-12-31"
+type = "AGM"
+voting_cutoff = "2023-8-21T09:45:12Z"
+voting_federation = "1846058.2023*proxyvote.io"
+
+MT564 - Corporate Action Notification: MT564 is a message type within ISO 15022 that is commonly used for corporate action notifications. This message provides information to shareholders and their intermediaries about upcoming corporate actions, such as dividend payments, stock splits, mergers, acquisitions, and more. It includes details such as the event type, event date, entitlements, and instructions on how shareholders should respond.
+
+MT565 - Corporate Action Instruction: MT565 is another ISO 15022 message type that is used for corporate action instructions. Shareholders and their intermediaries can use this message to communicate their decisions and choices regarding a corporate action. For example, if a company is offering a choice between receiving cash or additional shares as a dividend, shareholders can use MT565 to indicate their preference.
+
+MT566 - Securities Status and Eligibility Inquiry/Response: MT566 messages are used to inquire about the status and eligibility of securities for corporate actions. This can be important for shareholders and financial institutions to determine whether a particular security is eligible for participation in a corporate event.
+
+MT567 - Securities Status and Eligibility Advice: MT567 messages provide advice on the status and eligibility of securities for corporate actions. This message type is typically sent in response to an MT566 inquiry and confirms whether a specific security is eligible for a particular corporate action
