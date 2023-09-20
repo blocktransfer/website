@@ -19,7 +19,7 @@ ORG_PHYSICAL_ADDRESS = "99 Wall Street #4640, New York, NY 10005"
 ORG_PHYSICAL_ADDRESS_ATTESTATION = "https://blocktransfer.com/compliance/proof-of-address.pdf"
 ORG_GITHUB = "blocktransfer"
 ORG_SUPPORT_EMAIL = "support@blocktransfer.com"
-ORG_LICENSING_AUTHORITY = "US Securities and Exchange Commission"
+ORG_LICENSING_AUTHORITY = "Securities and Exchange Commission"
 ORG_LICENSE_TYPE = "CIK"
 ORG_LICENSE_NUMBER = "1846058"
 
@@ -90,7 +90,7 @@ conditions = "Fully paid and non-assessable shares. The content presented here i
 class = "ORD"
 class_type = "common"
 display_decimals = 7
-desc = "Laylor Corporation is a trailblazing tech company headquartered in South Carolina, serving as a catalyst for innovation and business growth across a diverse set of industries. With a comprehensive portfolio that spans investment management, blockchain technology, artificial intelligence, and sustainable energy initiatives, the company is uniquely positioned to empower businesses, particularly those that are small and minority-owned. Operating under a virtual business office model, the Issuer's remote team taps into the latest technologies to collaborate seamlessly, reflecting the firm's commitment to operational flexibility and environmental sustainability. Anchored by a robust focus on research and development, as well as a dedication to inclusivity and social responsibility, the Issuer is not just riding the wave of technological advancement—it's helping to shape it. Learn more about Laylor Corporation at issuers.info/1984803"""
+desc = "Laylor Corporation is a trailblazing tech company headquartered in South Carolina, serving as a catalyst for innovation and business growth across a diverse set of industries. With a comprehensive portfolio that spans investment management, blockchain technology, artificial intelligence, and sustainable energy initiatives, the company is uniquely positioned to empower businesses, particularly those that are small and minority-owned. Operating under a virtual business office model, the Issuer's remote team taps into the latest technologies to collaborate seamlessly, reflecting the firm's commitment to operational flexibility and environmental sustainability. Anchored by a robust focus on research and development, as well as a dedication to inclusivity and social responsibility, the Issuer is not just riding the wave of technological advancement—it's helping to shape it. Learn more about Laylor Corporation at issuers.info/1984803"
 dwac = "GDTCN6C4BUWRQMB7IAPXZKSBQKA22LY4I6YVBHHYCOKZCIBRRTUWCEDE"
 image = "https://blocktransfer.com/imgs/1984803ORD.png"
 is_unlimited = true
