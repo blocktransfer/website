@@ -116,8 +116,8 @@
   <script>
     async function validateAccountNumber(accountNumber) {
       try {
-        const apiUrl = `https://api.blocktransfer.com/federation?q=${accountNumber}*blocktransfer.com&type=name`;
-        const response = await fetch(apiUrl);
+        const fedURL = `https://api.blocktransfer.com/federation?q=${accountNumber}*blocktransfer.com&type=name`;
+        const response = await fetch(fedURL);
         const data = await response.json();
         return response.status === 200 ? data.account_id || null : null;
       } catch (error) {
@@ -145,28 +145,28 @@
       // Perform custom validation for account number
       const publicKey = validateAccountNumber(transferTo);
 
+      // ...
       if (publicKey) {
         // Account number is valid, store values in localStorage
         localStorage.setItem("shares", shares);
         localStorage.setItem("asset", asset);
         localStorage.setItem("recipientPublicKey", publicKey);
-
+      
         // Hide the form
         document.getElementById("transfer-form").style.display = "none";
-
+      
         // Hide the title
         document.querySelector(".container").style.display = "none";
-
+      
         // Show the WalletConnect screen
         document.getElementById("walletconnect-screen").classList.add("show");
       } else {
         // Account number is invalid, display an error message
         document.getElementById("account-error").textContent = "Invalid recipient account number. Please check and try again.";
+        
+        // Return false to prevent form submission
+        return false;
       }
-
-      // Return false to prevent form submission
-      return false;
-    }
   </script>
 </body>
 </html>
