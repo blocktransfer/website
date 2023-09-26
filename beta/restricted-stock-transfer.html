@@ -18,15 +18,15 @@
     }
 
     .main-body {
-      max-width: 400px; /* Fixed width for the main body enclosure */
+      max-width: 400px;
       padding: 20px;
       border: 1px solid #ccc;
-      border-radius: 45px; /* Rounded corners for the main body enclosure */
+      border-radius: 45px;
     }
 
     h1 {
       font-size: 24px;
-      margin-bottom: 10px; /* Add a little space under the title */
+      margin-bottom: 30px;
     }
 
     .logo {
@@ -141,32 +141,21 @@
         document.getElementById("shares-error").textContent = "Number of shares must be at least 0.0000001.";
         return false; // Prevent form submission
       }
-
-      // Perform custom validation for account number
-      const publicKey = validateAccountNumber(transferTo);
-
-      // ...
-      if (publicKey) {
-        // Account number is valid, store values in localStorage
+      
+      const recipientPK = validateAccountNumber(transferTo);
+      if (recipientPK) {
         localStorage.setItem("shares", shares);
         localStorage.setItem("asset", asset);
-        localStorage.setItem("recipientPublicKey", publicKey);
-      
-        // Hide the form
+        localStorage.setItem("recipientPK", recipientPK);
         document.getElementById("transfer-form").style.display = "none";
-      
-        // Hide the title
         document.querySelector(".container").style.display = "none";
-      
-        // Show the WalletConnect screen
         document.getElementById("walletconnect-screen").classList.add("show");
       } else {
         // Account number is invalid, display an error message
         document.getElementById("account-error").textContent = "Invalid recipient account number. Please check and try again.";
-        
-        // Return false to prevent form submission
         return false;
       }
+    }
   </script>
 </body>
 </html>
