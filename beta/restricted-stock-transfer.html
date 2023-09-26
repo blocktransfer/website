@@ -117,9 +117,14 @@
     </div>
     
     <div id="walletconnect-screen">
-      <h1>Scan with WalletConnect in Lobstr</h1> <!-- Updated title -->
-      <!-- Content for the WalletConnect screen goes here -->
+      <h2>Scan with WalletConnect in Lobstr</h2>
+      
+      
+      
+      <img src="0.png" alt="WalletConnectInit" style="heigh: 200px;">
+      
     </div>
+    <div id="transfer-message" style="display: none;"></div>
   </div>
 
   <script>
@@ -137,24 +142,29 @@
     }
 
     async function submitForm() {
+      event.preventDefault();
       // Clear previous error messages
       document.getElementById("shares-error").textContent = "";
       document.getElementById("account-error").textContent = "";
-      event.preventDefault();
-      const recipientAccNum = document.getElementById("transfer-to").value;
+      
       const shares = document.getElementById("shares").value;
+      if (parseFloat(shares) < 0.0000001) document.getElementById("shares-error").textContent = "Number of shares must be at least 0.0000001.";
+      
       const code = document.getElementById("code").value;
-      if (parseFloat(shares) < 0.0000001) {
-        document.getElementById("shares-error").textContent = "Number of shares must be at least 0.0000001.";
-        return;
-      }
+      const assetName = document.querySelector(`#code option[value="${code}"]`).textContent;
+      
+      const recipientAccNum = document.getElementById("transfer-to").value;
       try {
         const recipientPK = await validateAccNumber(recipientAccNum);
         if (recipientPK) {
+          localStorage.setItem("recipientPK", recipientPK);
           localStorage.setItem("shares", shares);
           localStorage.setItem("code", code);
-          localStorage.setItem("recipientPK", recipientPK);
           document.getElementById("transfer-form").style.display = "none";
+      
+          // Display the transfer message with the appropriate values
+          const transferMessage = `Transferring ${shares} shares of ${assetName} to an account in ${recipientPK}`;
+          document.getElementById("transfer-message").textContent = transferMessage;
           document.getElementById("walletconnect-screen").classList.add("show");
         } else {
           document.getElementById("account-error").textContent = "Invalid recipient account number. Please check and try again.";
@@ -164,6 +174,11 @@
         document.getElementById("account-error").textContent = "An error occurred. Please try again later.";
       }
     }
+    
+    
+    
+    
+    
   </script>
 </body>
 </html>
