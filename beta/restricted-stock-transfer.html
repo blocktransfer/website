@@ -114,7 +114,7 @@
   </div>
 
   <script>
-    async function validateAccountNumber(accountNumber) {
+    async function validateAccNumber(accountNumber) {
       try {
         const fedURL = `https://api.blocktransfer.com/federation?q=${accountNumber}*blocktransfer.com&type=name`;
         const response = await fetch(fedURL);
@@ -133,25 +133,27 @@
       
       const shares = document.getElementById("shares").value;
       const asset = document.getElementById("asset").value;
-      const transferTo = document.getElementById("transfer-to").value;
+      const recipientAccNum = document.getElementById("transfer-to").value;
+      
       if (parseFloat(shares) < 0.0000001) {
         document.getElementById("shares-error").textContent = "Number of shares must be at least 0.0000001.";
-        return false; // Prevent form submission
-      }
-      
-      const recipientPK = validateAccountNumber(transferTo);
-      if (recipientPK) {
-        localStorage.setItem("shares", shares);
-        localStorage.setItem("asset", asset);
-        localStorage.setItem("recipientPK", recipientPK);
-        document.getElementById("transfer-form").style.display = "none";
-        document.querySelector(".container").style.display = "none";
-        document.getElementById("walletconnect-screen").classList.add("show");
-      } else {
-        // Account number is invalid, display an error message
-        document.getElementById("account-error").textContent = "Invalid recipient account number. Please check and try again.";
-        event.preventDefault();
         return false;
+      }
+      try {
+        const recipientPK = await validateAccNumber(recipientAccNum);
+        if (recipientPK) {
+          localStorage.setItem("shares", shares);
+          localStorage.setItem("asset", asset);
+          localStorage.setItem("recipientPK", recipientPK);
+          document.getElementById("transfer-form").style.display = "none";
+          document.querySelector(".container").style.display = "none";
+          document.getElementById("walletconnect-screen").classList.add("show");
+        } else {
+          document.getElementById("account-error").textContent = "Invalid recipient account number. Please check and try again.";
+        }
+      } catch (error) {
+        console.error("Error:", error);
+        document.getElementById("account-error").textContent = "An error occurred. Please try again later.";
       }
     }
   </script>
