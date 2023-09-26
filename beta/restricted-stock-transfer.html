@@ -91,8 +91,8 @@
         </div>
         
         <div class="form-group">
-          <label for="asset">Select Asset to Transfer:</label>
-          <select id="asset" name="asset" required>
+          <label for="assets">Select Asset to Transfer:</label>
+          <select name="assets" id="code" required>
             <option value="1984803ORD">Laylor Corporation - Common Stock</option>
           </select>
         </div>
@@ -130,11 +130,9 @@
       // Clear previous error messages
       document.getElementById("shares-error").textContent = "";
       document.getElementById("account-error").textContent = "";
-      
-      const shares = document.getElementById("shares").value;
-      const asset = document.getElementById("asset").value;
       const recipientAccNum = document.getElementById("transfer-to").value;
-      
+      const shares = document.getElementById("shares").value;
+      const code = document.getElementById("assets").value;
       if (parseFloat(shares) < 0.0000001) {
         document.getElementById("shares-error").textContent = "Number of shares must be at least 0.0000001.";
         return false;
@@ -143,7 +141,7 @@
         const recipientPK = await validateAccNumber(recipientAccNum);
         if (recipientPK) {
           localStorage.setItem("shares", shares);
-          localStorage.setItem("asset", asset);
+          localStorage.setItem("code", code);
           localStorage.setItem("recipientPK", recipientPK);
           document.getElementById("transfer-form").style.display = "none";
           document.querySelector(".container").style.display = "none";
