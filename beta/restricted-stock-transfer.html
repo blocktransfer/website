@@ -40,19 +40,14 @@
       padding: 10px;
       margin-top: 5px;
       margin-bottom: 10px;
-      border-radius: 45px; /* Rounded corners for input fields and button */
+      border-radius: 45px;
       border: 1px solid #ccc;
-      text-align: center; /* Center text in input fields and button */
+      text-align: center;
     }
     
     select::before {
       content: "\f107";
-      font-family: FontAwesome;
-      position: absolute;
-      right: 15px;
-      top: 50%;
-      transform: translateY(-50%);
-      pointer-events: none; /* Prevent interaction with the arrow */
+      pointer-events: none;
       color: #AC51FF;
       font-size: 14px;
     }
@@ -162,7 +157,7 @@
           document.getElementById("transfer-form").style.display = "none";
       
           // Display the transfer message with the appropriate values
-          const transferMessage = `Transferring ${shares} shares of ${assetName} to an account in ${recipientPK}`;
+          const transferMessage = `Transferring ${shares} shares of ${assetName} to account number ${recipientAccNum}.`;
           document.getElementById("transfer-message").textContent = transferMessage;
           document.getElementById("walletconnect-screen").classList.add("show");
         } else {
