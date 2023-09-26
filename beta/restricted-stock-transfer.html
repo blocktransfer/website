@@ -119,7 +119,7 @@
         const apiUrl = `https://api.blocktransfer.com/federation?q=${accountNumber}*blocktransfer.com&type=name`;
         const response = await fetch(apiUrl);
         const data = await response.json();
-        return response.status === 200 ? (await response.json()).account_id || null : null;
+        return response.status === 200 ? data.account_id || null : null;
       } catch (error) {
         console.error("Federation Error", error);
         return null;
