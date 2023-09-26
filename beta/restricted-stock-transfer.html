@@ -1,181 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Restricted Stock Gift - Block Transfer Beta</title>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
+  <meta charset="UTF-8">
+  <title>Restricted Stock Gift - Block Transfer Beta</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
 
-        .container {
-            text-align: center;
-        }
+    .container {
+      text-align: center;
+    }
 
-        .main-body {
-            max-width: 400px; /* Fixed width for the main body enclosure */
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 45px; /* Rounded corners for the main body enclosure */
-        }
+    .main-body {
+      max-width: 400px; /* Fixed width for the main body enclosure */
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 45px; /* Rounded corners for the main body enclosure */
+    }
 
-        h1 {
-            font-size: 24px;
-            margin-bottom: 10px; /* Add a little space under the title */
-        }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px; /* Add a little space under the title */
+    }
 
-        .logo {
-            width: 220px;
-            margin-bottom: 20px;
-        }
+    .logo {
+      width: 220px;
+      margin-bottom: 20px;
+    }
 
-        .form-group {
-            margin-bottom: 20px;
-        }
+    .form-group {
+      margin-bottom: 20px;
+    }
 
-        select, input, button {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            margin-bottom: 10px;
-            border-radius: 45px; /* Rounded corners for input fields and button */
-            border: 1px solid #ccc;
-            text-align: center; /* Center text in input fields and button */
-        }
+    select, input, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      border-radius: 45px; /* Rounded corners for input fields and button */
+      border: 1px solid #ccc;
+      text-align: center; /* Center text in input fields and button */
+    }
 
-        input[type="number"], select, input[type="text"] {
-            width: 80%; /* Make all input fields the same width */
-        }
+    input[type="number"], select, input[type="text"] {
+      width: 80%; /* Make all input fields the same width */
+    }
 
-        button {
-            background-color: #AC51FF;
-            color: #fff;
-            border: none;
-            font-size: 16px;
-            font-weight: bold; /* Make the button text bold */
-            width: 40%; /* Make the button 40% wide */
-        }
+    button {
+      background-color: #AC51FF;
+      color: #fff;
+      border: none;
+      font-size: 16px;
+      font-weight: bold; /* Make the button text bold */
+      width: 40%; /* Make the button 40% wide */
+    }
 
-        #walletconnect-screen {
-            display: none; /* Initially hide the WalletConnect screen */
-        }
+    #walletconnect-screen {
+      display: none; /* Initially hide the WalletConnect screen */
+    }
 
-        #walletconnect-screen.show {
-            display: block; /* Display the WalletConnect screen when 'show' class is applied */
-        }
+    #walletconnect-screen.show {
+      display: block; /* Display the WalletConnect screen when 'show' class is applied */
+    }
 
-        .error {
-            color: red;
-            font-size: 12px;
-            margin-top: 5px;
-        }
-    </style>
+    .error {
+      color: red;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+  </style>
 </head>
 <body>
-    <a href="../index.html">
-        <img src="../logo.png" alt="Block Transfer" class="logo">
-    </a>
-    <div class="container">
-        <div class="main-body">
-            <h1>Restricted Stock Gift</h1> <!-- Updated title -->
-            <form id="transfer-form" onsubmit="return submitForm()">
-                <div class="form-group">
-                    <label for="shares">Number of Shares to Transfer:</label>
-                    <input type="number" id="shares" name="shares" step="0.0000001" required>
-                    <div class="error" id="shares-error"></div> <!-- Error message container -->
-                </div>
-                
-                <div class="form-group">
-                    <label for="asset">Select Asset to Transfer:</label>
-                    <select id="asset" name="asset" required>
-                        <option value="1984803ORD">Laylor Corporation - Common Stock</option>
-                    </select>
-                </div>
-                
-                <div class="form-group">
-                    <label for="transfer-to">Recipient Account Number:</label>
-                    <input type="text" id="transfer-to" name="transfer-to" required>
-                    <div class="error" id="account-error"></div> <!-- Error message container -->
-                </div>
-                
-                <button type="submit" id="continue-button">Continue ➡</button>
-            </form>
+  <a href="../index.html">
+    <img src="../logo.png" alt="Block Transfer" class="logo">
+  </a>
+  <div class="container">
+    <div class="main-body">
+      <h1>Restricted Stock Gift</h1> <!-- Updated title -->
+      <form id="transfer-form" onsubmit="return submitForm()">
+        <div class="form-group">
+          <label for="shares">Number of Shares to Transfer:</label>
+          <input type="number" id="shares" name="shares" step="0.0000001" required>
+          <div class="error" id="shares-error"></div> <!-- Error message container -->
         </div>
         
-        <div id="walletconnect-screen">
-            <h1>Scan with WalletConnect in Lobstr</h1> <!-- Updated title -->
-            <!-- Content for the WalletConnect screen goes here -->
+        <div class="form-group">
+          <label for="asset">Select Asset to Transfer:</label>
+          <select id="asset" name="asset" required>
+            <option value="1984803ORD">Laylor Corporation - Common Stock</option>
+          </select>
         </div>
+        
+        <div class="form-group">
+          <label for="transfer-to">Recipient Account Number:</label>
+          <input type="text" id="transfer-to" name="transfer-to" required>
+          <div class="error" id="account-error"></div> <!-- Error message container -->
+        </div>
+        
+        <button type="submit" id="continue-button">Continue ➡</button>
+      </form>
     </div>
+    
+    <div id="walletconnect-screen">
+      <h1>Scan with WalletConnect in Lobstr</h1> <!-- Updated title -->
+      <!-- Content for the WalletConnect screen goes here -->
+    </div>
+  </div>
 
-    <script>
-        async function validateAccountNumber(accountNumber) {
-            try {
-                const apiUrl = `https://api.blocktransfer.com/federation?q=${accountNumber}*blocktransfer.com&type=name`;
-                const response = await fetch(apiUrl);
-                const data = await response.json();
+  <script>
+    async function validateAccountNumber(accountNumber) {
+      try {
+        const apiUrl = `https://api.blocktransfer.com/federation?q=${accountNumber}*blocktransfer.com&type=name`;
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+        return response.status === 200 ? (await response.json()).account_id || null : null;
+      } catch (error) {
+        console.error("Federation Error", error);
+        return null;
+      }
+    }
 
-                if (response.status === 200) {
-                   const data = await response.json();
-                   
-                   if (data.account_id) {
-                       return data.account_id; // Return the recipient address
-                   } else {
-                  return null; // Account_id not present, return null
-                }
-                return null;
-            } catch (error) {
-                console.error(error);
-                return null;
-            }
-        }
+    function submitForm() {
+      // Clear previous error messages
+      document.getElementById("shares-error").textContent = "";
+      document.getElementById("account-error").textContent = "";
 
-        function submitForm() {
-            // Clear previous error messages
-            document.getElementById("shares-error").textContent = "";
-            document.getElementById("account-error").textContent = "";
+      // Get input values
+      const shares = parseFloat(document.getElementById("shares").value);
+      const asset = document.getElementById("asset").value;
+      const transferTo = document.getElementById("transfer-to").value;
 
-            // Get input values
-            const shares = parseFloat(document.getElementById("shares").value);
-            const asset = document.getElementById("asset").value;
-            const transferTo = document.getElementById("transfer-to").value;
+      // Validate number of shares
+      if (shares < 0.0000001) {
+        document.getElementById("shares-error").textContent = "Number of shares must be at least 0.0000001.";
+        return false; // Prevent form submission
+      }
 
-            // Validate number of shares
-            if (shares < 0.0000001) {
-                document.getElementById("shares-error").textContent = "Number of shares must be at least 0.0000001.";
-                return false; // Prevent form submission
-            }
+      // Perform custom validation for account number
+      const publicKey = validateAccountNumber(transferTo);
 
-            // Perform custom validation for account number
-            const publicKey = validateAccountNumber(transferTo);
+      if (publicKey) {
+        // Account number is valid, store values in localStorage
+        localStorage.setItem("shares", shares);
+        localStorage.setItem("asset", asset);
+        localStorage.setItem("recipientPublicKey", publicKey);
 
-            if (publicKey) {
-                // Account number is valid, store values in localStorage
-                localStorage.setItem("shares", shares);
-                localStorage.setItem("asset", asset);
-                localStorage.setItem("recipientPublicKey", publicKey);
+        // Hide the form
+        document.getElementById("transfer-form").style.display = "none";
 
-                // Hide the form
-                document.getElementById("transfer-form").style.display = "none";
+        // Hide the title
+        document.querySelector(".container").style.display = "none";
 
-                // Hide the title
-                document.querySelector(".container").style.display = "none";
+        // Show the WalletConnect screen
+        document.getElementById("walletconnect-screen").classList.add("show");
+      } else {
+        // Account number is invalid, display an error message
+        document.getElementById("account-error").textContent = "Invalid recipient account number. Please check and try again.";
+      }
 
-                // Show the WalletConnect screen
-                document.getElementById("walletconnect-screen").classList.add("show");
-            } else {
-                // Account number is invalid, display an error message
-                document.getElementById("account-error").textContent = "Invalid recipient account number. Please check and try again.";
-            }
-
-            // Return false to prevent form submission
-            return false;
-        }
-    </script>
+      // Return false to prevent form submission
+      return false;
+    }
+  </script>
 </body>
 </html>
