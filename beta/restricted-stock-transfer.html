@@ -145,7 +145,7 @@
       event.preventDefault();
       const recipientAccNum = document.getElementById("transfer-to").value;
       const shares = document.getElementById("shares").value;
-      const code = document.getElementById("assets").value;
+      const code = document.getElementById("code").value;
       if (parseFloat(shares) < 0.0000001) {
         document.getElementById("shares-error").textContent = "Number of shares must be at least 0.0000001.";
         return;
