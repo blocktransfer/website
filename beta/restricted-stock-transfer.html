@@ -124,6 +124,7 @@
 
   <script>
     async function validateAccNumber(accountNumber) {
+      event.preventDefault();
       try {
         const fedURL = `https://api.blocktransfer.com/federation?q=${accountNumber}*blocktransfer.com&type=name`;
         const response = await fetch(fedURL);
