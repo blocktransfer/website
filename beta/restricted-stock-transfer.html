@@ -15,9 +15,6 @@
 
     .container {
       text-align: center;
-    }
-
-    .main-body {
       max-width: 400px;
       padding: 20px;
       border: 1px solid #ccc;
@@ -93,8 +90,8 @@
     <img src="../logo.png" alt="Block Transfer" class="logo">
   </a>
   <div class="container">
-    <div class="main-body">
-      <h1>Restricted Stock Gift</h1> <!-- Updated title -->
+    <div>
+      <h1>Restricted Stock Gift</h1>
       <form id="transfer-form" onsubmit="return submitForm()">
         <div class="form-group">
           <label for="shares">Number of Shares to Transfer:</label>
@@ -157,7 +154,6 @@
           localStorage.setItem("code", code);
           localStorage.setItem("recipientPK", recipientPK);
           document.getElementById("transfer-form").style.display = "none";
-          document.querySelector(".container").style.display = "none";
           document.getElementById("walletconnect-screen").classList.add("show");
         } else {
           document.getElementById("account-error").textContent = "Invalid recipient account number. Please check and try again.";
