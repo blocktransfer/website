@@ -130,14 +130,11 @@
       // Clear previous error messages
       document.getElementById("shares-error").textContent = "";
       document.getElementById("account-error").textContent = "";
-
-      // Get input values
-      const shares = parseFloat(document.getElementById("shares").value);
+      
+      const shares = document.getElementById("shares").value;
       const asset = document.getElementById("asset").value;
       const transferTo = document.getElementById("transfer-to").value;
-
-      // Validate number of shares
-      if (shares < 0.0000001) {
+      if (parseFloat(shares) < 0.0000001) {
         document.getElementById("shares-error").textContent = "Number of shares must be at least 0.0000001.";
         return false; // Prevent form submission
       }
@@ -153,6 +150,7 @@
       } else {
         // Account number is invalid, display an error message
         document.getElementById("account-error").textContent = "Invalid recipient account number. Please check and try again.";
+        event.preventDefault();
         return false;
       }
     }
