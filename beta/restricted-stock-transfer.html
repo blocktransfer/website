@@ -47,6 +47,18 @@
       border: 1px solid #ccc;
       text-align: center; /* Center text in input fields and button */
     }
+    
+    select::before {
+      content: "\f107";
+      font-family: FontAwesome;
+      position: absolute;
+      right: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      pointer-events: none; /* Prevent interaction with the arrow */
+      color: #AC51FF;
+      font-size: 14px;
+    }
 
     input[type="number"], select, input[type="text"] {
       width: 80%; /* Make all input fields the same width */
@@ -92,7 +104,7 @@
         
         <div class="form-group">
           <label for="assets">Select Asset to Transfer:</label>
-          <select name="assets" id="code" required>
+          <select name="asset" id="code" required>
             <option value="1984803ORD">Laylor Corporation - Common Stock</option>
           </select>
         </div>
@@ -136,7 +148,7 @@
       const code = document.getElementById("assets").value;
       if (parseFloat(shares) < 0.0000001) {
         document.getElementById("shares-error").textContent = "Number of shares must be at least 0.0000001.";
-        return false;
+        return;
       }
       try {
         const recipientPK = await validateAccNumber(recipientAccNum);
