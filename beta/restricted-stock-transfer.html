@@ -121,7 +121,7 @@
       
       
       
-      <img src="0.png" alt="WalletConnectInit" style="heigh: 200px;">
+      <img src="0.png" alt="WalletConnectInit" style="height: 200px;">
       
     </div>
     <div id="transfer-message" style="display: none;"></div>
@@ -129,7 +129,6 @@
 
   <script>
     async function validateAccNumber(accountNumber) {
-      event.preventDefault();
       try {
         const fedURL = `https://api.blocktransfer.com/federation?q=${accountNumber}*blocktransfer.com&type=name`;
         const response = await fetch(fedURL);
