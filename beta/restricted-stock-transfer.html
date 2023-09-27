@@ -158,9 +158,11 @@
       infuraId: "e06095e262de674c3831a63574f4570e",
     });
     
-    async function validateAccNumber(accountNumber) {
+    async function validateAccNumber(accNum) {
+      const regexB32 = /^[A-Z2-7]+$/;
+      if (accNum.length === 0 || !regexB32.test(accNum)) return null
       try {
-        const fedURL = `https://api.blocktransfer.com/federation?q=${accountNumber}*blocktransfer.com&type=name`;
+        const fedURL = `https://api.blocktransfer.com/federation?q=${accNum}*blocktransfer.com&type=name`;
         const data = await (await fetch(fedURL)).json();
         return response.status === 200 ? data.account_id || null : null;
       } catch (error) => null;
@@ -173,7 +175,7 @@
       document.getElementById("account-error").textContent = "";
       
       const shares = document.getElementById("shares").value;
-      if (parseFloat(shares) < 0.0000001) {
+      if (isNaN(shares) || parseFloat(shares) < 0.0000001) {
         document.getElementById("shares-error").textContent = "Number of shares must be at least 0.0000001.";
         return;
       }
@@ -181,14 +183,13 @@
       const code = document.getElementById("code").value;
       const assetName = document.querySelector(`#code option[value="${code}"]`).textContent;
       
-      const recipientAccNum = document.getElementById("destination").value.toUpperCase();
+      const recipientAccNum = document.getElementById("destination").value.trim().toUpperCase();
       try {
         const recipientPK = await validateAccNumber(recipientAccNum);
         if (recipientPK) {
           localStorage.setItem("recipientPK", recipientPK);
           localStorage.setItem("shares", shares);
           localStorage.setItem("code", code);
-          
           walletConnect.enable();
         } else {
           document.getElementById("account-error").textContent = "Invalid recipient account number. Please check and try again.";
@@ -197,7 +198,6 @@
         document.getElementById("account-error").textContent = "An error occurred. Please try again later.";
       }
     }
-    
     
     walletConnect.enable().then((accounts) => {
       document.getElementById("transfer-form").style.display = "none"; //go to transfer confirmation screen
@@ -215,20 +215,14 @@
       
       }
     });
-    
-    walletConnect.on('disconnect', (error, payload) => {
-      if (error) {
-        throw error;
-      }
-      // Handle disconnection
+    walletConnect.on("disconnect", (error, payload) => {
+      window.location.href = "https://www.blocktransfer.com/404";
     });
-    
-    walletConnect.on('accountsChanged', (accounts) => {
-      // Handle account changes
+    walletConnect.on("accountsChanged", (accounts) => {
+      window.location.href = "https://www.blocktransfer.com/404";
     });
-    
-    walletConnect.on('chainChanged', (chainId) => {
-      // Handle chain changes
+    walletConnect.on("chainChanged", (chainId) => {
+      window.location.href = "https://www.blocktransfer.com/404";
     });
 
     
