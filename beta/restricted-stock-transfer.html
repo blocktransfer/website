@@ -5,27 +5,23 @@
   <title>Restricted Stock Gift - Block Transfer Beta</title>
   <script src="https://cdn.jsdelivr.net/npm/@walletconnect/web3-provider@1.4.0/dist/index.umd.min.js"></script>
   <style>
-    
     ::selection {
       color: #AC51FF;
       background: yellow;
     }
-    
     body {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       height: 100vh;
-      margin: 0;
+      font-size: 20px;
     }
-
     .container {
       text-align: center;
-      max-width: 400px;
       padding: 20px;
       border: 1px solid #ccc;
-      border-radius: 45px;
+      border-radius: 25px;
     }
 
     h1 {
@@ -56,12 +52,7 @@
     input {
       font-family: Courier, monospace;
       text-transform: uppercase;
-      font-size: 14px;
-    }
-    
-    select option {
-      margin: 0;
-      padding: 0;
+      font-size: 22px;
     }
     
     option:checked {
@@ -77,12 +68,8 @@
       width: 40%;
     }
 
-    #walletconnect-screen {
-      display: none; /* Initially hide the WalletConnect screen */
-    }
-
     #walletconnect-screen.show {
-      display: block; /* Display the WalletConnect screen when 'show' class is applied */
+      display: block;
     }
 
     .error {
@@ -99,42 +86,34 @@
     <img src="../logo.png" alt="Block Transfer" style="width: 220px; margin-bottom: 20px;">
   </a>
   <div class="container">
-    <div>
-      <h1>Restricted Stock Gift</h1>
-      <form id="transfer-form" onsubmit="return submitForm()">
-        <div class="form-group">
-          <label for="shares">Number of Shares to Transfer:</label>
-          <input type="number" id="shares" name="shares" step="0.0000001" required>
-          <div class="error" id="shares-error"></div>
-        </div>
-        
-        <div class="form-group">
-          <label for="code">Select Asset to Transfer:</label>
-          <select style="text-align: left; text-indent: .5em;" name="asset" id="code" required>
-            <option value="1984803ORD">Laylor Corporation - Common Stock</option>
-          </select>
-        </div>
-        
-        <div class="form-group">
-          <label for="transfer-to">Recipient Account Number:</label>
-          <input type="text" id="destination" name="transfer-to" required>
-          <div class="error" id="account-error"></div>
-        </div>
-        
-        <button type="submit" id="continue-button">Continue ➡</button>
-      </form>
-    </div>
-    
-    <div id="walletconnect-screen">
+    <h1>Restricted Stock Gift</h1>
+    <form id="transfer-form" onsubmit="return submitForm()">
+      <div class="form-group">
+        <label for="shares">Number of Shares to Transfer:</label>
+        <input type="number" id="shares" name="shares" step="0.0000001" required>
+        <div class="error" id="shares-error"></div>
+      </div>
+      <div class="form-group">
+        <label for="code">Select Asset to Transfer:</label>
+        <select name="asset" id="code" required>
+          <option value="1984803ORD">Laylor Corporation - Common Stock</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="transfer-to">Recipient Account Number:</label>
+        <input type="text" id="destination" name="transfer-to" required>
+        <div class="error" id="account-error"></div>
+      </div>
+      <button type="submit" id="continue-button">Continue ➡</button>
+    </form>
+    <div id="walletconnect-screen" style="display: none;">
       <p>Scan with WalletConnect in Lobstr</p>
       
       
+      <img src="qr.png" alt="Wallet Connect Here" style="height: 200px;">
       
       
-      <img src="/../icon.png" alt="WalletConnectInit" style="height: 200px;">
-      
-      
-      <div id="transfer-message" style="display: none;"></div>
+      <div id="transfer-message"></div>
     </div>
   </div>
 
