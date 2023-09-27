@@ -195,11 +195,12 @@
           localStorage.setItem("recipientPK", recipientPK);
           localStorage.setItem("shares", shares);
           localStorage.setItem("code", code);
-          walletConnect.enable();
         } else {
           document.getElementById("account-error").textContent = "Invalid account number. Please check and try again.";
+          return;
         }
       } catch (error) {
+        console.error("Storage Error:", error)
         document.getElementById("account-error").textContent = "An error occurred. Please try again later.";
       }
     }
