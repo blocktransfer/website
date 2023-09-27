@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Restricted Stock Gift - Block Transfer Beta</title>
-  <script src="https://cdn.jsdelivr.net/npm/@walletconnect/web3-provider@1.4.0/dist/index.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@walletconnect/web3-walletConnect@1.4.0/dist/index.umd.min.js"></script>
   <style>
     
     ::selection {
@@ -136,8 +136,7 @@
       <p>Scan with WalletConnect in Lobstr</p>
       
       
-      <w3m-button />
-      <script type="module" src="main.js"></script>
+      
       
       <img src="/../icon.png" alt="WalletConnectInit" style="height: 200px;">
       
@@ -147,7 +146,7 @@
   </div>
 
   <script>
-    const provider = new WalletConnectProvider({
+    const walletConnect = new WalletConnectwalletConnect({
       infuraId: "e06095e262de674c3831a63574f4570e",
     });
     
@@ -188,7 +187,7 @@
           const transferMessage = `Transferring ${shares} shares of ${assetName} to account number ${recipientAccNum}.`;
           document.getElementById("transfer-message").textContent = transferMessage;
           document.getElementById("walletconnect-screen").classList.add("show");
-          provider.enable();
+          walletConnect.enable();
         } else {
           document.getElementById("account-error").textContent = "Invalid recipient account number. Please check and try again.";
         }
@@ -199,19 +198,29 @@
     }
     
     
+    walletConnect.enable().then((accounts) => {
+      if (accounts.length > 0) {
+        const stellarAddress = accounts[0]; // The user's Stellar address
     
-    provider.on('disconnect', (error, payload) => {
+        // Now you can work with the Stellar address
+        console.log(`Stellar Pubnet address: ${stellarAddress}`);
+        
+      
+      }
+    });
+    
+    walletConnect.on('disconnect', (error, payload) => {
       if (error) {
         throw error;
       }
       // Handle disconnection
     });
     
-    provider.on('accountsChanged', (accounts) => {
+    walletConnect.on('accountsChanged', (accounts) => {
       // Handle account changes
     });
     
-    provider.on('chainChanged', (chainId) => {
+    walletConnect.on('chainChanged', (chainId) => {
       // Handle chain changes
     });
 
