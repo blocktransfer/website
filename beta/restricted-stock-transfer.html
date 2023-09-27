@@ -166,7 +166,8 @@
         const data = await (await fetch(fedURL)).json();
         return response.status === 200 ? data.account_id || null : null;
       } catch (error) {
-        window.location.href = "https://www.blocktransfer.com/404?int";
+        return null;
+        // window.location.href = "https://www.blocktransfer.com/404?int";
       }
     }
     
