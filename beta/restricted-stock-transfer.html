@@ -188,7 +188,9 @@
       try {
         const recipientPK = await validateAccNumber(recipientAccNum);
         if (recipientPK) {
+          localStorage.setItem("recipientAccNum", recipientAccNum);
           localStorage.setItem("recipientPK", recipientPK);
+          localStorage.setItem("assetName", assetName);
           localStorage.setItem("shares", shares);
           localStorage.setItem("code", code);
         } else {
@@ -197,14 +199,12 @@
         }
       } catch (error) {
         document.getElementById("account-error").textContent = "An error occurred. Please try again later.";
-        console.log("e", error)
         return;
       }
       await loadWalletConnectAcc();
-      loadTransferConfirmationPg(shares, code, assetName, recipientAccNum, recipientPK);
     }
     
-    function loadTransferConfirmationPg(shares, code, assetName, recipientAccNum, recipientPK) {
+    function loadTransferConf(shares, code, assetName, recipientAccNum, recipientPK) {
       document.getElementById("transfer-form").style.display = "none"; //go to transfer confirmation screen
       const transferMessage = `Transferring ${shares} shares of ${assetName} to account number ${recipientAccNum}.`;
       document.getElementById("transfer-message").textContent = transferMessage;
