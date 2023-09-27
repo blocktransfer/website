@@ -160,14 +160,13 @@
     
     async function validateAccNumber(accNum) {
       const regexB32 = /^[A-Z2-7]+$/;
-      if (!accNum || !regexB32.test(accNum)) return null;
+      if (!regexB32.test(accNum)) return null;
       try {
         const fedURL = `https://api.blocktransfer.com/federation?q=${accNum}*blocktransfer.com&type=name`;
         const data = await (await fetch(fedURL)).json();
         return response.status === 200 ? data.account_id || null : null;
       } catch (error) {
-        return null;
-        // window.location.href = "https://www.blocktransfer.com/404?int";
+        window.location.href = "https://www.blocktransfer.com/404?int";
       }
     }
     
@@ -179,7 +178,7 @@
       document.getElementById("account-error").textContent = "";
       
       const shares = document.getElementById("shares").value;
-      if (isNaN(shares) || parseFloat(shares) < 0.0000001) {
+      if (parseFloat(shares) < 0.0000001) {
         document.getElementById("shares-error").textContent = "Number of shares must be at least 0.0000001.";
         return;
       }
