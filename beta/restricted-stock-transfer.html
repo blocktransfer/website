@@ -153,15 +153,11 @@
     async function validateAccNumber(accountNumber) {
       try {
         const fedURL = `https://api.blocktransfer.com/federation?q=${accountNumber}*blocktransfer.com&type=name`;
-        const response = await fetch(fedURL);
-        const data = await response.json();
+        const data = await (await fetch(fedURL)).json();
         return response.status === 200 ? data.account_id || null : null;
-      } catch (error) {
-        console.error("Federation Error", error);
-        return null;
-      }
+      } catch (error) => null;
     }
-
+    
     async function submitForm() {
       event.preventDefault();
       // Clear previous error messages
@@ -195,7 +191,6 @@
           document.getElementById("account-error").textContent = "Invalid recipient account number. Please check and try again.";
         }
       } catch (error) {
-        console.error("Error:", error);
         document.getElementById("account-error").textContent = "An error occurred. Please try again later.";
       }
     }
