@@ -20,7 +20,7 @@
     }
     .container {
       width: 80%;
-      max-width: 500px;
+      max-width: 550px;
       text-align: center;
       padding: 20px;
       border: 1px solid #ccc;
@@ -89,7 +89,7 @@
       background-color: #AC51FF;
     }
 
-    #walletconnect-screen.show {
+    #xfer-conf.show {
       display: block;
     }
 
@@ -113,7 +113,7 @@
   </a>
   <h1>Restricted Stock Gift</h1>
   <div class="container">
-    <h2>Send with Lobstr:</h2>
+    <h2>Send in Lobstr with ☰ > WalletConnect:</h2>
     <form id="transfer-form" onsubmit="return submitForm()">
       <div>
         <label for="code">Stock to Transfer:</label>
@@ -133,7 +133,7 @@
       </div>
       <button type="submit" id="continue-button">Continue ➡</button>
     </form>
-    <div id="walletconnect-screen" style="display: none;">
+    <div id="xfer-conf" style="display: none;">
       <p>Scan with ☰ > WalletConnect</p>
       
       
@@ -180,12 +180,7 @@
           localStorage.setItem("recipientPK", recipientPK);
           localStorage.setItem("shares", shares);
           localStorage.setItem("code", code);
-          document.getElementById("transfer-form").style.display = "none";
           
-          // Display the transfer message with the appropriate values
-          const transferMessage = `Transferring ${shares} shares of ${assetName} to account number ${recipientAccNum}.`;
-          document.getElementById("transfer-message").textContent = transferMessage;
-          document.getElementById("walletconnect-screen").classList.add("show");
           walletConnect.enable();
         } else {
           document.getElementById("account-error").textContent = "Invalid recipient account number. Please check and try again.";
@@ -197,9 +192,15 @@
     
     
     walletConnect.enable().then((accounts) => {
+      document.getElementById("transfer-form").style.display = "none"; //go to transfer confirmation screen
+      const transferMessage = `Transferring ${shares} shares of ${assetName} to account number ${recipientAccNum}.`;
+      document.getElementById("transfer-message").textContent = transferMessage;
+      document.getElementById("xfer-conf").classList.add("show");
+      
+      // get from stellar:pubnet
       if (accounts.length > 0) {
         const stellarAddress = accounts[0]; // The user's Stellar address
-    
+        
         // Now you can work with the Stellar address
         console.log(`Stellar Pubnet address: ${stellarAddress}`);
         
