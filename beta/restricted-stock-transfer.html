@@ -6,6 +6,9 @@
   <script src="https://cdn.jsdelivr.net/npm/@walletconnect/web3-provider@1.4.0/dist/index.umd.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <style>
+    a {
+      color: #AC51FF;
+    }
     ::selection {
       color: #AC51FF;
       background: yellow;
@@ -17,6 +20,7 @@
       justify-content: center;
       height: 100vh;
       font-size: 21px;
+      font-family: Montserrat;
     }
     .container {
       width: 80%;
@@ -26,27 +30,20 @@
       border: 1px solid #ccc;
       border-radius: 25px;
     }
-
     h1 {
       font-size: 28px;
       margin-bottom: 35px;
-      font-family: Montserrat;
     }
-    
     h2 {
       font-size: 22px;
       margin-top: 5px;
       margin-bottom: -10px;
-      font-family: Montserrat;
     }
-
     label {
       display: block;
       font-size: 18px;
       margin-top: 35px;
-      font-family: Montserrat;
     }
-
     select, input, button {
       padding: 10px;
       margin-top: 5px;
@@ -143,7 +140,7 @@
       <div id="transfer-message"></div>
     </div>
   </div>
-  <p style="margin-top: 30px;">Gifts are permanent.</p>
+  <p style="margin-top: 30px; font-size: 14pt; font-family: Georgia;">© Block Transfer 2023. All right reserved. <a href="/../terms.html">Usage terms</a>. Gifts are permanent.</p>
 
   <script>
     const walletConnect = new WalletConnectProvider({
