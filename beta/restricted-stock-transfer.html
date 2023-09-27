@@ -124,7 +124,7 @@
         
         <div class="form-group">
           <label for="transfer-to">Recipient Account Number:</label>
-          <input type="text" id="transfer-to" name="transfer-to" style="font-family: Courier, monospace; text-transform: uppercase;" required>
+          <input type="text" id="destination" name="transfer-to" style="font-family: Courier, monospace; text-transform: uppercase;" required>
           <div class="error" id="account-error"></div>
         </div>
         
@@ -174,7 +174,7 @@
       const code = document.getElementById("code").value;
       const assetName = document.querySelector(`#code option[value="${code}"]`).textContent;
       
-      const recipientAccNum = document.getElementById("transfer-to").value;
+      const recipientAccNum = document.getElementById("destination").value.toUpperCase();
       try {
         const recipientPK = await validateAccNumber(recipientAccNum);
         if (recipientPK) {
