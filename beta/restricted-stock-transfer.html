@@ -206,38 +206,16 @@
         console.error("Storage Error:", error)
         document.getElementById("account-error").textContent = "An error occurred. Please try again later.";
       }
-      loadWalletConnectAcc();
+      await loadWalletConnectAcc();
+      loadTransferConfirmationPg();
     }
     
-    def loadWalletConnect;
-      walletConnect.enable().then((accounts) => {
+    function loadTransferConfirmationPg() {
       document.getElementById("transfer-form").style.display = "none"; //go to transfer confirmation screen
       const transferMessage = `Transferring ${shares} shares of ${assetName} to account number ${recipientAccNum}.`;
       document.getElementById("transfer-message").textContent = transferMessage;
       document.getElementById("xfer-conf").classList.add("show");
-      
-      // get from stellar:pubnet
-      if (accounts.length > 0) {
-        const stellarAddress = accounts[0]; // The user's Stellar address
-        
-        // Now you can work with the Stellar address
-        console.log(`Stellar Pubnet address: ${stellarAddress}`);
-        
-      
-      }
-    });
-    walletConnect.on("disconnect", (error, payload) => {
-      window.location.href = "https://www.blocktransfer.com/404?wc-con";
-    });
-    walletConnect.on("accountsChanged", (accounts) => {
-      window.location.href = "https://www.blocktransfer.com/404?wc-mod";
-    });
-    walletConnect.on("chainChanged", (chainId) => {
-      window.location.href = "https://www.blocktransfer.com/404?wc-xcc";
-    });
-
-    
-    
+    }
   </script>
 </body>
 </html>
