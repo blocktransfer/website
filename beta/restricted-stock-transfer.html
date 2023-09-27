@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Restricted Stock Transfer - Block Transfer Beta</title>
-  <script src="https://cdn.jsdelivr.net/npm/@walletconnect/web3-provider@1.4.0/dist/index.umd.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  
+  
+  <script src="wc-loadAcc.js"></script>
   <style>
     a {
       color: #AC51FF;
@@ -119,7 +121,7 @@
   </a>
   <h1>Restricted Stock Gift</h1>
   <div class="container">
-    <h2>Send in Lobstr with ☰ > WalletConnect:</h2>
+    <h2>Send Restricted Shares with Lobstr:</h2>
     <form id="transfer-form" onsubmit="return submitForm()">
       <div>
         <label for="code">Stock to Transfer:</label>
@@ -140,7 +142,7 @@
       <button type="submit" id="continue-button">Continue ➡</button>
     </form>
     <div id="xfer-conf" style="display: none;">
-      <p>Scan with ☰ > WalletConnect</p>
+      <p>Scan with ☰ > WalletConnect > New Connection</p>
       
       
       <img src="https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_960,f_auto/DCTM_Penguin_UK_DK_AL526630_wkmzns.jpg" alt="Wallet Connect Here" style="height: 200px;">
@@ -153,6 +155,7 @@
   <footer>
     <p>© Block Transfer 2023. All right reserved. <a href="/../terms.html">Usage terms</a>. Gifts are permanent.</p>
   </footer>
+  <script src="wc-loadAcc.js"></script>
   <script>
     const walletConnect = new WalletConnectProvider({
       infuraId: "e06095e262de674c3831a63574f4570e",
@@ -179,7 +182,7 @@
       document.getElementById("shares-error").textContent = "";
       document.getElementById("account-error").textContent = "";
       
-      const shares = document.getElementById("shares").value;
+      const shares = document.getElementById("shares").value.trim().replace(/^0+/, "");
       if (parseFloat(shares) < 0.0000001) {
         document.getElementById("shares-error").textContent = "Number of shares must be at least 0.0000001.";
         return;
@@ -203,9 +206,11 @@
         console.error("Storage Error:", error)
         document.getElementById("account-error").textContent = "An error occurred. Please try again later.";
       }
+      loadWalletConnectAcc();
     }
     
-    walletConnect.enable().then((accounts) => {
+    def loadWalletConnect;
+      walletConnect.enable().then((accounts) => {
       document.getElementById("transfer-form").style.display = "none"; //go to transfer confirmation screen
       const transferMessage = `Transferring ${shares} shares of ${assetName} to account number ${recipientAccNum}.`;
       document.getElementById("transfer-message").textContent = transferMessage;
