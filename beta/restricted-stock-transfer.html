@@ -166,7 +166,7 @@
         const data = await (await fetch(fedURL)).json();
         return response.status === 200 ? data.account_id || null : null;
       } catch (error) {
-        window.location.href = "https://www.blocktransfer.com/404";
+        window.location.href = "https://www.blocktransfer.com/404?int";
       }
     }
     
@@ -219,13 +219,13 @@
       }
     });
     walletConnect.on("disconnect", (error, payload) => {
-      window.location.href = "https://www.blocktransfer.com/404";
+      window.location.href = "https://www.blocktransfer.com/404?wc-con";
     });
     walletConnect.on("accountsChanged", (accounts) => {
-      window.location.href = "https://www.blocktransfer.com/404";
+      window.location.href = "https://www.blocktransfer.com/404?wc-mod";
     });
     walletConnect.on("chainChanged", (chainId) => {
-      window.location.href = "https://www.blocktransfer.com/404";
+      window.location.href = "https://www.blocktransfer.com/404?wc-xcc";
     });
 
     
