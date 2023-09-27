@@ -197,7 +197,7 @@
           localStorage.setItem("code", code);
           walletConnect.enable();
         } else {
-          document.getElementById("account-error").textContent = "Invalid recipient account number. Please check and try again.";
+          document.getElementById("account-error").textContent = "Invalid account number. Please check and try again.";
         }
       } catch (error) {
         document.getElementById("account-error").textContent = "An error occurred. Please try again later.";
