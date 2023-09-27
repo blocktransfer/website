@@ -1,38 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Time Zone Policy - Block Transfer</title>
+  <title>Time Zone Policy</title>
   <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
-<body>
+<body class="conditions">
   <h1>Coordinated Universal Time</h1>
-    <p>At Block Transfer, we rely on Coordinated Universal Time (UTC) as our reference time standard. Our commitment to using UTC ensures consistency and precision in all our operations, ultimately safeguarding your investments.</p>
+  
+  <p>At Block Transfer, we rely on Coordinated Universal Time (UTC) as our reference time standard. Our commitment to using UTC ensures consistency and precision in all our operations, ultimately safeguarding your investments.</p>
   
   <h2>Stock Split Policy</h2>
-  
     <h3>Execution Day Procedures</h3>
-    
       <p>When it comes to stock splits, we synchronize our processes with UTC to maintain accuracy. We freeze all asset activity the day before a split becomes effective at or about 22:00:00 UTC (strictly after). During the next two hours, we effect the split. We unfreeze accounts the day the split is effective beginning at 0:00:00 UTC (not to exceed 2:00:00 UTC).</p>
     
     <h3>No Extended Denial of Transfers</h3>
-    
       <p>We find these operations in accordance with Rule 17Ad-15 since the account freeze in question (i) does not last longer than three business days, (ii) affects all investors equally, and (iii) notifies investors immediately of transfer requests rejected because of frozen split processing via our app.</p>
     
     <h3>History</h3>
-    
       <p>For transparency and precision, we provide access to past split records at blocktransfer.com/splits/{{assetCode}}.toml, when splits for such asset exist.</p>
     
   <h2>Basis Date for Legacy Shares used for Rule 144</h2>
-  
     <p>When dealing with restricted stock, we adhere to Rule 144 holding periods. In cases where only a date aquired is known, as generally provided in good faith by issuers, we assume the time aquired to be the next day at 0:00:00 UTC, using this as the base date and time for the legend removal of such shares. Futher, if an aquisition date is nether known nor provided by an investor, we will base the start of the holding period on the date and time we receive a final investor list from clients.</p>
   
   <h2>Record Date Policy</h2>
-  
     <p>We record all investor balances at a ledger closed between 0:00:00 UTC and 0:07:00 UTC (inclusive) on the day after the record date. If you transfer shares from 0:00:00 to 0:07:00 UTC before our record date snapshot executes, then you will not be considered a holder of record on the previous day.</p>
   
   <h2>Ex-Dividend Dates</h2>
-  
     <p>We do not observe ex-dividend dates.</p>
-
 </body>
 </html>

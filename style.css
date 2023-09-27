@@ -22,3 +22,8 @@ body {
   justify-content: center;
   font-family: "Georgia", serif;
 }
+.conditions {
+  justify-content: left;
+  text-align: justify;
+  padding: 40pt; 
+}
