@@ -175,20 +175,15 @@
     
     async function submitForm() {
       event.preventDefault(); 
-      
-      // Clear previous error messages
       document.getElementById("shares-error").textContent = "";
       document.getElementById("account-error").textContent = "";
-      
       const shares = document.getElementById("shares").value.trim().replace(/^0+/, "");
       if (parseFloat(shares) < 0.0000001) {
         document.getElementById("shares-error").textContent = "Number of shares must be at least 0.0000001.";
         return;
       }
-      
       const code = document.getElementById("code").value;
       const assetName = document.querySelector(`#code option[value="${code}"]`).textContent;
-      
       const recipientAccNum = document.getElementById("destination").value.trim().toUpperCase();
       try {
         const recipientPK = await validateAccNumber(recipientAccNum);
@@ -206,10 +201,10 @@
         return;
       }
       await loadWalletConnectAcc();
-      loadTransferConfirmationPg();
+      loadTransferConfirmationPg(shares, code, assetName, recipientAccNum, recipientPK);
     }
     
-    function loadTransferConfirmationPg() {
+    function loadTransferConfirmationPg(shares, code, assetName, recipientAccNum, recipientPK) {
       document.getElementById("transfer-form").style.display = "none"; //go to transfer confirmation screen
       const transferMessage = `Transferring ${shares} shares of ${assetName} to account number ${recipientAccNum}.`;
       document.getElementById("transfer-message").textContent = transferMessage;
