@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Restricted Stock Gift - Block Transfer Beta</title>
+  <script src="https://cdn.jsdelivr.net/npm/@walletconnect/web3-provider@1.4.0/dist/index.umd.min.js"></script>
   <style>
     
     ::selection {
@@ -145,6 +146,10 @@
   </div>
 
   <script>
+    const provider = new WalletConnectProvider({
+      infuraId: "e06095e262de674c3831a63574f4570e",
+    });
+    
     async function validateAccNumber(accountNumber) {
       try {
         const fedURL = `https://api.blocktransfer.com/federation?q=${accountNumber}*blocktransfer.com&type=name`;
@@ -177,11 +182,12 @@
           localStorage.setItem("shares", shares);
           localStorage.setItem("code", code);
           document.getElementById("transfer-form").style.display = "none";
-      
+          
           // Display the transfer message with the appropriate values
           const transferMessage = `Transferring ${shares} shares of ${assetName} to account number ${recipientAccNum}.`;
           document.getElementById("transfer-message").textContent = transferMessage;
           document.getElementById("walletconnect-screen").classList.add("show");
+          provider.enable();
         } else {
           document.getElementById("account-error").textContent = "Invalid recipient account number. Please check and try again.";
         }
@@ -193,6 +199,21 @@
     
     
     
+    provider.on('disconnect', (error, payload) => {
+      if (error) {
+        throw error;
+      }
+      // Handle disconnection
+    });
+    
+    provider.on('accountsChanged', (accounts) => {
+      // Handle account changes
+    });
+    
+    provider.on('chainChanged', (chainId) => {
+      // Handle chain changes
+    });
+
     
     
   </script>
