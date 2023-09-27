@@ -32,11 +32,6 @@
       margin-bottom: 30px;
     }
 
-    .logo {
-      width: 220px;
-      margin-bottom: 20px;
-    }
-
     .form-group {
       margin-bottom: 20px;
     }
@@ -63,7 +58,6 @@
     }
     
     select::before {
-      
       pointer-events: none;
       color: #AC51FF;
       font-size: 14px;
@@ -99,7 +93,7 @@
 </head>
 <body>
   <a href="../index.html">
-    <img src="../logo.png" alt="Block Transfer" class="logo">
+    <img src="../logo.png" alt="Block Transfer" style="width: 220px; margin-bottom: 20px;" href="https://blocktransfer.com/beta/restricted-stock-transfer">
   </a>
   <div class="container">
     <div>
@@ -113,7 +107,7 @@
         
         <div class="form-group">
           <label for="code">Select Asset to Transfer:</label>
-          <select name="asset" id="code" required>
+          <select style="text-align: left; text-indent: .5em;" name="asset" id="code" required>
             <option value="1984803ORD">Laylor Corporation - Common Stock</option>
             <option value="1984803PRF">Laylor Corporation - Preffered Stock</option>
           </select>
