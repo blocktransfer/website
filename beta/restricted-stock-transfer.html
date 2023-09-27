@@ -53,22 +53,15 @@
       -webkit-box-sizing: border-box;
     }
     
+    input {
+      font-family: Courier, monospace;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+    
     select option {
       margin: 0;
       padding: 0;
-    }
-    
-    select::after {
-      pointer-events: none;
-      color: #AC51FF;
-      font-size: 14px;
-      border-left: 6px solid transparent;
-      border-right: 6px solid transparent;
-      border-top: 6px solid #f00;
-      position: absolute;
-      top: 55%;
-      right: 50px;
-      content: "";
     }
     
     option:checked {
@@ -124,7 +117,7 @@
         
         <div class="form-group">
           <label for="transfer-to">Recipient Account Number:</label>
-          <input type="text" id="destination" name="transfer-to" style="font-family: Courier, monospace; text-transform: uppercase;" required>
+          <input type="text" id="destination" name="transfer-to" required>
           <div class="error" id="account-error"></div>
         </div>
         
