@@ -163,7 +163,7 @@
     
     async function validateAccNumber(accNum) {
       const regexB32 = /^[A-Z2-7]+$/;
-      if (isB32.test(accNum)) {
+      if (regexB32.test(accNum)) {
         return fetch(`https://api.blocktransfer.com/federation?q=${accNum}*blocktransfer.com&type=name`)
         .then(response => {
           if (response.status === 200) {
