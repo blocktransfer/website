@@ -163,11 +163,11 @@
       if (!regexB32.test(accNum)) return null;
       try {
         const fedURL = `https://api.blocktransfer.com/federation?q=${accNum}*blocktransfer.com&type=name`;
-        const data = await (await fetch(fedURL)).json();
+        const response = await fetch(fedURL)
+        const data = await response.json();
         return response.status === 200 ? data.account_id || null : null;
       } catch (error) {
-        console.error("FED ERR:", error)
-        return null; //window.location.href = "https://www.blocktransfer.com/404?int";
+        window.location.href = "https://www.blocktransfer.com/404";
       }
     }
     
