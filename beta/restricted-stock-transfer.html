@@ -167,7 +167,8 @@
         const data = await response.json();
         return response.status === 200 ? data.account_id || null : null;
       } catch (error) {
-        window.location.href = "https://www.blocktransfer.com/404";
+        console.error("Federation Unresolved:", error)
+        return null;
       }
     }
     
