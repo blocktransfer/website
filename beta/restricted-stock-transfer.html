@@ -163,15 +163,13 @@
     
     async function validateAccNumber(accNum) {
       const regexB32 = /^[A-Z2-7]+$/;
-      if (!regexB32.test(accNum)) return null;
-      try {
-        const fedURL = `https://api.blocktransfer.com/federation?q=${accNum}*blocktransfer.com&type=name`;
-        const response = await fetch(fedURL)
-        const data = await response.json();
-        return response.status === 200 ? data.account_id || null : null;
-      } catch (error) {
-        console.error("Federation Unresolved:", error)
-        return null;
+      if (regexB32.test(accNum)) {
+        return fetch(`https://api.blocktransfer.com/federation?q=${accNum}*blocktransfer.com&type=name`)
+        .then(response => {
+          if (response.status === 200) {
+            return response.text().then(data => data.account_id || null);
+          }
+        });
       }
     }
     
@@ -203,7 +201,6 @@
           return;
         }
       } catch (error) {
-        console.error("Storage Error:", error)
         document.getElementById("account-error").textContent = "An error occurred. Please try again later.";
       }
       await loadWalletConnectAcc();
