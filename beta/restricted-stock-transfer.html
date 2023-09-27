@@ -153,7 +153,10 @@
       document.getElementById("account-error").textContent = "";
       
       const shares = document.getElementById("shares").value;
-      if (parseFloat(shares) < 0.0000001) document.getElementById("shares-error").textContent = "Number of shares must be at least 0.0000001.";
+      if (parseFloat(shares) < 0.0000001) {
+        document.getElementById("shares-error").textContent = "Number of shares must be at least 0.0000001.";
+        return;
+      }
       
       const code = document.getElementById("code").value;
       const assetName = document.querySelector(`#code option[value="${code}"]`).textContent;
