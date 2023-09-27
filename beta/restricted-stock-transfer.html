@@ -14,6 +14,8 @@
       background: yellow;
     }
     body {
+      margin: 0;
+      padding: 0; 
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -102,6 +104,13 @@
       left: 20px;
       width: 220px;
     }
+    footer {
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      font-size: 14pt;
+      font-family: Georgia;
+    }
   </style>
 </head>
 <body>
@@ -140,8 +149,10 @@
       <div id="transfer-message"></div>
     </div>
   </div>
-  <p style="margin-top: 30px; font-size: 14pt; font-family: Georgia;">© Block Transfer 2023. All right reserved. <a href="/../terms.html">Usage terms</a>. Gifts are permanent.</p>
-
+  
+  <footer>
+    <p>© Block Transfer 2023. All right reserved. <a href="/../terms.html">Usage terms</a>. Gifts are permanent.</p>
+  </footer>
   <script>
     const walletConnect = new WalletConnectProvider({
       infuraId: "e06095e262de674c3831a63574f4570e",
