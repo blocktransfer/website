@@ -26,7 +26,7 @@
 
     h1 {
       font-size: 28px;
-      margin-bottom: 30px;
+      margin-bottom: 35px;
     }
 
     .form-group {
@@ -85,25 +85,31 @@
       font-weight: bold;
     }
     
+    #logo {
+      position: absolute;
+      top: 25px;
+      left: 20px;
+      width: 220px;
+    }
   </style>
 </head>
 <body>
-  <a href="https://blocktransfer.com/beta/restricted-stock-transfer">
-    <img src="../logo.png" alt="Block Transfer" style="width: 220px; margin-bottom: 20px;">
+  <a href="https://www.blocktransfer.com/">
+    <img src="../logo.png" alt="Block Transfer" id="logo">
   </a>
+  <h1>Restricted Stock Gift</h1>
   <div class="container">
-    <h1>Restricted Stock Gift</h1>
     <form id="transfer-form" onsubmit="return submitForm()">
+      <div class="form-group">
+        <label for="code">Asset to Transfer:</label>
+        <select name="asset" id="code" required>
+          <option value="1984803ORD">Laylor Corporation - Common Stock</option>
+        </select>
+      </div>
       <div class="form-group">
         <label for="shares">Number of Shares to Transfer:</label>
         <input type="number" id="shares" name="shares" step="0.0000001" required>
         <div class="error" id="shares-error"></div>
-      </div>
-      <div class="form-group">
-        <label for="code">Select Asset to Transfer:</label>
-        <select name="asset" id="code" required>
-          <option value="1984803ORD">Laylor Corporation - Common Stock</option>
-        </select>
       </div>
       <div class="form-group">
         <label for="transfer-to">Recipient Account Number:</label>
