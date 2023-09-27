@@ -163,11 +163,11 @@
     
     async function validateAccNumber(accNum) {
       const regexB32 = /^[A-Z2-7]+$/;
-      if (regexB32.test(accNum)) {
+      if (isB32.test(accNum)) {
         return fetch(`https://api.blocktransfer.com/federation?q=${accNum}*blocktransfer.com&type=name`)
         .then(response => {
           if (response.status === 200) {
-            return response.text().then(data => data.account_id || null);
+            return response.json().then(data => data.account_id || null);
           }
         });
       }
