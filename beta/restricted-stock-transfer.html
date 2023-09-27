@@ -165,11 +165,12 @@
         const fedURL = `https://api.blocktransfer.com/federation?q=${accNum}*blocktransfer.com&type=name`;
         const data = await (await fetch(fedURL)).json();
         return response.status === 200 ? data.account_id || null : null;
-      } catch (error) => null;
+      } catch (error) {
+        window.location.href = "https://www.blocktransfer.com/404";
+      }
     }
     
     async function submitForm() {
-      event.preventDefault();
       // Clear previous error messages
       document.getElementById("shares-error").textContent = "";
       document.getElementById("account-error").textContent = "";
@@ -177,7 +178,7 @@
       const shares = document.getElementById("shares").value;
       if (isNaN(shares) || parseFloat(shares) < 0.0000001) {
         document.getElementById("shares-error").textContent = "Number of shares must be at least 0.0000001.";
-        return;
+        return false;
       }
       
       const code = document.getElementById("code").value;
@@ -193,6 +194,7 @@
           walletConnect.enable();
         } else {
           document.getElementById("account-error").textContent = "Invalid recipient account number. Please check and try again.";
+          return false;
         }
       } catch (error) {
         document.getElementById("account-error").textContent = "An error occurred. Please try again later.";
