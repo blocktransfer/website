@@ -1,14 +1,6 @@
 @font-face {
   font-family: "Montserrat";
   src: url("montserrat.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("montserrat.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
 }
 a {
   color: #AC51FF;
@@ -25,8 +17,6 @@ body {
   padding: 0; 
   display: flex;
   height: 100vh;
-  font-weight: 400;
-  font-style: normal;
   align-items: center;
   flex-direction: column;
   justify-content: center;
