@@ -39,32 +39,27 @@
       border: 1px solid #ccc;
       text-align: center;
     }
-    
     select {
       font-family: Georgia;
       font-size: 20px;
       text-align: left;
       text-indent: 1em;
     }
-    
     input, select {
       width: 80%;
       box-sizing: border-box;
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
     }
-    
     input {
       font-family: Courier, monospace;
       text-transform: uppercase;
       font-size: 22px;
     }
-    
     option:checked {
       background-color: #AC51FF;
       color: white;
     }
-
     button {
       width: 40%;
       color: #fff;
@@ -73,11 +68,9 @@
       font-weight: bold;
       background-color: #AC51FF;
     }
-
     #xfer-conf.show {
       display: block;
     }
-
     .error {
       color: red;
       font-size: 18px;
@@ -162,7 +155,7 @@
       document.getElementById("shares-error").textContent = "";
       document.getElementById("account-error").textContent = "";
       const shares = document.getElementById("shares").value.trim().replace(/^0+/, "");
-      if (parseFloat(shares) < 0.0000001) {
+      if (!shares || parseFloat(shares) < 0.0000001) {
         document.getElementById("shares-error").textContent = "Number of shares must be at least 0.0000001.";
         return;
       }
