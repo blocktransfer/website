@@ -7,10 +7,16 @@ a {
 }
 ::selection {
   color: #AC51FF;
-  background: #B1B2B5;
+  background: #D1C9FF;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
+}
+h2:first-of-type {
+  margin-top: 35px;
+}
+h3:not(:first-of-type) {
+  margin-top: 55px;
 }
 body {
   margin: 0;
@@ -25,5 +31,6 @@ body {
 .conditions {
   justify-content: left;
   text-align: justify;
-  padding: 40pt; 
+  padding-right: 10%;
+  padding-left: 10%;
 }
