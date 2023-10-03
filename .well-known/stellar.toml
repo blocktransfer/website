@@ -12,7 +12,7 @@ ORG_NAME = "BlockTrans Syndicate"
 ORG_DBA = "Block Transfer"
 ORG_URL = "https://www.blocktransfer.com"
 ORG_LOGO = "https://blocktransfer.com/logo.png"
-ORG_DESCRIPTION = "Block Transfer is spearheading innovation in the world of book-entry stock ownership. We're the bridge connecting traditional capital markets with the revolutionary potential of blockchain technology. In an era where trust and security are paramount, we're committed to providing cutting-edge solutions that empower global investors to navigate the digital economy with confidence."
+ORG_DESCRIPTION = "Block Transfer is revolutionizing the transfer agent industry. We're the bridge connecting traditional capital markets with international investors. For more about our innovative clients, visit Issuers.info"
 ORG_PHONE_NUMBER = "+12092843577"
 ORG_PHONE_NUMBER_ATTESTATION = "https://blocktransfer.com/compliance/proof-of-phone.pdf"
 ORG_PHYSICAL_ADDRESS = "99 Wall Street #4640, New York, NY 10005"
@@ -20,7 +20,7 @@ ORG_PHYSICAL_ADDRESS_ATTESTATION = "https://blocktransfer.com/compliance/proof-o
 ORG_GITHUB = "blocktransfer"
 ORG_SUPPORT_EMAIL = "support@blocktransfer.com"
 ORG_LICENSING_AUTHORITY = "Securities and Exchange Commission"
-ORG_LICENSE_TYPE = "CIK"
+ORG_LICENSE_TYPE = "Central Index Key"
 ORG_LICENSE_NUMBER = "1846058"
 
 [[PRINCIPALS]]
@@ -63,7 +63,7 @@ status = "live"
 ticker = "USD"
 
 [[CURRENCIES]]
-anchor_asset = "These are book-entry shares of common stock in Laylor Corporation."
+anchor_asset = "Book Entry"
 anchor_asset_type = "stock"
 approval_criteria = "Create an account at www.blocktransfer.com/beta/join"
 approval_server = "https://api.blocktransfer.com/approvals"
