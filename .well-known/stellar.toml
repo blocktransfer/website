@@ -30,24 +30,25 @@ id_photo_hash = "0dce43292a7dd2c6ef021cca9f84330ceeec34e8587172453bc2b05f1bd13ed
 verification_photo_hash = "a3b5109c1afb0d7ce22780fc5a656bda0f24b63d4bbddcff35f44f0b8e62ff48"
 
 [[CURRENCIES]]
-#approval_criteria = "For internal use only."
-#approval_server = "https://api.blocktransfer.com/approvals"
+approval_criteria = "For internal use only."
+approval_server = "https://api.blocktransfer.com/approvals"
 code = "DEMO"
+conditions = "Internal Use"
 display_decimals = 7
 desc = "Example Company is used for product demos and development."
 image = "https://blocktransfer.com/imgs/DEMO.png"
 is_unlimited = true
 issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
 name = "Demo Stock"
-#regulated = true
-status = "live"
+regulated = true
+status = "test"
 
 [[CURRENCIES]]
 anchor_asset = "USD"
 anchor_asset_type = "fiat"
 code = "BTD"
 display_decimals = 2
-desc = "Used internally for payroll except bonuses"
+desc = "Used internally for payroll except bonuses."
 image = "https://blocktransfer.com/imgs/BTD.png"
 is_unlimited = true
 is_asset_anchored = true
@@ -55,7 +56,7 @@ issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
 issuer_cik = 1846058
 issuer_name = "BlockTrans Syndicate"
 name = "BT Dollars"
-status = "live"
+status = "private"
 
 [[CURRENCIES]]
 anchor_asset = "Book Entry"
@@ -65,11 +66,11 @@ approval_server = "https://api.blocktransfer.com/approvals"
 attestation_of_reserve = "https://blocktransfer.com/board-resolutions/1984803.pdf"
 authorized = 100000000
 code = "1984803ORD"
-conditions = "Fully paid and non-assessable shares. Stellar streamlines share recordkeeping, but this information should not be construed as a promotion for any securities offering."
+conditions = "Fully Paid/Non-Assessable"
 class = "ORD"
 class_type = "common"
 display_decimals = 7
-desc = "Laylor Corporation is a trailblazing tech company headquartered in South Carolina, serving as a catalyst for innovation and business growth across a diverse set of industries. With a comprehensive portfolio that spans investment management, blockchain technology, artificial intelligence, and sustainable energy initiatives, the company is uniquely positioned to empower businesses, particularly those that are small and minority-owned. Operating under a virtual business office model, the Issuer's remote team taps into the latest technologies to collaborate seamlessly, reflecting the firm's commitment to operational flexibility and environmental sustainability. Anchored by a robust focus on research and development, as well as a dedication to inclusivity and social responsibility, the Issuer is not just riding the wave of technological advancement—it's helping to shape it. Learn more about Laylor Corporation at issuers.info/1984803"
+desc = "https://issuers.info/1984803"
 image = "https://blocktransfer.com/imgs/1984803ORD.png"
 is_unlimited = true
 is_asset_anchored = true
