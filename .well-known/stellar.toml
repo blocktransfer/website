@@ -40,7 +40,7 @@ is_unlimited = true
 issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
 name = "Demo Stock"
 regulated = true
-status = "test"
+status = "live"
 
 [[CURRENCIES]]
 anchor_asset = "USD"
@@ -55,7 +55,7 @@ issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
 issuer_cik = 1846058
 issuer_name = "BlockTrans Syndicate"
 name = "BT Dollars"
-status = "private"
+status = "live"
 
 [[CURRENCIES]]
 anchor_asset = "Book Entry"
