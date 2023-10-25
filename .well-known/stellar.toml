@@ -30,8 +30,8 @@ id_photo_hash = "0dce43292a7dd2c6ef021cca9f84330ceeec34e8587172453bc2b05f1bd13ed
 verification_photo_hash = "a3b5109c1afb0d7ce22780fc5a656bda0f24b63d4bbddcff35f44f0b8e62ff48"
 
 [[CURRENCIES]]
-approval_criteria = "For internal use only."
-approval_server = "https://api.blocktransfer.com/approvals"
+#approval_criteria = "For internal use only."
+#approval_server = "https://api.blocktransfer.com/approvals"
 code = "DEMO"
 display_decimals = 7
 desc = "Example Company is used for product demos and development."
@@ -39,8 +39,8 @@ image = "https://blocktransfer.com/imgs/DEMO.png"
 is_unlimited = true
 issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
 name = "Demo Stock"
-regulated = true
-status = "live"
+#regulated = true
+status = "test"
 
 [[CURRENCIES]]
 anchor_asset = "USD"
@@ -55,7 +55,7 @@ issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
 issuer_cik = 1846058
 issuer_name = "BlockTrans Syndicate"
 name = "BT Dollars"
-status = "live"
+status = "private"
 
 [[CURRENCIES]]
 anchor_asset = "Book Entry"
