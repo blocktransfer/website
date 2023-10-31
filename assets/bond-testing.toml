@@ -1,4 +1,46 @@
 [[CURRENCIES]]
+anchor_asset = "Book Entry"
+anchor_asset_type = "bond"
+callable = false
+code = "DEMOX2"
+conditions = "something"
+convertible = false
+coupon = 23 #bps str?
+class = "D"
+class_type = "common"
+display_decimals = 7
+desc = "issuers.info/Example"
+image = "https://blocktransfer.com/imgs/DEMO.png"
+is_asset_anchored = true
+is_unlimited = false
+fixed_number = 10000000 # or could just use principal = xx
+principal_fiat = "USD"
+issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
+issuer_cik = 1846058
+matures = "2025-6-30"
+name = "Demo Bond"
+originated = "2023-6-30"
+par = 1000
+puttable = false
+regulated = true
+seniority = 1
+status = "test"
+
+taxable_federal = true
+taxable_federal = "US"
+tax_state_exempt = []
+
+tax_exempt_ctry = []
+tax_exempt_subd = ["US/GA"]
+
+[RATINGS]
+s_p = "AAA"
+moodys = "AAA"
+
+
+
+
+[[CURRENCIES]]
 bankruptcy_preference = 3
 code = "DEMO"
 code_template = "DEMO????????"
