@@ -33,6 +33,19 @@ tax_state_exempt = []
 tax_exempt_ctry = []
 tax_exempt_subd = ["US/GA"]
 
+amount = 99999
+tenor = 365 # days
+apy = "0.03"
+discountPY = "0.02"
+
+apm = "0.005"
+apm_compounding = falso
+dpm = "0.166666" # %
+dpm_compounding = false
+
+info = offerings.info/{cik}/{code}
+# unique IQ/hash here?
+
 [RATINGS]
 s_p = "AAA"
 moodys = "AAA"
