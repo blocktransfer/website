@@ -93,7 +93,6 @@ issuer_name = "Laylor Corporation"
 name = "Laylor Common Shares"
 par = 0.01
 par_fiat = "USD"
-redemption_instructions = "Privately Held"
 regulated = true
 seniority = 1
 status = "live"
