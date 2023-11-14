@@ -20,7 +20,7 @@ ORG_PHYSICAL_ADDRESS_ATTESTATION = "https://blocktransfer.com/compliance/proof-o
 ORG_GITHUB = "blocktransfer"
 ORG_JURISDICTION = "US/DE"
 ORG_SUPPORT_EMAIL = "support@blocktransfer.com"
-ORG_LICENSING_AUTHORITY = "Securities and Exchange Commission"
+ORG_LICENSING_AUTHORITY = "U.S. Securities and Exchange Commission"
 ORG_LICENSE_TYPE = "Central Index Key"
 ORG_LICENSE_NUMBER = "1846058"
 
