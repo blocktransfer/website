@@ -18,3 +18,24 @@ MT565 - Corporate Action Instruction: MT565 is another ISO 15022 message type th
 MT566 - Securities Status and Eligibility Inquiry/Response: MT566 messages are used to inquire about the status and eligibility of securities for corporate actions. This can be important for shareholders and financial institutions to determine whether a particular security is eligible for participation in a corporate event.
 
 MT567 - Securities Status and Eligibility Advice: MT567 messages provide advice on the status and eligibility of securities for corporate actions. This message type is typically sent in response to an MT566 inquiry and confirms whether a specific security is eligible for a particular corporate action
+
+
+legacy from blocktransfer/stocks ---
+[2023]
+date = "September 23, 2023"
+special = false
+voting_items = """
+director|John Smith
+director|Mary Jane
+director|John Doe
+director|Richard O'Brian
+director|Charlie Marley
+director|Hector Vector
+director|Mike Spoonsman
+director|Sarah Conners
+std|Ratification of Tommy as accounting firm. (verbatim)
+std|Executive comp. (verbatim)
+std|Employee benefits plan. (verbatim)
+NOT_FOR:
+investor|Cool ESG thing. (verbatim)
+"""
