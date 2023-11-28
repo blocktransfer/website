@@ -12,7 +12,7 @@ ORG_NAME = "BlockTrans Syndicate"
 ORG_DBA = "Block Transfer"
 ORG_URL = "https://www.blocktransfer.com"
 ORG_LOGO = "https://blocktransfer.com/logo.png"
-ORG_DESCRIPTION = "Block Transfer is the bridge connecting global investors to capital markets. Learn about our innovative issuers at Issuers.info"
+ORG_DESCRIPTION = "Block Transfer is the bridge connecting global investors to capital markets. Learn about our innovative clients at www.issuers.info"
 ORG_PHONE_NUMBER = "+12092843577"
 ORG_PHONE_NUMBER_ATTESTATION = "https://blocktransfer.com/compliance/proof-of-phone.pdf"
 ORG_PHYSICAL_ADDRESS = "99 Wall Street #4640, New York, NY 10005"
@@ -21,7 +21,7 @@ ORG_GITHUB = "blocktransfer"
 ORG_JURISDICTION = "US/DE"
 ORG_SUPPORT_EMAIL = "support@blocktransfer.com"
 ORG_LICENSING_AUTHORITY = "U.S. Securities and Exchange Commission"
-ORG_LICENSE_TYPE = "Central Index Key"
+ORG_LICENSE_TYPE = "Section 3(a)(25) Transfer Agent"
 ORG_LICENSE_NUMBER = "1846058"
 
 [[PRINCIPALS]]
@@ -30,7 +30,7 @@ github = "JFWooten4"
 id_photo_hash = "0dce43292a7dd2c6ef021cca9f84330ceeec34e8587172453bc2b05f1bd13edd"
 verification_photo_hash = "a3b5109c1afb0d7ce22780fc5a656bda0f24b63d4bbddcff35f44f0b8e62ff48"
 
-# CURRENCIES descriptions may not be current or accurate. Use desc_href API in production environments.
+# CURRENCIES descriptions may not be current or accurate. Use info_href API in production environments.
 
 [[CURRENCIES]]
 approval_criteria = "Contributing Developer"
@@ -42,8 +42,8 @@ class = "D"
 class_type = "common"
 display_decimals = 7
 desc = "Example Company is used for product demos and development."
-desc_href = "https://api.issuers.info/0"
 image = "https://blocktransfer.com/imgs/DEMO.png"
+info_href = "https://api.issuers.info/0"
 is_asset_anchored = false
 is_unlimited = true
 issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
@@ -60,8 +60,8 @@ anchor_asset_type = "fiat"
 code = "BTD"
 display_decimals = 2
 desc = "Internal USD for payroll except bonuses."
-desc_href = "https://api.issuers.info/1846058"
 image = "https://blocktransfer.com/imgs/BTD.png"
+info_href = "https://api.issuers.info/1846058"
 is_asset_anchored = true
 is_unlimited = true
 issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
@@ -83,8 +83,8 @@ class = "ORD"
 class_type = "common"
 display_decimals = 7
 desc = "Laylor Corporation, based in Summerville, South Carolina, is an innovative technology company dedicated to driving business development and implementing cutting-edge technological solutions. Specializing in areas such as investment management, blockchain and cryptocurrency integration, artificial intelligence, and clean energy initiatives, Laylor Corporation focuses on empowering small and minority-owned businesses, aiding diverse entrepreneurs in achieving their visions. With a commitment to sustainability and technological advancement, the company operates via a remote, virtual office model, reflecting its modern and environmentally conscious approach to business."
-desc_href = "https://api.issuers.info/1984803"
 image = "https://blocktransfer.com/imgs/1984803ORD.png"
+info_href = "https://api.issuers.info/1984803"
 is_asset_anchored = true
 is_unlimited = true
 issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
