@@ -48,6 +48,7 @@ is_asset_anchored = false
 is_unlimited = true
 issuer = "GDRM3MK6KMHSYIT4E2AG2S2LWTDBJNYXE4H72C7YTTRWOWX5ZBECFWO7"
 issuer_cik = 0
+issuer_name = "Demo Company"
 name = "Demo Stock"
 par = 0.01
 par_fiat = "USD"
