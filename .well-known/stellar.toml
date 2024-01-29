@@ -21,7 +21,7 @@ ORG_GITHUB = "blocktransfer"
 ORG_JURISDICTION = "US/DE"
 ORG_SUPPORT_EMAIL = "support@blocktransfer.com"
 ORG_LICENSING_AUTHORITY = "U.S. Securities and Exchange Commission"
-ORG_LICENSE_TYPE = "Section 3(a)(25) Transfer Agent"
+ORG_LICENSE_TYPE = "Transfer Agent"
 ORG_LICENSE_NUMBER = "1846058"
 
 [[PRINCIPALS]]
