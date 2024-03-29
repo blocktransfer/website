@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "blocktransfer.investorapp",
+      "sha256_cert_fingerprints": [
+        "E6:05:91:85:D4:33:DF:93:82:C5:59:47:D3:A6:03:2A:56:95:6A:CE:82:E9:21:00:CB:03:1C:29:09:64:17:3A"
+      ]
+    }
+  }
+]
