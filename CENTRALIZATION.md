@@ -9,4 +9,4 @@ We host this site through Zoho, which the Syndicate uses to manage sensative int
 
 | Snapshot | Result | Date | Description |
 |----------|--------|------|-------------|
-| [🏺](https://web.archive.org/web/20241210200700/https://www.blocktransfer.com/issuers/plans) | | [🚀](https://web.archive.org/web/20250209131156/https://www.blocktransfer.com/issuers/plans) | | Added info on open-source pricing plans in the interum before WhyDRS composition. |
+| [🏺](https://web.archive.org/web/20241210200700/https://www.blocktransfer.com/issuers/plans) | | [🚀](https://web.archive.org/web/20250209131156/https://www.blocktransfer.com/issuers/plans) | 23 Jan 2025 | Added info on open-source pricing plans in the interum before WhyDRS composition. |
