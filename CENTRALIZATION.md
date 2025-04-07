@@ -9,4 +9,5 @@ We host this site through Zoho, which the Syndicate uses to manage sensative int
 
 | Snapshot | Result | Date | Description |
 |----------|--------|------|-------------|
+| [🏺](https://web.archive.org/web/20250328084057/https://blocktransfer.com) | [🚀](https://web.archive.org/web/20250407215459/https://blocktransfer.com) | 5 Apr 2025 | Swapped main CTA button from marketing "Executive Consultation" to developer "GitHub" (innovation purple → deep black).|
 | [🏺](https://web.archive.org/web/20241210200700/https://www.blocktransfer.com/issuers/plans) | [🚀](https://web.archive.org/web/20250209131156/https://www.blocktransfer.com/issuers/plans) | 23 Jan 2025 | Added info on open-source pricing plans in the interum before WhyDRS composition. |
