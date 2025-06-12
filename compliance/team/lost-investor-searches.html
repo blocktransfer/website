@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Locating Missing Securityholders</title>
+  <link rel="stylesheet" type="text/css" href="../../style.css">
+</head>
+<body class="conditions">
+
+  <h2>Unresponsive or Lost User Policy</h2>
+
+  <div>
+    <h2>Purpose</h2>
+    <p>This policy ensures compliance with SEC Rule 17Ad-17, establishing our procedures for identifying and locating
+      lost securityholders and unresponsive payees. It outlines our reasonable efforts to maintain contact with
+      securityholders and to fulfill our obligations as a recordkeeping transfer agent or paying agent.</p>
+
+    <p>We sincerely appreciate certain global securities regulations which prioritize physically locating a shareholder. These legacy rules solve material challenges related to investors’ unclaimed property and assets at risk of forfeiture due to State regulations. Nobody wins when checks go uncashed for years.</p>
+
+    <p>However, TAD3 specifically obviates much of the trouble in paying investors. And email handles most concerns around shareholder communications. Accordingly, we employ a unique methodology for labeling and identifying lost investor accounts, especially for impoverished citizens abroad.</p>
+
+    <h3>Chief Concerns</h3>
+    <ul>
+      <li>Certain demographics of investors (outside the United States) may have difficulty maintaining a regular physical address, resulting in unreliable payment services. One of our first twenty investors was homeless and used a friend’s or family member’s address.</li>
+      <li>Global postage can be expensive and materially unreliable. Even if mail arrives untampered, local financial infrastructure may be absent.</li>
+      <li>Addresses change frequently. Given primarily digital communications, errors might not be discovered for years—wasting imperative time when they are.</li>
+    </ul>
+
+    <h3>Identification Metrics</h3>
+    <p>Accordingly, we employ a more permanent addressing scheme that defers largely to a user’s public key.</p>
+    <p>On-chain activity related to this public key counts as activity and investor response. This activity is generally defined as signing and broadcasting a cryptographically-valid Stellar message.</p>
+
+    <h4>Defining Lost</h4>
+
+    <h5>Digital or Physical</h5>
+    <p>Absent activity for three years, we will email the owner of an account to confirm continued engagement. This restarts the clock on treating an onboarded wallet as potentially lost.</p>
+    <p>If we do not receive a response, we will send a physical letter after 60 days. If the email bounces, we will confirm the bounce by letter within 3 days. If undeliverable or unacknowledged within 60 more days, the user is marked as lost.</p>
+    <p>We follow this same process when an investor email returns with a permanent SMTP error. For temporary failures, we attempt three follow-up messages spaced out in time.</p>
+
+    <h5>Lack of Account</h5>
+    <p>We consider a shareholder lost if they lack both of the following for 90 days:</p>
+    <ul>
+      <li>Wallet address</li>
+      <li>Physical address</li>
+    </ul>
+    <p>In such cases, we will reach out using the only identifier—usually an email. If no email is available, we send physical mail prompting them to open a wallet, when feasible.</p>
+
+    <h3>Search Process</h3>
+    <p>Team members follow federal guidelines to search for investors on a case-by-case basis, depending on:</p>
+    <ul>
+      <li>Issuer knowledge of investors</li>
+      <li>History of lost account behavior</li>
+      <li>Parties related to such users based on personal data</li>
+      <li>Any combination deemed prudent by the team member</li>
+    </ul>
+
+    <p>These procedures align with 17 C.F.R. § 240.17Ad-17(b).</p>
+
+    <h2>Procedures</h2>
+
+    <h3>Locating Lost Securityholders</h3>
+    <ol>
+      <li>
+        <strong>Database Search Requirement:</strong>
+        <ul>
+          <li>Conduct two (2) database searches free of charge:
+            <ul>
+              <li>First search: Within 3 to 12 months after mail is returned undeliverable.</li>
+              <li>Second search: Within 6 to 12 months after the first search.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Search Methods:</strong>
+        <ul>
+          <li>Use TIN if available, with a third-party search service covering at least 50% of the U.S. adult population, searchable by TIN or name, and updated quarterly or more.</li>
+          <li>If only an email address is available, search will be conducted using prominent internet data providers, such as RocketReach, to locate updated contact information.</li>
+          <li>If deemed prudent, other non-covered services or online tools may be used so long as results are comparable. No fees may be charged to the investor before both mandated searches are completed.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Optional Search Exemptions:</strong>
+        <ul>
+          <li>The securityholder is confirmed deceased.</li>
+          <li>The aggregate account value is under $25.</li>
+          <li>The securityholder is not a natural person.</li>
+        </ul>
+      </li>
+    </ol>
+
+    <h3>Paying Services</h3>
+    <ul>
+      <li>If acting as paying agent or receiving funds for distribution:
+        <ul>
+          <li>Disburse funds to investor wallets in stablecoin format.</li>
+          <li>If no wallet is on file, send to the linked bank account.</li>
+          <li>If no bank account, mail a paper check.</li>
+          <li>If no mailing address is available, mail to their last known physical address.</li>
+        </ul>
+      </li>
+      <li>If assistance is needed converting stablecoins to fiat:
+        <ul>
+          <li>Consult the investor about available off-ramps.</li>
+          <li>Help convert stablecoin into a format they can use.</li>
+          <li>Proceed with legacy banking payment upon conversion.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h4>Traditional Interpretations</h4>
+    <p>We also deem an account lost if:</p>
+    <ul>
+      <li>Mail has been returned as undeliverable with no updated address.</li>
+      <li>A check remains uncashed for 6 months or longer.</li>
+    </ul>
+
+    <h3>Physical Notifications</h3>
+    <ul>
+      <li>Within 7 months of issuing a check that remains uncashed, we shall notify the payee in writing.</li>
+      <li>This notice may accompany future checks or mailings. If under $25, team members may opt to suspend notification while exploring other methods.</li>
+    </ul>
+
+    <h3>Recordkeeping Compliance</h3>
+    <p>Team members maintain internal records in the “Lost Investor Searches” WorkDrive team folder, including:</p>
+    <ul>
+      <li>Returned mail and re-sent correspondence</li>
+      <li>Database search attempts and outcomes</li>
+      <li>All written notices to unresponsive payees</li>
+    </ul>
+    <p>
+      These records are retained per Rule 17Ad-7(i). Each search must be documented with clear, comprehensive screenshots or generated reports that include the search date, search terms, and U.S.-based personal identifiers.
+    </p>
+
+    <h3>Escheatment</h3>
+    <p>This policy operates in tandem with, but does not override, any applicable state escheatment laws.</p>
+
+    <h2>Review and Updates</h2>
+    <p>This policy is reviewed at least annually or in response to regulatory changes.</p>
+  </div>
+
+</body>
+</html>
