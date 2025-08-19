@@ -1,6 +1,142 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta http-equiv="refresh" content="0; url=https://www.blocktransfer.com">
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Block Transfer</title>
+    <meta name="description" content="Block Transfer – simple landing page">
+    <style>
+      :root {
+        --bg: #0f1115;
+        --card: #161922;
+        --text: #e8eaf1;
+        --muted: #a6adbb;
+        --accent: #8a5cff;
+      }
+      * { box-sizing: border-box; }
+      html, body { height: 100%; }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.5;
+        text-align: center; /* center align content text */
+      }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+      header {
+        padding: 16px 0;
+      }
+      .logo {
+        width: 180px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border-radius: 45px;
+        filter: drop-shadow(0 2px 18px rgba(138, 92, 255, 0.25));
+      }
+      .tagline {
+        margin: 12px 0 0;
+        font-weight: 600;
+        font-size: clamp(1.25rem, 2.5vw, 1.6rem);
+        letter-spacing: 0.2px;
+      }
+      main {
+        margin-top: 16px;
+        background: var(--card);
+        border: 1px solid rgba(255,255,255,0.06);
+        border-radius: 16px;
+        padding: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+      }
+      .intro {
+        margin: 0 0 16px;
+        color: var(--muted);
+      }
+      figure {
+        margin: 0;
+      }
+      .media {
+        max-width: 480px;
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 12px;
+        border: 1px solid rgba(255,255,255,0.06);
+        margin: 0 auto;
+      }
+      figcaption {
+        font-size: 0.9rem;
+        color: var(--muted);
+        margin-top: 8px;
+      }
+      .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 16px;
+      }
+      .footer-links a {
+        padding: 8px 12px;
+        background: rgba(138, 92, 255, 0.12);
+        border: 1px solid rgba(138, 92, 255, 0.35);
+        border-radius: 999px;
+        transition: transform 120ms ease;
+      }
+      .footer-links a:hover { transform: translateY(-1px); }
+      footer {
+        margin-top: 16px;
+        padding: 16px;
+      }
+      .footer-banner {
+        max-width: 720px;
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 12px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      
+      <header>
+        <a href="#" aria-label="Block Transfer Home">
+          <img class="logo" src="logo.png" alt="Block Transfer logo">
+        </a>
+        <h1 class="tagline">Direct, investor-first securities infrastructure</h1>
+      </header>
+
+      <nav class="footer-links" aria-label="papers">
+        <a href="https://github.com/blocktransfer" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.whydrs.org/the-whydrs-information-packet" target="_blank" rel="noopener">Significance</a>
+        <a href="https://blocktransfer.com/.well-known/yellowpaper.pdf" target="_blank" rel="noopener">Yellowpaper</a>
+      </nav>
+
+      <main>
+        <p class="intro">
+          Block Transfer builds open tools and workflows for modern securities transfer and recordkeeping.
+        </p>
+
+        <figure>
+          <a href="https://www.sec.gov/edgar/browse/?CIK=1846058"><img class="media" src="imgs/tmp/meme.jpeg" alt="u-DogOnTheLeash (SS)"></a>
+          <figcaption><a href="https://www.reddit.com/r/Superstonk/comments/1mbx3a7/sec_filing_from_tomorrow_leaked/">u/DogOnTheLeash</a> community meme</figcaption>
+        </figure>
+      </main>
+    </div>
+
+    <footer>
+      <a href="https://blocktransfer.com/.well-known/deck.pdf"><img class="footer-banner" src="imgs/tmp/foot.png" alt="Footer banner image"></a>
+    </footer>
+  </body>
 </html>
