@@ -99,7 +99,7 @@ par = 0.01
 par_fiat = "USD"
 regulated = true
 seniority = 1
-status = "live"
+status = "dead"
 ticker = "LAYLOR"
 vote_weight = 1
 
