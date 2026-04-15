@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://www.blocktransfer.com"><img alt="Block Transfer" src="/logo.png" width="558" /></a>
+<a href="https://www.blocktransfer.com"><img alt="BlockTransfer" src="/logo.png" width="558" /></a>
 <br/></div>
 
 # Eliminating Wall Street's Hidden Costs
@@ -28,21 +28,21 @@ To truly comprehend the origins of this intricate web of intermediaries, we need
 
 As history unfolded, brokers assumed the role of intermediaries, simplifying the process but often conflicting with investor interests. High-frequency trading emerged, allowing market makers to profit from minute price differences. These practices shaped the modern investment landscape we see today.
 
-## The Birth of Block Transfer: Transforming Investment Dynamics
+## The Birth of BlockTransfer: Transforming Investment Dynamics
 
-Amidst this complexity, blockchain technology emerges as a game-changer. Block Transfer represents a paradigm shift in investment interactions. By leveraging blockchain, the middlemen are replaced with transparency, efficiency, and fairness. The blockchain's decentralized structure ensures immediate transaction execution and significantly reduces costs.
+Amidst this complexity, blockchain technology emerges as a game-changer. BlockTransfer represents a paradigm shift in investment interactions. By leveraging blockchain, the middlemen are replaced with transparency, efficiency, and fairness. The blockchain's decentralized structure ensures immediate transaction execution and significantly reduces costs.
 
 ## Ownership Assurance and Transparency
 
-With Block Transfer, the era of uncertain ownership ends. Blockchain's immutability guarantees that the shares you own are truly yours, recorded transparently on the ledger. No more worrying about misleading transactions or incorrect ownership records.
+With BlockTransfer, the era of uncertain ownership ends. Blockchain's immutability guarantees that the shares you own are truly yours, recorded transparently on the ledger. No more worrying about misleading transactions or incorrect ownership records.
 
 ## Empowering Investors and Companies
 
-Block Transfer is not just about technology; it's a movement toward a more equitable investment landscape. By adopting this innovative solution, companies can modernize their shareholder interactions, offering investors a seamless experience. Investors, in turn, regain control over their investments, transforming the way they engage with the markets.
+BlockTransfer is not just about technology; it's a movement toward a more equitable investment landscape. By adopting this innovative solution, companies can modernize their shareholder interactions, offering investors a seamless experience. Investors, in turn, regain control over their investments, transforming the way they engage with the markets.
 
 ## Embrace the Future
 
-The path to a more transparent and efficient investment landscape has been paved by blockchain technology. As you navigate your investment journey, remember the layers of intermediaries that have long stood between you and your financial goals. With Block Transfer, a new era dawns—one where transactions are streamlined, hidden costs are exposed, and power is returned to the hands of investors. Join us as we embark on this transformative journey toward a future that's brighter, fairer, and more empowering than ever before.
+The path to a more transparent and efficient investment landscape has been paved by blockchain technology. As you navigate your investment journey, remember the layers of intermediaries that have long stood between you and your financial goals. With BlockTransfer, a new era dawns—one where transactions are streamlined, hidden costs are exposed, and power is returned to the hands of investors. Join us as we embark on this transformative journey toward a future that's brighter, fairer, and more empowering than ever before.
 
 ### Contact
 
