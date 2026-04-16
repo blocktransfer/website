@@ -17,7 +17,7 @@ If you're a private company raising money, you might have heard about "private p
 
 Just last year, the SEC [reported](https://www.sec.gov/files/2023-oasb-annual-report.pdf#page=18) $2,869,000,000,000 raised through domestic private offerings. 🚀 Including foreign investors, the sum raises to 40% of all the funds raised in America. 🗽 You can capture a share of this massive capital influx by issuing a [standard](https://www.minnesotalawreview.org/wp-content/uploads/2019/02/Coyle_Final.pdf) "SAFE," convertible note, or "KISS" agreement. Compared to just selling shares at market prices, these early placement agreements let you raise cash without a company value. 📃 Negotiation between founders and investors [depends](https://chatgpt.com/share/cc49bd0a-f6db-4809-9e92-b2eb2820d9ea) on your circumstances, the market, and business history . 📊
 
-[![image](https://www.blocktransfer.com/imgs/blogs/content/2022-SEC-offerings.png)](https://www.youtube.com/live/OpelUb7pPtM)
+[![image](https://www.blocktransfer.com/imgs/blogs/content/sec-offerings-2022.png)](https://www.youtube.com/live/OpelUb7pPtM)
 
 SEC Fundraising Webinar
 

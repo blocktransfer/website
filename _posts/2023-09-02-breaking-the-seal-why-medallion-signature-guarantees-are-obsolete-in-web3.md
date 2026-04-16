@@ -16,7 +16,7 @@ tags:
   - "Fraud Prevention"
   - "Innovation"
 ---
-![image](https://www.blocktransfer.com/imgs/blogs/covers/medallion%20signature%20guarantee%20stamp.png)
+![image](https://www.blocktransfer.com/imgs/blogs/covers/medallion-signature-guarantee-stamp.png)
 
 You're about to transfer some shares online, a process that should be as simple as a few clicks, right? Not so fast! You get hit with a curveball called a "medallion signature guarantee." It sounds like something out of a medieval knighthood ceremony, but it's actually a stamp—yes, a physical stamp—required by legacy transfer agents to authenticate your identity for electronic registered stock transfers . 🏣
 
