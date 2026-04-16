@@ -89,12 +89,3 @@ This outline provides a comprehensive framework for a blog post that critically 
 
 — Any Name
 
-## The Takeaway
-
-Wrap-up.
-
-Tie-in.
-
-[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
-
-Sources

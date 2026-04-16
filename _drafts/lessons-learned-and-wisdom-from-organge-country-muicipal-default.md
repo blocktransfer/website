@@ -34,12 +34,3 @@ Durango CO to Moab UT
 
 — Any Name
 
-## The Takeaway
-
-Wrap-up.
-
-Tie-in.
-
-[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
-
-Sources

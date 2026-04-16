@@ -17,12 +17,3 @@ Prerequisite Reading: [Thing](https://www.blocktransfer.com/blog/post/introducin
 
 Introduction Hook.
 
-## The Takeaway
-
-Wrap-up.
-
-Tie-in.
-
-[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
-
-Sources

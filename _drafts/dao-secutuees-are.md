@@ -22,12 +22,3 @@ Sec quote from DAO report at [https://www.sec.gov/files/litigation/investreport/
 
 Introduction Hook.
 
-## The Takeaway
-
-Wrap-up.
-
-Tie-in.
-
-[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
-
-Sources

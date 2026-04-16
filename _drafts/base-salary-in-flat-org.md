@@ -41,12 +41,3 @@ Cons
 
 #### also a post on what board seats look like
 
-## The Takeaway
-
-Wrap-up.
-
-Tie-in.
-
-[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
-
-Sources
