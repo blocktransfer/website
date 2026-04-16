@@ -5,7 +5,7 @@ layout: post
 permalink: "/blog/post/post-on-carta-conflicts-of-interest/"
 author: "John Wooten"
 original_url: "https://www.blocktransfer.com/blog/post/post-on-carta-conflicts-of-interest"
-status: "draft"
+status: "publish"
 categories:
   - "Web3"
 ---
@@ -21,3 +21,12 @@ Try not to reference the name but say i.portant to say because effective industr
 
 — Any Name
 
+## The Takeaway
+
+Wrap-up.
+
+Tie-in.
+
+[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
+
+Sources
