@@ -11,11 +11,11 @@ categories:
 ---
 ![![Img description here]](https://www.blocktransfer.com/imgs/404.png)
 
-Img 1600 x 667px, fit as " Large "
+Img 1600 x 667px, fit as "Large"
 
-Prerequisite Reading:[Thing](https://www.blocktransfer.com/blog/post/introducing-transfer-agent-depository) . TLDR: relevant info.
+Prerequisite Reading: [Thing](https://www.blocktransfer.com/blog/post/introducing-transfer-agent-depository) . TLDR: relevant info.
 
-remainder of flat org series / subtopic as[https://chat.openai.com/c/aa0f55ff-6a65-4d90-9100-84a14ac8326b](https://chat.openai.com/c/aa0f55ff-6a65-4d90-9100-84a14ac8326b)
+remainder of flat org series / subtopic as [https://chat.openai.com/c/aa0f55ff-6a65-4d90-9100-84a14ac8326b](https://chat.openai.com/c/aa0f55ff-6a65-4d90-9100-84a14ac8326b)
 
 Introduction Hook.
 
@@ -45,6 +45,8 @@ Cons
 
 Wrap-up.
 
-Tie-in.[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
+Tie-in.
+
+[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
 
 Sources

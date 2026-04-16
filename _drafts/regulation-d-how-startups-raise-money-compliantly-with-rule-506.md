@@ -14,7 +14,7 @@ In today's startup financing landscape, Rule 506 offerings under Regulation D em
 ![image](https://www.blocktransfer.com/imgs/blogs/content/506-b-vs-c.png)
 
 Considerations for Regulation D
-In the vibrant world of startups, Rule 506 is much more than a regulation; it's a journey, a story of ambition and savvy. It's the go-to phrase for " private placement " and stands as a testament to the spirit of modern early-stage capitalism. 🌟💼
+In the vibrant world of startups, Rule 506 is much more than a regulation; it's a journey, a story of ambition and savvy. It's the go-to phrase for "private placement" and stands as a testament to the spirit of modern early-stage capitalism. 🌟💼
 
 The SEC guidance streamlines, clarifies, and enhances what was once a somewhat ambiguous part of the original U.S. Securities Act, specifically Section 4(a)(2). 📜 This rule underwent modernization under President Obama, becoming a significant element of the JOBS Act. Rooted in principles that predate modern market regulations, Rule 506 stands as a pivotal tool for early business funding. 🚀 It embodies the same principles that iconic figures like the Wright brothers, Estée Lauder, and Thomas Edison relied upon to launch their groundbreaking ventures.
 
@@ -62,7 +62,9 @@ A venture investor recently told us of a startup they funded where the founders 
 
 That's why picking the right offering structure matters so much when you fund your business with equity.
 
-Your offering type dictates the specific group to whom the company can sell stock. It does not control secondary transactions between investors after a statutory period of time. If you want your investors to have the most seamless shareholder experience available (including private trades), consider Block Transfer. As the Web3 Transfer Agent Depository, we can offer your company private placement services and so much more.[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
+Your offering type dictates the specific group to whom the company can sell stock. It does not control secondary transactions between investors after a statutory period of time. If you want your investors to have the most seamless shareholder experience available (including private trades), consider Block Transfer. As the Web3 Transfer Agent Depository, we can offer your company private placement services and so much more.
 
-[Reference](https://drive.blocktransfer.com/external/dedf3c1273a8125bcc0eaa44dfe36aa3e7be7b06096f89852b9b330d987ec856)[Materials](https://drive.blocktransfer.com/external/dedf3c1273a8125bcc0eaa44dfe36aa3e7be7b06096f89852b9b330d987ec856)
+[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
+
+[Reference Materials](https://drive.blocktransfer.com/external/dedf3c1273a8125bcc0eaa44dfe36aa3e7be7b06096f89852b9b330d987ec856)
 [SEC Small Business Advocacy Report](https://www.sec.gov/files/2022-oasb-annual-report.pdf)

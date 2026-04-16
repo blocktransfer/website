@@ -13,17 +13,17 @@ categories:
 
 Img 1600 x 667px
 
-" The majority of beneficial owners [investors via a stock brokerage, including Robinhood ] who hold their shares in street name with the broker do not realize that they are not shareholders of record at all. "
+"The majority of beneficial owners [investors via a stock brokerage, including Robinhood ] who hold their shares in street name with the broker do not realize that they are not shareholders of record at all."
 — Lori Livingston
 (source of all post quotes)
 
-" Shareholders of record. " Why can that tiny detail dictate the success of your portfolio, even if you almost never trade stocks? 🤔💭
+"Shareholders of record." Why can that tiny detail dictate the success of your portfolio, even if you almost never trade stocks? 🤔💭
 
-In the Web3 space, we have a saying about exchanges. " Not your keys, not your crypto. " When I started day trading cryptocurrencies in mid-2017, I opened accounts at dozens of centralized exchanges. Oftentimes, according to a popular directory of cryptocurrencies, a coin would only be " listed " on one or two of these unregulated and generally illegal exchanges.
+In the Web3 space, we have a saying about exchanges. "Not your keys, not your crypto." When I started day trading cryptocurrencies in mid-2017, I opened accounts at dozens of centralized exchanges. Oftentimes, according to a popular directory of cryptocurrencies, a coin would only be "listed" on one or two of these unregulated and generally illegal exchanges.
 
 - talk about how therefore had to open accounts
 
-- probably explain excactly what " keys " means, and then link to this video for a more elaborate epxlnation if wanted[https://www.youtube.com/playlist?list=PLWUFvhKuc_5sf6xhDONTEPOyrDtEn3wwm](https://www.youtube.com/playlist?list=PLWUFvhKuc_5sf6xhDONTEPOyrDtEn3wwm)
+- probably explain excactly what "keys" means, and then link to this video for a more elaborate epxlnation if wanted [https://www.youtube.com/playlist?list=PLWUFvhKuc_5sf6xhDONTEPOyrDtEn3wwm](https://www.youtube.com/playlist?list=PLWUFvhKuc_5sf6xhDONTEPOyrDtEn3wwm)
 
 - traded through their centralized systems and order books
 
@@ -60,11 +60,11 @@ Most of the shares are held in street name at DTC and they have expanded their r
 
 If an issuer cannot get DTC eligibility they cannot trade their security on the open market. This often leads to investors losing their entire investment due to a lack of liquidity.
 
-Remember how the major stock exchanges own a big slice of the DTCC? Well, in 2006, they got the SEC to[require all their companies](https://www.sec.gov/files/rules/sro/nyse/2006/34-54289.pdf) to be "[DTC Eligible](https://www.dtcc.com/settlement-and-asset-services/underwriting/new-issue-eligibility) . "
+Remember how the major stock exchanges own a big slice of the DTCC? Well, in 2006, they got the SEC to [require all their companies](https://www.sec.gov/files/rules/sro/nyse/2006/34-54289.pdf) to be "[DTC Eligible](https://www.dtcc.com/settlement-and-asset-services/underwriting/new-issue-eligibility) ."
 
-" DTCC Eligible " is a Sham for Stocks that Investment Banks can Make Lots of Money From
+"DTCC Eligible" is a Sham for Stocks that Investment Banks can Make Lots of Money From
 
-## The " SRO " Sham
+## The "SRO" Sham
 
 Issuers need to be able to access the public marketplace and the decision should not be monopolized by a private company that sets its own guidelines without oversite or any appeal process.
 
@@ -73,7 +73,7 @@ With the move toward street name ownership and lack of access to most of the inf
 held at DTC, clearing and brokerage firms, it has become very difficult to determine
 
 what is really happening with the trading of a security.
-Now, let's add another layer of complexity: the OBO/NOBO rule. Brokers have the option to classify your account as either an " objecting beneficial owner " or " non-objecting beneficial owner. " OBO is the default setting, which means you're anonymous to the companies you're investing in. It can be hard to change to a NOBO account. This anonymity creates barriers to effective corporate governance.
+Now, let's add another layer of complexity: the OBO/NOBO rule. Brokers have the option to classify your account as either an "objecting beneficial owner" or "non-objecting beneficial owner." OBO is the default setting, which means you're anonymous to the companies you're investing in. It can be hard to change to a NOBO account. This anonymity creates barriers to effective corporate governance.
 
 Street-name ownership means all the voting materials, proxy cards, and even dividends go through financial middlemen before reaching you.
 
@@ -99,9 +99,9 @@ This anonymity, symbolized by the OBO status, not only creates barriers to effec
 
 The OBO/NOBO rule doesn't just create a barrier to effective corporate governance; it also has a financial impact that many investors are unaware of. When you're an OBO, brokers can essentially charge companies whatever they want to distribute proxy materials to you. This has led to a perverse incentive system where brokers are motivated to send as much material as possible, just so they can bill the company more. It's like a concert where the middlemen, not the musicians or the fans, are setting the ticket prices and taking a large cut.
 
-This practice has even led to a bizarre bidding war among physical material distributors. These distributors will bid up the price they're willing to pay a broker for the " privilege " of sending out proxy materials. Why? Because they know they can pass those costs onto the companies. It's a major source of revenue for brokers, but it's a cost that companies have to bear, often without fully understanding the extent of these charges.
+This practice has even led to a bizarre bidding war among physical material distributors. These distributors will bid up the price they're willing to pay a broker for the "privilege" of sending out proxy materials. Why? Because they know they can pass those costs onto the companies. It's a major source of revenue for brokers, but it's a cost that companies have to bear, often without fully understanding the extent of these charges.
 
-Imagine going to a concert and finding out that not only did you pay for your ticket, but the band also had to pay exorbitant fees to multiple middlemen just for the " privilege " of playing to you. It would make the whole experience feel like a rip-off, right?
+Imagine going to a concert and finding out that not only did you pay for your ticket, but the band also had to pay exorbitant fees to multiple middlemen just for the "privilege" of playing to you. It would make the whole experience feel like a rip-off, right?
 
 This system is not just inefficient; it's fundamentally broken. It distorts the true cost of shareholder engagement and puts a financial strain on companies, which ultimately affects their performance and, by extension, shareholder value.
 
@@ -115,7 +115,7 @@ This default setting of anonymity not only hampers effective corporate governanc
 
 Our blockchain-based solution aims to cut through this Gordian knot. By providing a transparent yet secure platform, we make the OBO/NOBO choice explicit and easy to change. Shareholders can toggle their preference with a simple click, and companies can access this data without having to go through costly intermediaries. It's like bringing everyone out of the shadows and into the front row, creating a more direct and democratic shareholder experience.
 
-" There is a giant hole in their shareholder list called Cede & Co. " - Livingston
+"There is a giant hole in their shareholder list called Cede & Co." - Livingston
 
 ## The Takeaway
 
@@ -123,14 +123,16 @@ Wrap-up. say you really appreciate what Robinhood did for the industry (pressure
 
 In talking with DTCC employees for this article, not one interview ended without the contact bringing up blockchain technology. It's clear that yada yada yada centralized removes the need, and a vast majority of those spoken to actually the supported are vision of basically putting them out of business
 
-Tie-in.[Schedule a free brief consultation.](https://book.blocktransfer.com/#/customer/new)
-" The national securities exchanges and the NASD jointly should prepare a brochure for distribution to brokers' customers explaining the benefits and consequences of leaving securities in street name. "
+Tie-in.
+
+[Schedule a free brief consultation.](https://book.blocktransfer.com/#/customer/new)
+"The national securities exchanges and the NASD jointly should prepare a brochure for distribution to brokers' customers explaining the benefits and consequences of leaving securities in street name."
 —The SEC, 1976
 
 Sources
 [Lori Livingston SEC Comments](https://www.sec.gov/comments/s7-27-15/s72715-56.pdf)
-[WhyDRS](https://lemmy.whynotdrs.org/post/21495)[Inaugural](https://lemmy.whynotdrs.org/post/21495)[Mission Post](https://lemmy.whynotdrs.org/post/21495)
+[WhyDRS Inaugural Mission Post](https://lemmy.whynotdrs.org/post/21495)
 
 ---[https://www.investopedia.com/terms/n/nakedshorting.asp](https://www.investopedia.com/terms/n/nakedshorting.asp)
 
-Watch Next:[Town Hall Meeting](https://www.blocktransfer.com/blog/post/investor-to-investor-direct-trading) elaborating on the current material problems with banks, brokers, etc.
+Watch Next: [Town Hall Meeting](https://www.blocktransfer.com/blog/post/investor-to-investor-direct-trading) elaborating on the current material problems with banks, brokers, etc.

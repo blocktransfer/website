@@ -11,9 +11,9 @@ categories:
 ---
 ![![Img description here]](https://www.blocktransfer.com/imgs/404.png)
 
-Img 1600 x 667px, fit as " Large "
+Img 1600 x 667px, fit as "Large"
 
-this is the parent:[Thing](https://www.blocktransfer.com/blog/post/introducing-transfer-agent-depository) . TLDR: all the rest link up- > here.
+this is the parent: [Thing](https://www.blocktransfer.com/blog/post/introducing-transfer-agent-depository) . TLDR: all the rest link up- > here.
 
 start with taliking about subway and then transition to family to give background
 
@@ -48,17 +48,19 @@ Then went from Ellis Island - > Brooklyn - > Syracuse w. wife Antoinette
 
 How all that led to me kinda at the foot end of generations of hard work and newfound socoial infrastrucutre. Then basically now have care for fostering small business growth and access to capital in an inneficient system that seems to be built more for intermediaries to extract rents than really connect investors to companies.
 
-" He's not just a visionary with visions. He's an architect with blueprints and some notion of how to make things work. He thinks very carefully about design and structure and operations. And that's what turns a visionary into someone who actually accomplishes something. "
+"He's not just a visionary with visions. He's an architect with blueprints and some notion of how to make things work. He thinks very carefully about design and structure and operations. And that's what turns a visionary into someone who actually accomplishes something."
 
 — Esther Dyson on Jeff Bezos
 
 ## The Takeaway
 
-" The philosopher Cardi B observed that, if you want money, you must ask for it. You must plainly step forward and state what you require. "
+"The philosopher Cardi B observed that, if you want money, you must ask for it. You must plainly step forward and state what you require."
 — Mitch Horowitz
 
 Putting up our newest series of blog posts to help you start your own business, succeed and all the other thighs.
 
-Tie-in.[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
+Tie-in.
+
+[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
 
 Sources

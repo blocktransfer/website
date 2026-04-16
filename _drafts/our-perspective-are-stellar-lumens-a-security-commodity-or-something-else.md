@@ -11,9 +11,9 @@ categories:
 ---
 ![![Img description here]](https://www.blocktransfer.com/imgs/404.png)
 
-Img 1600 x 667px, fit as " Large "
+Img 1600 x 667px, fit as "Large"
 
-Prerequisite Reading:[DAO Securities Post](https://www.blocktransfer.com/blog/post/introducing-transfer-agent-depository) . TLDR: important to establish and basically ou would call a security u der the current regulatory regime
+Prerequisite Reading: [DAO Securities Post](https://www.blocktransfer.com/blog/post/introducing-transfer-agent-depository) . TLDR: important to establish and basically ou would call a security u der the current regulatory regime
 
 Recently, my girlfriend asked me how short a girl could cut her hair before she wasn't sexy. In another exchange, a prominant venture capitalism said explaining raising money was akin to talking about sex. In this post, we'll explore the implkication of both of these viewpoints, where we disagree, and how it affects what you can invest in.
 
@@ -72,14 +72,16 @@ And from the user’s perspective, sure, the technical could still legally engag
 
 ## The Takeaway
 
-final hair info, talking about different face shapes, really sexy people where it wouldnt matter lol, and how its really a case by case thing.... comment on coinbase delistings despite (reference armstrong video) a comprehenisve 72-ooiint legla analyiss. Conclude iwth being possible for me to give my opinon to my gf, but it's more like " you know when you knew " per wherever that's from in Suprteeme Court anayiss of securities
+final hair info, talking about different face shapes, really sexy people where it wouldnt matter lol, and how its really a case by case thing.... comment on coinbase delistings despite (reference armstrong video) a comprehenisve 72-ooiint legla analyiss. Conclude iwth being possible for me to give my opinon to my gf, but it's more like "you know when you knew" per wherever that's from in Suprteeme Court anayiss of securities
 
-Finish with a tie-in to DAOs as " the C-Corps of Web3 " and implications ex per
+Finish with a tie-in to DAOs as "the C-Corps of Web3" and implications ex per
 
 [https://forum.shapeshift.com/t/rfc-thorfox-a-fox-tokenomics-upgrade-proposal/2828/20](https://forum.shapeshift.com/t/rfc-thorfox-a-fox-tokenomics-upgrade-proposal/2828/20)
 
-As Supreme Court Justice Potter Stewart said in Jacobellis v. Ohio , " you know it when you see it. "
+As Supreme Court Justice Potter Stewart said in Jacobellis v. Ohio, "you know it when you see it."
 
-Do you run a small business navigating the complexisites of securities offerings while raising capital? Reach out to one of our experts today and automate your cap table accounting, regualtory compliance, and investor trading (through the SDEX, powered by[TAD3](https://blocktransfer.com/.well-known/deck.pdf) ).[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
+Do you run a small business navigating the complexisites of securities offerings while raising capital? Reach out to one of our experts today and automate your cap table accounting, regualtory compliance, and investor trading (through the SDEX, powered by [TAD3](https://blocktransfer.com/.well-known/deck.pdf) ).
+
+[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
 
 Sources

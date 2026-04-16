@@ -11,9 +11,9 @@ categories:
 ---
 ![![Img description here]](https://www.blocktransfer.com/imgs/404.png)
 
-Img 1600*667px fit as " Large " ; vid 840*473; cover 353*330
+Img 1600*667px fit as "Large"; vid 840*473; cover 353*330
 
-Prerequisite Reading:[Thing](https://www.blocktransfer.com/blog/post/introducing-transfer-agent-depository) . [Open-Sourcing TAD3 Announcement](https://wooten.link/opensource)T LDR: relevant info.
+Prerequisite Reading: [Thing](https://www.blocktransfer.com/blog/post/introducing-transfer-agent-depository) . [Open-Sourcing TAD3 Announcement](https://wooten.link/opensource) T LDR: relevant info.
 
 As communicated in the [first Syndicate update](SYND_UPDATE_1), everything started for Block Transfer in our [foundational thesis](https://wooten.link/thesis). Made [with the help of a classmate](https://wooten.link/explainer) (see description), that was the start of a journey that’s now been over four years in the marking.
 
@@ -95,7 +95,9 @@ But over the years, I ran into roadblocks that my extremely limited development 
 
 Wrap-up. Disclaimer if applicable below.
 
-Tie-in.[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/new)
+Tie-in.
+
+[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/new)
 This blog post is neither personalized for your circumstances nor legal advice.
 
 Sources

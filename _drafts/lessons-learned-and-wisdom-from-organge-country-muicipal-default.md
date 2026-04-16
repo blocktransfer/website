@@ -11,9 +11,9 @@ categories:
 ---
 ![![Img description here]](https://www.blocktransfer.com/imgs/404.png)
 
-Img 1600 x 667px, fit as " Large "
+Img 1600 x 667px, fit as "Large"
 
-Prerequisite Reading:[Thing](https://www.blocktransfer.com/blog/post/introducing-transfer-agent-depository) . TLDR: relevant info.
+Prerequisite Reading: [Thing](https://www.blocktransfer.com/blog/post/introducing-transfer-agent-depository) . TLDR: relevant info.
 [https://chat.openai.com/share/cad788cd-cb8e-4f2d-861e-058ebe88371f](https://chat.openai.com/share/cad788cd-cb8e-4f2d-861e-058ebe88371f)
 
 Biked big with Dad, Vietnam special forces
@@ -38,6 +38,8 @@ Durango CO to Moab UT
 
 Wrap-up.
 
-Tie-in.[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
+Tie-in.
+
+[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
 
 Sources

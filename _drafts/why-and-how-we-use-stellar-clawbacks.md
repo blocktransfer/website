@@ -11,11 +11,11 @@ categories:
 ---
 ![![Img description here]](https://www.blocktransfer.com/imgs/404.png)
 
-Img 1600 x 667px, fit as " Large "
+Img 1600 x 667px, fit as "Large"
 
-Prerequisite Reading:[Thing](https://www.blocktransfer.com/blog/post/introducing-transfer-agent-depository) . TLDR: relevant info.
+Prerequisite Reading: [Thing](https://www.blocktransfer.com/blog/post/introducing-transfer-agent-depository) . TLDR: relevant info.
 
-DTCC CEO qupote stating " Backgroudn from fiancial crisis " and then " NEed central hand at end to control in certain cases "
+DTCC CEO qupote stating "Backgroudn from fiancial crisis" and then "NEed central hand at end to control in certain cases"
 
 creating a [monpolistic trading system that steals your retirment.](DTCC POst/Not ur stock)
 
@@ -27,6 +27,8 @@ should be transpartn!
 
 Wrap-up.
 
-Tie-in.[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
+Tie-in.
+
+[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
 
 Sources

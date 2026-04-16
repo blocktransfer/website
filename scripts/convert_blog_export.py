@@ -377,8 +377,59 @@ def clean_markdown(text: str) -> str:
     text = re.sub(r"(?m)^\s*Text\s*$", "", text)
     text = re.sub(r"(?m)^\s*Source #\d+ as needed\s*$", "", text)
     text = re.sub(r"(?ms)\n## Get Notified About New Blog Posts\s+.*$", "", text)
+    text = normalize_markdown_spacing(text)
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip() + "\n"
+
+
+def normalize_markdown_spacing(text: str) -> str:
+    text = collapse_adjacent_links(text)
+    protected = protect_markdown_links(text)
+    text = protected["text"]
+
+    text = re.sub(r"([.!?])(__LINK_\d+__)", r"\1\n\n\2", text)
+    text = re.sub(r"(:)(__LINK_\d+__)", r"\1 \2", text)
+    text = re.sub(r"(?<=[A-Za-z0-9\"'])(__LINK_\d+__)", r" \1", text)
+    text = re.sub(r"(__LINK_\d+__)(?=__LINK_\d+__)", r"\1 ", text)
+    text = re.sub(r"(__LINK_\d+__)(?=[A-Za-z0-9\"'])", r"\1 ", text)
+    text = re.sub(r'"(?=\w)', '"', text)
+    text = re.sub(r'(?<=[A-Za-z])"(?=[A-Za-z])', ' "', text)
+    text = re.sub(r'"\s+([^"\n]+?)\s+"', r'"\1"', text)
+    text = re.sub(r"[ \t]+([,;!?])", r"\1", text)
+    text = re.sub(r"\(\s+", "(", text)
+    text = re.sub(r"\$\s+(\d)", r"$\1", text)
+    text = text.replace("w ith", "with")
+    text = text.replace("u sing", "using")
+    text = text.replace("T+1:(##", "T+1 :(\n\n##")
+    text = restore_markdown_links(text, protected["links"])
+    return text
+
+
+def collapse_adjacent_links(text: str) -> str:
+    pattern = re.compile(r"\[([^\]]+)\]\(([^)]+)\)\s*\[([^\]]+)\]\(\2\)")
+    while True:
+        updated = pattern.sub(lambda m: f"[{m.group(1)} {m.group(3)}]({m.group(2)})", text)
+        if updated == text:
+            return text
+        text = updated
+
+
+def protect_markdown_links(text: str) -> dict[str, object]:
+    links: list[str] = []
+
+    def repl(match: re.Match[str]) -> str:
+        token = f"__LINK_{len(links)}__"
+        links.append(match.group(0))
+        return token
+
+    protected = re.sub(r"!?(\[[^\]]*\]\([^)]+\))", repl, text)
+    return {"text": protected, "links": links}
+
+
+def restore_markdown_links(text: str, links: list[str]) -> str:
+    for idx, link in enumerate(links):
+        text = text.replace(f"__LINK_{idx}__", link)
+    return text
 
 
 def build_front_matter(

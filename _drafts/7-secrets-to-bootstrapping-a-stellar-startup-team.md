@@ -9,9 +9,9 @@ status: "draft"
 categories:
   - "Small Business"
 ---
-Img 1600*667px fit as " Large " ; vid 840*473; cover 353*330
+Img 1600*667px fit as "Large"; vid 840*473; cover 353*330
 
-Prerequisite Reading:[Thing](https://www.blocktransfer.com/blog/post/introducing-transfer-agent-depository) . TLDR: relevant info.
+Prerequisite Reading: [Thing](https://www.blocktransfer.com/blog/post/introducing-transfer-agent-depository) . TLDR: relevant info.
 
 Introduction Hook.
 
@@ -21,7 +21,9 @@ Introduction Hook.
 
 Wrap-up. Disclaimer if applicable below.
 
-Tie-in.[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/new)
+Tie-in.
+
+[Schedule a free brief consultation here.](https://book.blocktransfer.com/#/new)
 This blog post is neither personalized for your circumstances nor legal advice.
 
 Sources

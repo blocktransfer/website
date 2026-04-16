@@ -11,11 +11,11 @@ categories:
 ---
 ![![Img description here]](https://www.blocktransfer.com/imgs/404.png)
 
-Img 1600*667px fit as " Large " ; vid 840*473; cover 353*330
+Img 1600*667px fit as "Large"; vid 840*473; cover 353*330
 
-Prerequisite Reading:[Thing](https://www.blocktransfer.com/blog/post/introducing-transfer-agent-depository) . TLDR: THE PROXY VOTING POST.
+Prerequisite Reading: [Thing](https://www.blocktransfer.com/blog/post/introducing-transfer-agent-depository) . TLDR: THE PROXY VOTING POST.
 
-) DF(RK filing not a cat[https://www.sec.gov/Archives/edgar/data/1766502/000110465924076457/tm2418581d1_sc13g.htm](https://www.sec.gov/Archives/edgar/data/1766502/000110465924076457/tm2418581d1_sc13g.htm)
+) DF(RK filing not a cat [https://www.sec.gov/Archives/edgar/data/1766502/000110465924076457/tm2418581d1_sc13g.htm](https://www.sec.gov/Archives/edgar/data/1766502/000110465924076457/tm2418581d1_sc13g.htm)
 
 ## Likely Improper FOrm
 

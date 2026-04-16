@@ -17,13 +17,13 @@ tags:
 
 Secret #1: Have a Long-Term Goal
 
-I believe it's a crime to start any business without reading[Think and Grow Rich](https://apex.oracle.com/pls/apex/lonestar/r/files/static/v13Y/Think-And-Grow-Rich_2011-06.pdf) . Of relevance from the book (that theoretically birthed the personal development industry) is the importance, strategy, and framework for setting goals. Good long-term goals make for high-quality company aspirations. These visions not only help rally your team, but they also serve as the bedrock of any successful startup pitch - in my opinion. Pitching your business ultimately comes down to telling a good story through your goals.
+I believe it's a crime to start any business without reading [Think and Grow Rich](https://apex.oracle.com/pls/apex/lonestar/r/files/static/v13Y/Think-And-Grow-Rich_2011-06.pdf) . Of relevance from the book (that theoretically birthed the personal development industry) is the importance, strategy, and framework for setting goals. Good long-term goals make for high-quality company aspirations. These visions not only help rally your team, but they also serve as the bedrock of any successful startup pitch - in my opinion. Pitching your business ultimately comes down to telling a good story through your goals.
 
 Angel Harris:
 
 Yes I actually have read Think and Grow Rich by Napoleon Hill. Definitely a fantastic read!
 
-" I apply things that I've learned from that read everyday. In our business and in my personal life. That was actually one of the best reading experiences in my life. "
+"I apply things that I've learned from that read everyday. In our business and in my personal life. That was actually one of the best reading experiences in my life."
 
 Secret #2: Create Your Written Business Plan
 
@@ -78,7 +78,9 @@ Secret #9: Top Core Values
 
 EO?
 
-An example of how you might share this info with investors can be found here.[https://drive.blocktransfer.com/file/q13dn7989e9558e724cccaf2cff4837123334](https://drive.blocktransfer.com/file/q13dn7989e9558e724cccaf2cff4837123334)
+An example of how you might share this info with investors can be found here.
+
+[https://drive.blocktransfer.com/file/q13dn7989e9558e724cccaf2cff4837123334](https://drive.blocktransfer.com/file/q13dn7989e9558e724cccaf2cff4837123334)
 
 Secret #10: Use of Money
 
@@ -174,7 +176,7 @@ MNA ex
 
 Secret #27: Uncover Influential Support
 
-Early idea validatipon, ex our story with Cormac Kinney leading to bitcoin post[https://bitcointalk.org/index.php?topic=5387064.0](https://bitcointalk.org/index.php?topic=5387064.0)
+Early idea validatipon, ex our story with Cormac Kinney leading to bitcoin post [https://bitcointalk.org/index.php?topic=5387064.0](https://bitcointalk.org/index.php?topic=5387064.0)
 
 Success secret
 Reach out to people you admire (or find them,) and see if they support you
@@ -225,4 +227,4 @@ Secret #37: Set Objectives and Key Results
 Bonus Secret: Be Yourselves
 
 You are now 'we'
-[Reference](https://drive.blocktransfer.com/external/dedf3c1273a8125bcc0eaa44dfe36aa3e7be7b06096f89852b9b330d987ec856)[Materials](https://drive.blocktransfer.com/external/dedf3c1273a8125bcc0eaa44dfe36aa3e7be7b06096f89852b9b330d987ec856)
+[Reference Materials](https://drive.blocktransfer.com/external/dedf3c1273a8125bcc0eaa44dfe36aa3e7be7b06096f89852b9b330d987ec856)
