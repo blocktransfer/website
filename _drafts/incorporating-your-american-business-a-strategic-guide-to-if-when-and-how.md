@@ -15,7 +15,7 @@ Embarking on the journey of incorporating your business venture may seem like a 
 
 Incorporation isn't just about crossing a legal threshold; it's a strategic move that lays the groundwork for your business's future success, offering a plethora of benefits from legal protection to tax advantages. By the end of this post, you'll see that transforming your business idea into a legally recognized entity is not just possible but entirely achievable with a few simple steps. 🚀✨
 
-![image](https://www.blocktransfer.com/imgs/blogs/covers/new-voyages.jpg)
+![image](https://www.blocktransfer.com/imgs/blogs/new-voyages.jpg)
 
 The time will never be just right. Start where you stand, and
 

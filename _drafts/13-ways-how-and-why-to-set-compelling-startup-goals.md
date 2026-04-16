@@ -16,7 +16,7 @@ Prerequisite Reading: [Personal Story](https://www.blocktransfer.com/blog/post/i
 
 Embarking on the entrepreneurial journey is akin to setting sail on a vast, uncharted ocean. 🌊 It's a path brimming with excitement, promise, and, admittedly, a fair share of challenges. Unlike the more straightforward course of finding a "regular" job, launching your own business is a testament to your commitment to a dream that extends far beyond the immediate horizon. 🌅 This endeavor is not for the faint-hearted; it demands a blend of passion, ❤️ resilience, and an unwavering belief in your vision. It's about embracing the long haul, recognizing that the seeds you plant today may take years to bear fruit. 🌱
 
-![image](https://www.blocktransfer.com/imgs/blogs/covers/new-voyages.jpg)
+![image](https://www.blocktransfer.com/imgs/blogs/new-voyages.jpg)
 
 The essence of entrepreneurship transcends the mere act of creating a job for oneself; it's about building something enduring, something that can change lives, shape industries, and perhaps even leave a legacy. With this understanding, it becomes clear that starting a business is a long-term venture, one that requires not just a leap of faith but a well-thought-out plan that considers the distant future. 🔮
 

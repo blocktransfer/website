@@ -20,7 +20,7 @@ Prerequisite Reading: [Syndicate Update #1](https://www.blocktransfer.com/blog/p
 
 Direct investor trading is a symbol of financial liberation. 🗽 It's about breaking down barriers and democratizing finance. And in this blossoming ecosystem, each of us has the potential to grow our investments on our own terms. It's a vibrant, bustling market where anyone with an internet connection and a government ID can participate. 👤 No longer confined by the walls of traditional exchanges, direct trading hands the reins of the market back to its rightful owners—the people.
 
-![Global impact of P2P equity trading](https://www.blocktransfer.com/imgs/blogs/covers/the-sdex.png)
+![Global impact of P2P equity trading](https://www.blocktransfer.com/imgs/blogs/the-sdex.png)
 
 ## The Basics of Direct Trading
 

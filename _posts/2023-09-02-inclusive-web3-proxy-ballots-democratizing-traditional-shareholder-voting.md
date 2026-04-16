@@ -18,7 +18,7 @@ If you've ever owned shares in a corporation, you've likely been invited to have
 
 The traditional proxy voting system is a maze of paper ballots, phone calls, and centralized control numbers that can leave even the most diligent shareholder scratching their head. 🤔
 
-![image](https://www.blocktransfer.com/imgs/blogs/covers/proxy-voting-vs-stellar.png)
+![image](https://www.blocktransfer.com/imgs/blogs/proxy-voting-vs-stellar.png)
 Why does this matter? Because shareholder voting isn't just a formality; it's a pivotal aspect of corporate governance that directly impacts your investment. The voting process gives you the power to influence management decisions, potentially boosting stock performance by tapping into the collective wisdom of a diverse investor base . But what if this system, designed to give you a voice, is so flawed and cumbersome that it effectively silences you? 🤐
 
 Deep challenges and inefficiencies plague the traditional proxy voting system. But what if there was a way to not only simplify this convoluted process but also make it more democratic? 📈

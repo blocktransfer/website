@@ -16,7 +16,7 @@ tags:
   - "Fraud Prevention"
   - "Innovation"
 ---
-![image](https://www.blocktransfer.com/imgs/blogs/covers/medallion-signature-guarantee-stamp.png)
+![image](https://www.blocktransfer.com/imgs/blogs/medallion-signature-guarantee-stamp.png)
 
 You're about to transfer some shares online, a process that should be as simple as a few clicks, right? Not so fast! You get hit with a curveball called a "medallion signature guarantee." It sounds like something out of a medieval knighthood ceremony, but it's actually a stamp—yes, a physical stamp—required by legacy transfer agents to authenticate your identity for electronic registered stock transfers . 🏣
 
@@ -134,7 +134,7 @@ One of our early advisors was the CISO of Intercontinental Exchange for two deca
 
 Without going into [the weeds](https://www.youtube.com/watch?v=10Wl4ZRorrA&list=PLWUFvhKuc_5sf6xhDONTEPOyrDtEn3wwm&index=2), you secure your Block Transfer account using a completely random string of words written down during onboarding. This "backup phrase," "account certificate," "seed phrase" —whatever you want to call it, we think it's the most secure way to authenticate yourself based on mathematical secrets. Your words never change, which means you can store the credentials in a safe for a lifetime. (Don't worry, we have fallback systems in case of robberies.)
 
-![image](https://www.blocktransfer.com/imgs/blogs/content/secret-vault.png)
+![image](https://www.blocktransfer.com/imgs/blogs/secret-vault.png)
 Last but not least, blockchain also addresses the very real risk of data manipulation. Once a transaction is verified and added to the public ledger, it becomes immutable. This feature drastically reduces the chance of data tampering, adding another layer of security and peace of mind to each transaction. 🐱‍💻
 
 ## The Takeaway

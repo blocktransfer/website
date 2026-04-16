@@ -12,7 +12,7 @@ tags:
   - "Blockchain"
   - "Innovation"
 ---
-![Cameron in front of Lake Norman Charter](https://www.blocktransfer.com/imgs/blogs/covers/cameron-mna.jpeg)
+![Cameron in front of Lake Norman Charter](https://www.blocktransfer.com/imgs/blogs/cameron-mna.jpeg)
 
 Technical co-founder Cameron looking to the future in front of our high school
 
@@ -32,7 +32,7 @@ Early on, I remember asking my high-school math teacher to explain some wierd as
 
 On that note, after a 3-page formal incporation, I teamed up with a talented frontend developer I'd knwon since middle school. Importantly, this was a collaboration of convenience---specifically mine. I mocked up some [template employement contracts](https://drive.blocktransfer.com/external/58e890662c2f947cf14f76c8e4b8426cc1654799aa06480cee27b14f587a0c0a) and we agreed to split future revenues. Just like that our new tech startup was born.
 
-![NC incorporation stamped](https://www.blocktransfer.com/imgs/blogs/content/monerads/organization.jpeg)
+![NC incorporation stamped](https://www.blocktransfer.com/imgs/blogs/monerads/organization.jpeg)
 
 ### Product-Focused Vision
 
@@ -42,13 +42,13 @@ An innovative new cypto at the time called Monero was our answer. Due to cool ma
 
 Over a couple years after school, we basically built a system where you could run a Monero miner directly in your browser (it was a very crude implementation looking back). Then our idea was that you could have this popup on the articles:
 
-![image](https://www.blocktransfer.com/imgs/blogs/content/monerads/popup.png)
+![image](https://www.blocktransfer.com/imgs/blogs/monerads/popup.png)
 
 ## Developing the Vision
 
 Long story short, I was responsible for marketing the tech, and I had quite a ways to go with my sales and social skills. I actually walked into AMD's downtown Charlotte headquarters and asked to speak to Lisa Su. And needless to say our [lengthy sales letters](https://drive.blocktransfer.com/external/3bf21253dafa1b50be68fdf070ad9b54c64bd2f0840b66dd3c377b7c7ff5a26a) to local papers didn't yield any clients.
 
-![image](https://www.blocktransfer.com/imgs/blogs/content/monerads/campaign.png)
+![image](https://www.blocktransfer.com/imgs/blogs/monerads/campaign.png)
 
 My "extensive" local newspaper direct mail campaign
 
@@ -61,12 +61,12 @@ Read the [episode transcript](https://marketingsecrets.com/blog/319-my-dirty-lit
 More on [One Funnel Away](https://youtu.be/TjJ4q9PuvMQ)
 We never ended up raising funds, and the business ultimately ended up dying out. But, as I tell the story recently as an ecample, some investors still think the idea has merit. Now, this isn't what I'm really passionate about, so don't expect to see MonerAds poping into your life anytime soon. Not even sure it would work anymore. But the questino remains: we only spoke to one VC guy about our idea, and all the public media we posted about the company only garnered a few dozen observations. Might the business have went somewhere with a more broad basis of investors considering its mission?
 
-![image](https://www.blocktransfer.com/imgs/blogs/content/monerads/makeshift-amzn-packaging.png)
+![image](https://www.blocktransfer.com/imgs/blogs/monerads/makeshift-amzn-packaging.png)
 
 continueed pitching while trying to bootstrap, but received little interest
 [https://www.youtube.com/watch?v=vxRcWod3gI8 & list=PLWUFvhKuc_5tVzjb1xXSnpVx0E42K3nQD & index=5](https://www.youtube.com/watch?v=vxRcWod3gI8&list=PLWUFvhKuc_5tVzjb1xXSnpVx0E42K3nQD&index=5)
 
-![image](https://www.blocktransfer.com/imgs/blogs/content/monerads/eth-cables-amzn.jpeg)
+![image](https://www.blocktransfer.com/imgs/blogs/monerads/eth-cables-amzn.jpeg)
 
 ## Ending bootstrapp / trying to raise
 
@@ -84,4 +84,4 @@ help ur journey.
 
 [Schedule a free brief consultation here.](https://book.blocktransfer.com/#/customer/new)
 
-![image](https://www.blocktransfer.com/imgs/blogs/content/monerads/john-wooten-mna.jpeg)
+![image](https://www.blocktransfer.com/imgs/blogs/monerads/john-wooten-mna.jpeg)
