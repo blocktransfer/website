@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Block Transfer | Values</title>
+    <meta
+      name="description"
+      content="Block Transfer values page covering investor-first incentives, compliance, global impact, collective wisdom, and security."
+    >
+    <style>
+      :root {
+        --bg: #05060a;
+        --surface: rgba(16, 19, 29, 0.94);
+        --surface-alt: rgba(255, 255, 255, 0.04);
+        --border: rgba(255, 255, 255, 0.08);
+        --text: #f4f5f9;
+        --muted: #b1bad0;
+        --accent: #8a5cff;
+        --accent-2: #3de0c3;
+        --shadow: 0 28px 80px rgba(0, 0, 0, 0.35);
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at top, rgba(138, 92, 255, 0.24), transparent 42%),
+          linear-gradient(180deg, #090b11 0%, #05060a 100%);
+        line-height: 1.65;
+      }
+
+      a {
+        color: var(--text);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .page {
+        width: min(1160px, 100%);
+        margin: 0 auto;
+        padding: 24px clamp(20px, 4vw, 44px) 60px;
+      }
+
+      .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        padding: 10px 0 28px;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+      }
+
+      .brand img {
+        width: 42px;
+        height: 42px;
+        border-radius: 12px;
+        box-shadow: 0 12px 34px rgba(138, 92, 255, 0.32);
+      }
+
+      .nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 18px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .nav a {
+        color: var(--muted);
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1.15fr) minmax(290px, 0.85fr);
+        gap: 24px;
+        align-items: stretch;
+      }
+
+      .hero-main,
+      .hero-side,
+      .value-card,
+      .join {
+        border: 1px solid var(--border);
+        border-radius: 28px;
+        background: var(--surface);
+        box-shadow: var(--shadow);
+      }
+
+      .hero-main {
+        padding: clamp(28px, 5vw, 44px);
+      }
+
+      .eyebrow {
+        margin: 0 0 12px;
+        color: var(--accent-2);
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        font-size: 0.83rem;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2.5rem, 5vw, 4.6rem);
+        line-height: 0.98;
+        letter-spacing: -0.05em;
+      }
+
+      .deck {
+        margin: 20px 0 0;
+        max-width: 720px;
+        font-size: 1.08rem;
+        color: var(--muted);
+      }
+
+      .quote {
+        margin-top: 30px;
+        padding: 22px 24px;
+        border-radius: 22px;
+        background: var(--surface-alt);
+        border: 1px solid var(--border);
+      }
+
+      .quote p {
+        margin: 0;
+        font-size: 1.05rem;
+      }
+
+      .quote cite {
+        display: block;
+        margin-top: 14px;
+        color: var(--muted);
+        font-style: normal;
+      }
+
+      .hero-side {
+        padding: 28px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 18px;
+      }
+
+      .hero-side h2 {
+        margin: 0;
+        font-size: 1.2rem;
+      }
+
+      .hero-side p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .mini-points {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 14px;
+      }
+
+      .mini-points li {
+        padding: 14px 16px;
+        border-radius: 18px;
+        background: var(--surface-alt);
+        border: 1px solid var(--border);
+      }
+
+      .section-title {
+        margin: 44px 0 18px;
+        font-size: 1.05rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+
+      .values {
+        display: grid;
+        gap: 18px;
+      }
+
+      .value-card {
+        padding: 26px;
+      }
+
+      .value-number {
+        color: var(--accent-2);
+        font-size: 0.92rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      .value-card h2 {
+        margin: 8px 0 6px;
+        font-size: clamp(1.5rem, 3vw, 2rem);
+      }
+
+      .value-card .lead {
+        margin: 0 0 18px;
+        color: var(--text);
+        font-size: 1.05rem;
+      }
+
+      .copy {
+        display: grid;
+        gap: 14px;
+        color: var(--muted);
+      }
+
+      .copy p {
+        margin: 0;
+      }
+
+      .join {
+        margin-top: 22px;
+        padding: 28px;
+      }
+
+      .join h2 {
+        margin: 0 0 10px;
+        font-size: 1.9rem;
+      }
+
+      .join p {
+        margin: 0 0 14px;
+        color: var(--muted);
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 20px;
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 11px 18px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: var(--surface-alt);
+      }
+
+      .pill.primary {
+        background: var(--accent);
+        border-color: var(--accent);
+      }
+
+      footer {
+        margin-top: 34px;
+        padding-top: 22px;
+        border-top: 1px solid var(--border);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 16px;
+        color: var(--muted);
+        font-size: 0.94rem;
+      }
+
+      .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+      }
+
+      .footer-links a {
+        color: var(--muted);
+      }
+
+      @media (max-width: 860px) {
+        .topbar,
+        footer {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .hero {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="topbar">
+        <a class="brand" href="/">
+          <img src="/logo.png" alt="Block Transfer logo">
+          <span>Block Transfer</span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <a href="/">Companies</a>
+          <a href="/">Investors</a>
+          <a href="/blog/">Learn</a>
+          <a href="https://github.com/blocktransfer/website">Open Source Wall Street</a>
+        </nav>
+      </div>
+
+      <div class="hero">
+        <div class="hero-main">
+          <p class="eyebrow">Web3 Transfer Agent Depository</p>
+          <h1>Flawless is Acceptable</h1>
+          <p class="deck">
+            Although most companies rightfully move fast, we take our time given
+            our work's implications. Founded by investors for investors, we fix
+            monopolistic Wall Street theft. As a public utility, we will
+            transition to a nonprofit once TAD3 matures.
+          </p>
+
+          <div class="quote">
+            <p>
+              Give me six hours to chop down a tree and I will spend the first
+              four sharpening the axe.
+            </p>
+            <cite>Abraham Lincoln</cite>
+          </div>
+        </div>
+
+        <div class="hero-side">
+          <div>
+            <h2>Why this page exists</h2>
+            <p>
+              DRS adoption is a serious challenge with material implications.
+              These are the principles we use to make TAD3 worth trusting.
+            </p>
+          </div>
+
+          <ul class="mini-points">
+            <li>Benefit investors before extracting margin.</li>
+            <li>Stretch issuer dollars further than legacy intermediaries.</li>
+            <li>Operate compliance-first with transparent controls.</li>
+            <li>Make quality equity access more global and less exclusionary.</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="section-title">Values</p>
+
+      <div class="values">
+        <section class="value-card">
+          <div class="value-number">1: Benefit Investors</div>
+          <h2>In every step we take, the prosperity of our investors remains our guiding star.</h2>
+          <p class="lead">
+            We're not just accounting for investments; we're nurturing
+            retirements, ambitions, and futures.
+          </p>
+          <div class="copy">
+            <p>We prioritize the welfare of our investors above our own profit margins, to create value for you.</p>
+            <p>When it comes to the choice to charge a fee or not, our stance is clear: we opt for free. Ensuring efficiency for our investors is paramount.</p>
+            <p>At the heart of Block Transfer lies a steadfast commitment: our investors always come first. Every decision we make and every path we tread is aligned with the best interests of our investors.</p>
+            <p>When it comes to fees, we believe less is more. Every penny counts, and over time even small savings compound into a significant difference for investor portfolios.</p>
+            <p>We advocate for clear, open communication from our clients, empowering the investing community to make informed decisions through transparent corporate activity.</p>
+            <p>We're in the business of nurturing small businesses, fueling economic growth, and helping established companies soar to new heights.</p>
+            <p>Every company deserves the chance to raise capital to its fullest potential. We designed TAD3 to connect issuers with a pool of interested, qualified investors while removing traditional barriers.</p>
+            <p>We reject percent-based fees for originations and avoid per-transaction fees at all costs. Instead, we spread account service costs across clients because onboarding and maintenance are approximately fixed per investor.</p>
+            <p>In our pursuit of efficiency, we've adopted electronic notice systems. This minimizes polluting physical mail, reduces bills, removes large intermediaries, and improves operational efficiency.</p>
+          </div>
+        </section>
+
+        <section class="value-card">
+          <div class="value-number">2: Benefit Companies</div>
+          <h2>We stretch your dollar further than traditional brokers, custodians, or other centralized financial systems with inherent conflicts of interest.</h2>
+          <p class="lead">
+            We spread out TAD3 costs so that emerging businesses can focus on
+            what they do best: innovate.
+          </p>
+        </section>
+
+        <section class="value-card">
+          <div class="value-number">3: Compliance First</div>
+          <h2>We actively engage with regulators to ensure our policies not only meet but exceed the standards set for legacy intermediaries.</h2>
+          <p class="lead">We believe in operating with transparency and integrity.</p>
+          <div class="copy">
+            <p>TAD3 respects the past, embraces the present, and looks forward to a more transparent, efficient, and compliant financial future.</p>
+            <p>Incumbent systems, though once efficient, rely on dark central securities depositories born from legacy technological constraints. We move beyond that with a direct and efficient capital market.</p>
+            <p>Securities regulations traditionally focus on intermediated ownership. Direct transactions between investors have always been less governed. We view this not as a loophole, but as a realm of responsibility.</p>
+            <p>Our internal policies don't just follow the letter of the law, but its true spirit. We're dedicated to understanding and aligning with the intent behind the international laws governing legacy capital-market firms.</p>
+          </div>
+        </section>
+
+        <section class="value-card">
+          <div class="value-number">4: Global Impact</div>
+          <h2>We're committed to tearing down the barriers that prevent people from accessing valuable compounding equities.</h2>
+          <p class="lead">Socioeconomic status should not prevent you from investing.</p>
+          <div class="copy">
+            <p>Billions of people around the world are deprived of access to quality equity investments, trapping them in cyclical generational poverty.</p>
+            <p>We strive to make TAD3 accessible to anyone while adhering to monetary laws. We believe that widespread prosperity can bring peace, stability, and more responsible capitalism.</p>
+            <p>We understand that investing costs can be a major hurdle. Our services should not be reserved for the privileged few, but be accessible regardless of financial background.</p>
+            <p>We embrace the challenge of building robust global infrastructure with localized rails so the platform is not just universally accessible, but genuinely relevant to unique users.</p>
+          </div>
+        </section>
+
+        <section class="value-card">
+          <div class="value-number">5: Collective Wisdom</div>
+          <h2>In the vast expanse of financial innovation and market dynamics, no single entity can claim to possess all knowledge or perspectives.</h2>
+          <p class="lead">TAD3 pioneers a path for capital formation that benefits everyone.</p>
+          <div class="copy">
+            <p>Our approach to growth is deeply rooted in listening, really listening, to the feedback we receive, because we don't have all the answers.</p>
+            <p>We believe that the collective wisdom of the masses is a powerful tool. Feedback from seasoned investors, curious newcomers, and skeptical observers all matter.</p>
+            <p>We're charting new courses in finance with a clear understanding that this journey does not belong to us alone. Make your voice heard.</p>
+            <p>By tapping into diverse thoughts, experiences, and insights, we ensure that our systems and services stay connected to real needs and remain truly by investors, for investors.</p>
+          </div>
+        </section>
+
+        <section class="value-card">
+          <div class="value-number">6: Trustless Trust</div>
+          <h2>Our operations are under the vigilant eye of the Securities and Exchange Commission within a framework designed to protect you.</h2>
+          <p class="lead">Trust in TAD3 is inherent with every transaction, not imposed.</p>
+          <div class="copy">
+            <p>Our systems are fortified with advanced security measures to protect personal data. We do not profit from or share identity information, preferring to let TAD3 present an unbiased selection of investments.</p>
+            <p>While embracing the decentralized nature of blockchain, we recognize the necessity of certain transparent controls. These tools protect users and preserve platform integrity.</p>
+            <p>As a Delaware company, we have the autonomy to accept or reject clients. That freedom carries a responsibility to be discerning, and accepting a new client is not an endorsement of their business practices or ethics.</p>
+          </div>
+        </section>
+
+        <section class="value-card">
+          <div class="value-number">7: Extreme Security</div>
+          <h2>We've adapted our security measures to the digital realm, ensuring the highest level of protection for our clients' assets.</h2>
+          <p class="lead">We respect and maintain the autonomy of our investors.</p>
+          <div class="copy">
+            <p>We never ask for your seed phrase, the private key that controls digital assets, and we do not deal with insecure physical certificates.</p>
+            <p>Where limited central control exists, our systems follow the principle of least privilege necessary.</p>
+            <p>For particularly sensitive items, we rely on cold hardware wallets not connected to the internet.</p>
+            <p>When given access to sensitive wallets, team members must pass FBI background checks.</p>
+          </div>
+        </section>
+      </div>
+
+      <section class="join">
+        <h2>Join the Revolution</h2>
+        <p>If these objectives align with your interests, then we invite you to join our team.</p>
+        <p>Presently, we're chiefly seeking developers with experience in Flutter or React.</p>
+        <p>We are actively open-sourcing TAD3 so that you can connect directly via PRs.</p>
+
+        <div class="actions">
+          <a class="pill primary" href="https://github.com/blocktransfer/website">Developers</a>
+          <a class="pill" href="/terms">Conditions of Use</a>
+          <a class="pill" href="/">Issuers</a>
+        </div>
+      </section>
+
+      <footer>
+        <div>
+          <div>&copy; Block Transfer 2024 - All Rights Reserved</div>
+          <div>99 Wall Street #4640, New York, NY 10005</div>
+        </div>
+        <div class="footer-links">
+          <a href="https://blocktransfer.com/.well-known/whitepaper.pdf">Whitepaper</a>
+          <a href="https://blocktransfer.com/.well-known/yellowpaper.pdf">Yellowpaper</a>
+          <a href="https://github.com/blocktransfer/website">Developers</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
