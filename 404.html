@@ -2,8 +2,11 @@
 <head>
   <script>
     setTimeout(function() {
-      const q = new URL(window.location.href);
-      const redirectTo = "https://github.com/blocktransfer/website/commit/fc9fdaf32362d655185a5815d38aeba29e0b1a4f#commitcomment-165082980";
+      const redirects = {
+        "/about/values": "https://github.com/blocktransfer/org-docs/blob/main/values.md"
+      };
+      const path = window.location.pathname.replace(/\/$/, "");
+      const redirectTo = redirects[path] || "https://github.com/blocktransfer/website/commit/fc9fdaf32362d655185a5815d38aeba29e0b1a4f#commitcomment-165082980";
       window.location.href = redirectTo;
     }, 0);
   </script>
