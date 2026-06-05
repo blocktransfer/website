@@ -5,6 +5,7 @@ baseurl: ""
 url: "https://blocktransfer.com"
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 include:
   - _headers
   - .well-known
