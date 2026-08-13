@@ -1,0 +1,72 @@
+:root {
+  color-scheme: light;
+
+  /* Core brand colors */
+  --brand-blue: #144f9b;
+  --brand-black: #2b2b2b;
+  --brand-blue-alt: #104c85;
+  --brand-investor: #2e732e;
+  --brand-issuer: #e26848;
+
+  /* Logo neutrals */
+  --brand-neutral-light: #ebebec;
+  --brand-neutral-mid: #b1b2b5;
+  --brand-neutral-dark: #393937;
+
+  /* Shared interface roles */
+  --bg: var(--brand-neutral-light);
+  --surface: #ffffff;
+  --surface-alt: rgba(177, 178, 181, 0.34);
+  --card: rgba(255, 255, 255, 0.72);
+  --border: rgba(57, 57, 55, 0.22);
+  --border-strong: rgba(57, 57, 55, 0.48);
+  --text: var(--brand-black);
+  --muted: var(--brand-neutral-dark);
+  --accent: var(--brand-blue);
+  --accent-hover: var(--brand-blue-alt);
+  --accent-soft: rgba(20, 79, 155, 0.12);
+  --accent-glow: rgba(20, 79, 155, 0.18);
+  --surface-sheen: rgba(255, 255, 255, 0.8);
+  --investor: var(--brand-investor);
+  --issuer: var(--brand-issuer);
+  --danger: #9b2424;
+  --on-accent: var(--brand-neutral-light);
+  --shadow: 0 18px 48px rgba(43, 43, 43, 0.12);
+  --shadow-accent: 0 12px 55px rgba(20, 79, 155, 0.24);
+
+  /* Compatibility aliases for the blog and legacy pages */
+  --paper: var(--surface);
+  --ink: var(--text);
+  --line: var(--brand-neutral-mid);
+  --success: var(--investor);
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+::selection {
+  color: var(--on-accent);
+  background: var(--accent);
+}
+
+.brand-accent--agent {
+  border-top: 3px solid var(--brand-blue-alt);
+}
+
+.brand-accent--investor {
+  border-top: 3px solid var(--investor);
+}
+
+.brand-accent--issuer {
+  border-top: 3px solid var(--issuer);
+}
