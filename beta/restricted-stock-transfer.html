@@ -15,7 +15,7 @@
       max-width: 550px;
       text-align: center;
       padding: 20px;
-      border: 1px solid #ccc;
+      border: 1px solid var(--border);
       border-radius: 25px;
     }
     h1 {
@@ -36,7 +36,7 @@
       padding: 10px;
       margin-top: 5px;
       border-radius: 15px;
-      border: 1px solid #ccc;
+      border: 1px solid var(--border);
       text-align: center;
     }
     select {
@@ -57,22 +57,22 @@
       font-size: 22px;
     }
     option:checked {
-      background-color: #AC51FF;
-      color: white;
+      background-color: var(--accent);
+      color: var(--on-accent);
     }
     button {
       width: 40%;
-      color: #fff;
+      color: var(--on-accent);
       font-size: 22px;
       margin-top: 25px;
       font-weight: bold;
-      background-color: #AC51FF;
+      background-color: var(--accent);
     }
     #xfer-conf.show {
       display: block;
     }
     .error {
-      color: red;
+      color: var(--danger);
       font-size: 18px;
       margin-top: 5px;
       font-weight: bold;

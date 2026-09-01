@@ -5,36 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact BlockTransfer</title>
     <meta name="description" content="Contact BlockTransfer for investor support, community resources, open-source development, or correspondence by phone and mail.">
+    <link rel="stylesheet" href="brand.css">
     <style>
-      :root {
-        --bg: #05060a;
-        --surface: #10131d;
-        --surface-alt: #181c27;
-        --card: rgba(255, 255, 255, 0.04);
-        --border: rgba(255, 255, 255, 0.09);
-        --text: #f4f5f9;
-        --muted: #a3adc4;
-        --accent: #8a5cff;
-        --accent-hover: #a985ff;
-        --success: #3de0c3;
-      }
-
       * { box-sizing: border-box; }
-
-      html { color-scheme: dark; }
 
       body {
         margin: 0;
         min-height: 100vh;
         font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
         color: var(--text);
-        background: radial-gradient(circle at top, rgba(138, 92, 255, 0.28), transparent 48%), var(--bg);
+        background: radial-gradient(circle at top, var(--accent-glow), transparent 48%), var(--bg);
         line-height: 1.6;
       }
 
-      a { color: var(--accent-hover); text-decoration: none; }
+      a { color: var(--accent); text-decoration: none; }
       a:hover { text-decoration: underline; }
-      a:focus-visible { outline: 3px solid var(--success); outline-offset: 4px; }
+      a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
 
       .container {
         width: min(1040px, 100%);
@@ -78,7 +64,7 @@
 
       .eyebrow {
         margin: 0 0 12px;
-        color: var(--success);
+        color: var(--accent);
         font-size: 0.88rem;
         font-weight: 700;
         letter-spacing: 0.14em;
@@ -166,7 +152,7 @@
       .security-note {
         margin-top: 18px;
         padding: 20px 24px;
-        border-left: 3px solid var(--success);
+        border-left: 3px solid var(--accent);
         border-radius: 8px 18px 18px 8px;
         background: var(--surface);
         color: var(--muted);
@@ -210,21 +196,21 @@
       </section>
 
       <section class="contact-grid" aria-label="Contact and community resources">
-        <article class="contact-card" id="email-support">
+        <article class="contact-card brand-accent--investor" id="email-support">
           <p class="contact-card__label">Accounts &amp; investors</p>
           <h2>Investor support</h2>
           <p>For account access, holdings, transfers, issuer services, or general product questions.</p>
           <a class="contact-link" href="mailto:support@blocktransfer.com">support@blocktransfer.com</a>
         </article>
 
-        <article class="contact-card">
+        <article class="contact-card brand-accent--investor">
           <p class="contact-card__label">WhyDRS</p>
           <h2>Governance community</h2>
           <p>Connect with the WhyDRS investor community and find their Discord and educational resources.</p>
           <a class="contact-link" href="https://www.whydrs.org/">Visit WhyDRS</a>
         </article>
 
-        <article class="contact-card">
+        <article class="contact-card brand-accent--agent">
           <p class="contact-card__label">Open-source work</p>
           <h2>Development</h2>
           <p>For technical collaboration, APIs, reference implementations, or development opportunities.</p>
