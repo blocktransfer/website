@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact BlockTransfer</title>
+    <meta name="description" content="Contact BlockTransfer for investor support, community resources, open-source development, or correspondence by phone and mail.">
+    <style>
+      :root {
+        --bg: #05060a;
+        --surface: #10131d;
+        --surface-alt: #181c27;
+        --card: rgba(255, 255, 255, 0.04);
+        --border: rgba(255, 255, 255, 0.09);
+        --text: #f4f5f9;
+        --muted: #a3adc4;
+        --accent: #8a5cff;
+        --accent-hover: #a985ff;
+        --success: #3de0c3;
+      }
+
+      * { box-sizing: border-box; }
+
+      html { color-scheme: dark; }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        color: var(--text);
+        background: radial-gradient(circle at top, rgba(138, 92, 255, 0.28), transparent 48%), var(--bg);
+        line-height: 1.6;
+      }
+
+      a { color: var(--accent-hover); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      a:focus-visible { outline: 3px solid var(--success); outline-offset: 4px; }
+
+      .container {
+        width: min(1040px, 100%);
+        margin: 0 auto;
+        padding: 24px clamp(20px, 5vw, 48px) 64px;
+      }
+
+      .site-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        padding: 8px 0 48px;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+      }
+
+      .brand img {
+        display: block;
+        width: 154px;
+        height: auto;
+        border-radius: 30px;
+      }
+
+      .site-nav {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+      }
+
+      .site-nav a { color: var(--muted); font-weight: 600; }
+      .site-nav a[aria-current="page"] { color: var(--text); }
+
+      .intro {
+        max-width: 720px;
+        padding: 32px 0 44px;
+      }
+
+      .eyebrow {
+        margin: 0 0 12px;
+        color: var(--success);
+        font-size: 0.88rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2.5rem, 8vw, 4.8rem);
+        letter-spacing: -0.04em;
+        line-height: 1.05;
+      }
+
+      .intro > p:last-child {
+        max-width: 620px;
+        margin: 20px 0 0;
+        color: var(--muted);
+        font-size: clamp(1rem, 2vw, 1.18rem);
+      }
+
+      .contact-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .contact-card {
+        display: flex;
+        min-height: 252px;
+        flex-direction: column;
+        padding: 26px;
+        border: 1px solid var(--border);
+        border-radius: 22px;
+        background: var(--card);
+      }
+
+      .contact-card__label {
+        margin: 0 0 14px;
+        color: var(--muted);
+        font-size: 0.82rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+
+      .contact-card h2 { margin: 0; font-size: 1.35rem; }
+
+      .contact-card p {
+        margin: 12px 0 22px;
+        color: var(--muted);
+        font-size: 0.96rem;
+      }
+
+      .contact-link {
+        display: inline-flex;
+        align-items: center;
+        align-self: flex-start;
+        gap: 8px;
+        margin-top: auto;
+        font-weight: 700;
+        overflow-wrap: anywhere;
+      }
+
+      .contact-link::after { content: "\2192"; }
+
+      .details {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+        margin-top: 18px;
+      }
+
+      .detail-panel {
+        padding: 28px;
+        border: 1px solid var(--border);
+        border-radius: 22px;
+        background: var(--surface-alt);
+      }
+
+      .detail-panel h2 { margin: 0 0 12px; font-size: 1.2rem; }
+      .detail-panel p { margin: 0; color: var(--muted); }
+      .detail-panel address { color: var(--muted); font-style: normal; }
+      .detail-panel a { font-weight: 700; }
+
+      .security-note {
+        margin-top: 18px;
+        padding: 20px 24px;
+        border-left: 3px solid var(--success);
+        border-radius: 8px 18px 18px 8px;
+        background: var(--surface);
+        color: var(--muted);
+      }
+
+      .security-note strong { color: var(--text); }
+
+      footer {
+        padding-top: 44px;
+        color: var(--muted);
+        font-size: 0.9rem;
+        text-align: center;
+      }
+
+      @media (max-width: 800px) {
+        .contact-grid { grid-template-columns: 1fr; }
+        .contact-card { min-height: auto; }
+      }
+
+      @media (max-width: 600px) {
+        .site-header { align-items: flex-start; flex-direction: column; padding-bottom: 24px; }
+        .details { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <header class="site-header">
+        <a class="brand" href="/" aria-label="BlockTransfer home">
+          <img src="logo.png" alt="BlockTransfer" width="6000" height="1212">
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="/">Home</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+      </header>
+
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">Contact BlockTransfer</p>
+        <h1 id="page-title">Find what you need.</h1>
+      </section>
+
+      <section class="contact-grid" aria-label="Contact and community resources">
+        <article class="contact-card" id="email-support">
+          <p class="contact-card__label">Accounts &amp; investors</p>
+          <h2>Investor support</h2>
+          <p>For account access, holdings, transfers, issuer services, or general product questions.</p>
+          <a class="contact-link" href="mailto:support@blocktransfer.com">support@blocktransfer.com</a>
+        </article>
+
+        <article class="contact-card">
+          <p class="contact-card__label">WhyDRS</p>
+          <h2>Governance community</h2>
+          <p>Connect with the WhyDRS investor community and find their Discord and educational resources.</p>
+          <a class="contact-link" href="https://www.whydrs.org/">Visit WhyDRS</a>
+        </article>
+
+        <article class="contact-card">
+          <p class="contact-card__label">Open-source work</p>
+          <h2>Development</h2>
+          <p>For technical collaboration, APIs, reference implementations, or development opportunities.</p>
+          <a class="contact-link" href="https://github.com/blocktransfer">github.com/blocktransfer</a>
+        </article>
+      </section>
+
+      <section class="details" aria-label="Phone and mailing address">
+        <article class="detail-panel">
+          <h2>Call or text</h2>
+          <p><a href="tel:+12092843577">+1 209 284 3577</a></p>
+        </article>
+        <article class="detail-panel" id="mailing-address">
+          <h2>Mailing address</h2>
+          <address>1411 SW 8th Ct<br>Fort Lauderdale, FL 33312<br>United States</address>
+        </article>
+      </section>
+
+      <aside class="security-note" aria-label="Security reminder">
+        <strong>Keep sensitive information private.</strong> Never email passwords, private keys, seed phrases, or full government identification numbers.
+      </aside>
+
+      <footer>
+        BlockTransfer &middot; Transfer agent infrastructure for issuers and investors.
+      </footer>
+    </main>
+  </body>
+</html>
