@@ -1,13 +1,4 @@
-:root {
-  --bg: #f4efe5;
-  --paper: #fffdf8;
-  --ink: #1e1a16;
-  --muted: #6b6257;
-  --line: #d8cdbf;
-  --accent: #0b5fff;
-  --accent-soft: #e3edff;
-  --shadow: 0 18px 48px rgba(38, 28, 16, 0.12);
-}
+@import url("../brand.css");
 
 * {
   box-sizing: border-box;
@@ -15,8 +6,8 @@
 
 html {
   background:
-    radial-gradient(circle at top left, rgba(255, 255, 255, 0.8), transparent 32rem),
-    linear-gradient(180deg, #f9f4eb 0%, #f0e7da 100%);
+    radial-gradient(circle at top left, var(--surface-sheen), transparent 32rem),
+    linear-gradient(180deg, var(--brand-neutral-light) 0%, var(--brand-neutral-mid) 100%);
 }
 
 body {
@@ -96,7 +87,7 @@ img {
 .post-listing,
 .redirect-shell {
   background: var(--paper);
-  border: 1px solid rgba(112, 92, 70, 0.18);
+  border: 1px solid var(--border);
   border-radius: 1.5rem;
   box-shadow: var(--shadow);
 }
@@ -176,7 +167,7 @@ img {
   margin: 1.5rem 0;
   overflow: hidden;
   border-radius: 1rem;
-  background: #efe6d7;
+  background: var(--surface-alt);
   border: 1px solid var(--line);
 }
 
@@ -196,7 +187,7 @@ img {
 .post-meta-group {
   padding: 1rem 1.1rem;
   border-radius: 1rem;
-  background: #f7f1e8;
+  background: var(--surface-alt);
   border: 1px solid var(--line);
 }
 
@@ -217,7 +208,7 @@ img {
 .chip-list li {
   padding: 0.35rem 0.65rem;
   border-radius: 999px;
-  background: #fff;
+  background: var(--surface);
   border: 1px solid var(--line);
   font-size: 0.9rem;
 }

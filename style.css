@@ -1,13 +1,14 @@
+@import url("brand.css");
+
 @font-face {
   font-family: "Montserrat";
   src: url("montserrat.ttf") format("truetype");
 }
 a {
-  color: #AC51FF;
+  color: var(--accent);
 }
-::selection {
-  color: #AC51FF;
-  background: #D1C9FF;
+a:hover {
+  color: var(--accent-hover);
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
@@ -26,8 +27,13 @@ body {
   flex-direction: column;
   justify-content: center;
   font-family: "Georgia", serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
 }
 .conditions {
+  width: min(100%, 80rem);
+  margin: 0 auto;
   justify-content: left;
   text-align: justify;
   padding-right: 10%;

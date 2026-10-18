@@ -5,27 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BlockTransfer | Modern Transfer Agent Infrastructure</title>
     <meta name="description" content="BlockTransfer builds direct investor-first transfer agent infrastructure, recordkeeping, and compliance automation.">
+    <link rel="stylesheet" href="brand.css">
     <style>
-      :root {
-        --bg: #05060a;
-        --surface: #10131d;
-        --surface-alt: #181c27;
-        --card: rgba(255, 255, 255, 0.04);
-        --border: rgba(255, 255, 255, 0.07);
-        --text: #f4f5f9;
-        --muted: #a3adc4;
-        --accent: #8a5cff;
-        --accent-soft: rgba(138, 92, 255, 0.12);
-        --success: #3de0c3;
-      }
-
       * { box-sizing: border-box; }
       body {
         margin: 0;
         min-height: 100vh;
         font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
         color: var(--text);
-        background: radial-gradient(circle at top, rgba(138, 92, 255, 0.28), transparent 55%), var(--bg);
+        background: radial-gradient(circle at top, var(--accent-glow), transparent 55%), var(--bg);
         line-height: 1.6;
         display: flex;
         flex-direction: column;
@@ -58,7 +46,7 @@
         width: 160px;
         height: auto;
         border-radius: 30px;
-        box-shadow: 0 12px 55px rgba(138, 92, 255, 0.35);
+        box-shadow: var(--shadow-accent);
       }
 
       .eyebrow {
@@ -104,7 +92,7 @@
 
       .btn--primary {
         background: var(--accent);
-        color: var(--text);
+        color: var(--on-accent);
         border-color: var(--accent);
       }
 
@@ -177,7 +165,7 @@
       .info-card {
         padding: 24px;
         border-radius: 20px;
-        border: 1px solid rgba(255, 255, 255, 0.08);
+        border: 1px solid var(--border);
         background: var(--card);
       }
 
@@ -206,13 +194,13 @@
         font-size: 0.95rem;
       }
 
-      .pill:hover { text-decoration: none; border-color: rgba(255, 255, 255, 0.35); }
+      .pill:hover { text-decoration: none; border-color: var(--border-strong); }
 
       footer {
         margin-top: auto;
         padding: 40px clamp(20px, 5vw, 48px) 48px;
-        border-top: 1px solid rgba(255, 255, 255, 0.06);
-        background: rgba(0, 0, 0, 0.2);
+        border-top: 1px solid var(--border);
+        background: var(--surface-alt);
       }
 
       footer p {
@@ -232,17 +220,17 @@
         width: 42px;
         height: 42px;
         border-radius: 50%;
-        border: 1px solid rgba(255, 255, 255, 0.2);
+        border: 1px solid var(--border);
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        background: rgba(255, 255, 255, 0.03);
+        background: var(--card);
         transition: transform 0.15s ease, border-color 0.15s ease;
       }
 
       .social-link:hover {
         transform: translateY(-2px);
-        border-color: rgba(255, 255, 255, 0.45);
+        border-color: var(--border-strong);
       }
 
       .social-link svg {
@@ -296,19 +284,19 @@
         <h2 id="focus">Focus areas</h2>
         <p>We combine modern settlement plumbing with plain-English operations playbooks. A few tracks we work on together every day:</p>
         <div class="card-grid">
-          <article class="info-card">
+          <article class="info-card brand-accent--agent">
             <h3>Recordkeeping core</h3>
             <p>Ledger architecture that keeps issuers, investors, and regulators aligned on the same source of truth and standard protections.</p>
           </article>
-          <article class="info-card">
+          <article class="info-card brand-accent--issuer">
             <h3>Transfer workflows</h3>
             <p>On/off-chain instructions, attestations, and approvals so movements stay compliant without slowing down the team.</p>
           </article>
-          <article class="info-card">
+          <article class="info-card brand-accent--investor">
             <h3>Participant tooling</h3>
             <p>Issuer portals, investor apps, and clean exports that remove guesswork when boards, auditors, or councils check in.</p>
           </article>
-          <article class="info-card">
+          <article class="info-card brand-accent--agent">
             <h3>Open documentation</h3>
             <p>Guides, packets, and research (see below) outlining how and why we operate the way we do.</p>
           </article>
@@ -319,7 +307,7 @@
         <h2 id="operating">How we operate</h2>
         <p>We build publicly, speak plainly, and ship infrastructure that any stakeholder can audit.</p>
         <div class="card-grid">
-          <article class="info-card">
+          <article class="info-card brand-accent--investor">
             <h3>Investor-first posture</h3>
             <p>Cap tables reflect real ownership. We verify custodial flows, explain the narrative, and invite questions in the open.</p>
           </article>
